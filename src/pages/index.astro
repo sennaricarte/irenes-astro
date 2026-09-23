@@ -1,0 +1,250 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { Picture, getImage } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import logo from '../assets/logo.webp';
+import home from '../data/home.json';
+import { sortPosts } from '../lib/sort-posts';
+import { cardDate } from '../lib/dates';
+
+const [posts, categories] = await Promise.all([getCollection('posts'), getCollection('categorias')]);
+sortPosts(posts);
+
+const byId = new Map(posts.map((post) => [post.id, post]));
+const categoryNames = Object.fromEntries(categories.map((item) => [item.id, item.data.name]));
+const nameOf = (slug: string) => categoryNames[slug] ?? slug;
+
+function postsBySlug(slugs: string[], label: string) {
+	const missing = slugs.filter((slug) => !byId.has(slug));
+	if (missing.length) {
+		throw new Error(`home.json (${label}) tem slugs sem post: ${missing.join(', ')}`);
+	}
+	return slugs.map((slug) => byId.get(slug) as CollectionEntry<'posts'>);
+}
+
+const mosaicIds = new Set(home.mosaico);
+const mosaic = postsBySlug(home.mosaico, 'mosaico');
+const featured = postsBySlug(
+	home.destaque.filter((slug) => !mosaicIds.has(slug)),
+	'destaque',
+);
+const lead = mosaic[0] ?? featured[0];
+const leadRow = [...mosaic.slice(1), ...featured].slice(0, 4);
+const latest = posts.slice(0, 8);
+const popular = postsBySlug(home.maisLidos, 'maisLidos');
+const leadDate = lead ? cardDate(lead.data.pubDate) : null;
+
+const railDefs = [
+	{ slug: 'beleza', name: 'Beleza', categories: ['beleza', 'bem-estar', 'cabelos', 'maquiagem', 'skincare'] },
+	{
+		slug: 'casa',
+		name: 'Casa',
+		categories: ['casa', 'comodos', 'financas-do-lar', 'organizacao-pratica', 'plantas-jardins', 'rotinas-e-limpeza', 'tecnologia-do-lar'],
+	},
+	{ slug: 'decoracao', name: 'Decoração', categories: ['decoracao', 'estilos-de-decoracao', 'faca-voce-mesma-diy'] },
+];
+
+const rails = railDefs.map((rail) => {
+	const fixed = home.faixas?.[rail.slug as keyof typeof home.faixas];
+	return {
+		...rail,
+		posts: fixed
+			? postsBySlug(fixed, `faixas.${rail.slug}`)
+			: posts.filter((post) => rail.categories.includes(post.data.category)).slice(0, 6),
+	};
+});
+
+const site = new URL('/', Astro.site).href;
+const logoImage = await getImage({ src: logo, width: 320, format: 'webp', quality: 'mid' });
+const json = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'WebSite',
+			name: 'Irenes',
+			url: site,
+			description: 'Cultive a Paz. Realce a Beleza. Transforme o Seu Lar.',
+			potentialAction: {
+				'@type': 'SearchAction',
+				target: `${new URL('/busca/', Astro.site).href}?q={search_term_string}`,
+				'query-input': 'required name=search_term_string',
+			},
+		},
+		{
+			'@type': 'Organization',
+			name: 'Irenes',
+			url: site,
+			logo: new URL(logoImage.src, Astro.site).href,
+			description: 'O nome Irene significa Paz. Aqui celebramos a arte de viver bem e em harmonia.',
+			email: 'contato@irenes.com.br',
+			sameAs: [
+				'https://www.facebook.com/irenes',
+				'https://www.instagram.com/irenes',
+				'https://www.youtube.com/@irenes',
+				'https://twitter.com/irenes',
+			],
+		},
+	],
+}).replace(/</g, '\\u003c');
+
+const cardSizes = '(min-width: 64rem) 22vw, (min-width: 40rem) 46vw, 100vw';
+---
+
+<BaseLayout
+	title="Irenes — Seu Guia de Beleza, Casa e Decoração"
+	description="Cultive a Paz. Realce a Beleza. Transforme o Seu Lar. Dicas de beleza, organização e decoração para a mulher moderna."
+	canonical={site}
+>
+	<script slot="jsonld" type="application/ld+json" set:html={json} />
+
+	{
+		lead && (
+			<section class="mx-auto w-full max-w-[var(--container-page)] px-4 pt-6 md:px-8">
+				<div class="grid overflow-hidden bg-foreground text-background lg:grid-cols-5">
+					{
+						lead.data.heroImage && (
+							<a class="relative block min-h-72 lg:col-span-3 lg:min-h-[28rem]" href={`/${lead.id}/`}>
+								<Picture
+									src={lead.data.heroImage}
+									alt={lead.data.heroAlt}
+									formats={['avif', 'webp']}
+									widths={[480, 800, 1200]}
+									sizes="(min-width: 64rem) 60vw, 100vw"
+									quality="mid"
+									width={lead.data.heroImage.width}
+									height={lead.data.heroImage.height}
+									loading="eager"
+									fetchpriority="high"
+									class="h-full w-full object-cover"
+									pictureAttributes={{ class: 'absolute inset-0 h-full w-full' }}
+								/>
+							</a>
+						)
+					}
+					<div class:list={['flex flex-col justify-center p-6 md:p-10', lead.data.heroImage ? 'lg:col-span-2' : 'lg:col-span-5']}>
+						<p class="text-xs font-bold uppercase tracking-[0.2em] text-primary">Cultive a Paz. Realce a Beleza. Transforme o Seu Lar.</p>
+						<h1 class="mt-3 font-serif text-4xl font-bold italic leading-none">Irenes</h1>
+						<p class="mt-3 text-sm text-background/80">O nome Irene significa Paz. Aqui celebramos a arte de viver bem e em harmonia.</p>
+						<p class="mt-8 text-xs font-bold uppercase tracking-wider text-primary">{nameOf(lead.data.category)}</p>
+						<h2 class="mt-2 font-serif text-2xl font-bold leading-snug md:text-3xl">{lead.data.title}</h2>
+						<p class="mt-3 line-clamp-3 text-sm leading-relaxed text-background/80">{lead.data.description}</p>
+						{
+							leadDate && (
+								<time class="mt-3 text-xs text-background/70" datetime={leadDate.datetime}>
+									{leadDate.label}
+								</time>
+							)
+						}
+						<a class="mt-6 inline-flex h-10 w-fit items-center bg-primary px-5 text-sm font-bold text-primary-foreground" href={`/${lead.id}/`}>
+							Saiba Mais
+						</a>
+					</div>
+				</div>
+			</section>
+		)
+	}
+
+	{
+		leadRow.length > 0 && (
+			<section class="mx-auto w-full max-w-[var(--container-page)] px-4 py-6 md:px-8" aria-label="Em destaque">
+				<ul class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+					{leadRow.map((entry) => (
+						<li>
+							<PostCard entry={entry} categoryName={nameOf(entry.data.category)} sizes="(min-width: 64rem) 22vw, 100vw" widths={[400, 640]} />
+						</li>
+					))}
+				</ul>
+			</section>
+		)
+	}
+
+	<section class="mx-auto grid w-full max-w-[var(--container-page)] gap-8 px-4 py-8 lg:grid-cols-12 md:px-8">
+		<div class="lg:col-span-8" aria-labelledby="artigos-em-destaque">
+			<h2 id="artigos-em-destaque" class="mb-4 border-b-2 border-primary pb-2 font-serif text-2xl font-bold">Artigos em Destaque</h2>
+			<ul class="grid gap-4 sm:grid-cols-2">
+				{
+					featured.map((entry) => (
+						<li class="border border-border bg-card p-3">
+							<PostCard entry={entry} categoryName={nameOf(entry.data.category)} variant="row" />
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<aside class="lg:col-span-4" aria-labelledby="mais-lidos">
+			<h2 id="mais-lidos" class="mb-4 border-b-2 border-primary pb-2 font-serif text-2xl font-bold">Mais Lidos</h2>
+			<ul class="flex flex-col gap-4">
+				{
+					popular.map((entry) => (
+						<li class="border border-border bg-card p-3">
+							<PostCard entry={entry} categoryName={nameOf(entry.data.category)} variant="row" />
+						</li>
+					))
+				}
+			</ul>
+			<div class="mt-6 bg-primary p-5 text-primary-foreground">
+				<h2 class="font-serif text-lg font-bold">Siga-nos</h2>
+				<ul class="mt-3 flex gap-2">
+					<li>
+						<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://www.facebook.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Facebook do Irenes">
+							<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+						</a>
+					</li>
+					<li>
+						<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://www.instagram.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Irenes">
+							<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+						</a>
+					</li>
+					<li>
+						<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://www.youtube.com/@irenes" target="_blank" rel="noopener noreferrer" aria-label="YouTube do Irenes">
+							<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
+						</a>
+					</li>
+					<li>
+						<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://twitter.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Twitter do Irenes">
+							<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+	</section>
+
+	<section class="mx-auto w-full max-w-[var(--container-page)] px-4 py-8 md:px-8" aria-labelledby="ultimos-artigos">
+		<h2 id="ultimos-artigos" class="mb-6 border-b-2 border-primary pb-2 font-serif text-2xl font-bold">Últimos Artigos</h2>
+		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+			{
+				latest.map((entry) => (
+					<li>
+						<PostCard entry={entry} categoryName={nameOf(entry.data.category)} sizes={cardSizes} />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+
+	<div class="mx-auto w-full max-w-[var(--container-page)] px-4 pb-16 pt-8 md:px-8">
+		{
+			rails.map((rail) => (
+				<section class="mb-16" aria-labelledby={`rail-${rail.slug}`}>
+					<div class="mb-6 flex items-end justify-between gap-4 border-b-2 border-primary pb-2">
+						<h2 id={`rail-${rail.slug}`} class="font-serif text-2xl font-bold">
+							{rail.name}
+						</h2>
+						<a class="text-sm font-bold text-primary" href={`/categoria/${rail.slug}/`}>
+							Ver todos
+						</a>
+					</div>
+					<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+						{rail.posts.map((entry) => (
+							<li>
+								<PostCard entry={entry} categoryName={nameOf(entry.data.category)} sizes={cardSizes} />
+							</li>
+						))}
+					</ul>
+				</section>
+			))
+		}
+	</div>
+</BaseLayout>

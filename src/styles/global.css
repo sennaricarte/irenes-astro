@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/*
+ * Tokens do site público. O HTML original não recebe .dark e não tem toggle
+ * de tema, então a paleta .dark fica de fora. O mesmo vale para os tokens de
+ * sidebar, que não aparecem no DOM.
+ */
+@theme {
+	--font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+	--font-serif: "Playfair Display", Georgia, serif;
+
+	--color-background: hsl(0 0% 98%);
+	--color-foreground: hsl(0 0% 15%);
+	--color-card: hsl(0 0% 100%);
+	--color-primary: hsl(326 35% 47%);
+	--color-primary-foreground: hsl(0 0% 100%);
+	--color-secondary: hsl(330 30% 95%);
+	--color-secondary-foreground: hsl(330 40% 35%);
+	--color-muted: hsl(0 0% 94%);
+	--color-muted-foreground: hsl(0 0% 40%);
+	--color-accent: hsl(326 35% 47%);
+	--color-accent-foreground: hsl(0 0% 100%);
+	--color-border: hsl(0 0% 90%);
+	--color-ring: hsl(330 46% 68%);
+	--color-hero-panel: hsl(326 35% 47% / 0.05);
+
+	--radius-card: 0.75rem;
+
+	--container-page: 87.5rem;
+	--container-article: 56rem;
+	--container-prose: 44rem;
+
+	--spacing-prose: 3rem;
+}
+
+@layer base {
+	html {
+		background-color: var(--color-background);
+		color: var(--color-foreground);
+		font-family: var(--font-sans);
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-family: var(--font-serif);
+		font-weight: 700;
+	}
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"slug": "decoracao-de-interiores",
+		"name": "decoração de interiores",
+		"description": "Artigos sobre decoração de interiores — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/tag/decoracao-de-interiores"
+	},
+	{
+		"slug": "iluminacao",
+		"name": "iluminação",
+		"description": "Artigos sobre iluminação — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/tag/iluminacao"
+	},
+	{
+		"slug": "mobiliario",
+		"name": "mobiliário",
+		"description": "Artigos sobre mobiliário — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/tag/mobiliario"
+	},
+	{
+		"slug": "orcamento",
+		"name": "orçamento",
+		"description": "Artigos sobre orçamento — Dicas e inspirações no Irenes.",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/tag/orcamento"
+	},
+	{
+		"slug": "paleta-de-cores",
+		"name": "paleta de cores",
+		"description": "Artigos sobre paleta de cores — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/tag/paleta-de-cores"
+	},
+	{
+		"slug": "texturas",
+		"name": "texturas",
+		"description": "Artigos sobre texturas — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/tag/texturas"
+	}
+]

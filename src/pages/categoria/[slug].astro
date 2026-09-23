@@ -1,0 +1,42 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import TaxonomyArchive from '../../components/TaxonomyArchive.astro';
+import { sortPosts } from '../../lib/sort-posts';
+
+export async function getStaticPaths() {
+	const [categories, posts] = await Promise.all([getCollection('categorias'), getCollection('posts')]);
+	const names = Object.fromEntries(categories.map((item) => [item.id, item.data.name]));
+	return categories.map((entry) => ({
+		params: { slug: entry.id },
+		props: {
+			entry,
+			posts: sortPosts(posts.filter((post) => post.data.category === entry.id)),
+			categoryNames: names,
+		},
+	}));
+}
+
+interface Props {
+	entry: CollectionEntry<'categorias'>;
+	posts: CollectionEntry<'posts'>[];
+	categoryNames: Record<string, string>;
+}
+
+const { entry, posts, categoryNames } = Astro.props;
+const canonical = new URL(`/categoria/${entry.id}/`, Astro.site).href;
+const familySlug = entry.data.familia;
+const familia = familySlug
+	? { slug: familySlug, name: categoryNames[familySlug] ?? familySlug }
+	: undefined;
+---
+
+<TaxonomyArchive
+	kind="categoria"
+	name={entry.data.name}
+	description={entry.data.description}
+	canonical={canonical}
+	noindex={entry.data.noindex}
+	posts={posts}
+	categoryNames={categoryNames}
+	familia={familia}
+/>

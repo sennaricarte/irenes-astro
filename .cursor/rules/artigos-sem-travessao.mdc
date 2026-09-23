@@ -1,0 +1,14 @@
+---
+description: Artigos sem travessão entre palavras
+globs: src/content/{posts,pilares}/**/*.md
+alwaysApply: false
+---
+
+# Artigos sem travessão
+
+No texto dos artigos (título, descrição e corpo), não use travessão entre palavras (`—`).
+
+- Ligue a frase com vírgula, dois-pontos ou ponto.
+- Mantenha o hífen de palavras compostas (`guarda-roupa`, `check-list`).
+- Intervalos numéricos podem usar `a` ou hífen (`5 a 10`, `5-10`).
+- O sufixo do `seoTitle`, ` — Irenes`, permanece.

@@ -1,0 +1,106 @@
+---
+import { type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from './PostCard.astro';
+import ListingSidebar from './ListingSidebar.astro';
+
+interface Props {
+	kind: 'categoria' | 'tag';
+	name: string;
+	description?: string;
+	canonical: string;
+	noindex?: boolean;
+	posts: CollectionEntry<'posts'>[];
+	categoryNames: Record<string, string>;
+	familia?: { slug: string; name: string };
+}
+
+const { kind, name, description, canonical, noindex = false, posts, categoryNames, familia } = Astro.props;
+const eyebrow = kind === 'categoria' ? 'Categoria' : 'Tag';
+const noun = posts.length === 1 ? 'artigo' : 'artigos';
+const verb = kind === 'categoria' ? (posts.length === 1 ? 'publicado' : 'publicados') : posts.length === 1 ? 'encontrado' : 'encontrados';
+const home = new URL('/', Astro.site).href;
+const showDescription = kind !== 'categoria' && Boolean(description);
+const grid = kind === 'categoria';
+
+const crumbs: { name: string; item?: string }[] = [{ name: 'Início', item: home }];
+if (kind === 'tag') crumbs.push({ name: 'Tags' });
+if (kind === 'categoria' && familia) {
+	crumbs.push({ name: familia.name, item: new URL(`/categoria/${familia.slug}/`, Astro.site).href });
+}
+crumbs.push({ name, item: canonical });
+
+const breadcrumb = crumbs.map((item, index) => ({ '@type': 'ListItem', position: index + 1, ...item }));
+
+const json = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'CollectionPage',
+			name,
+			...(description ? { description } : {}),
+			url: canonical,
+			isPartOf: { '@type': 'WebSite', name: 'Irenes', url: home },
+		},
+		{ '@type': 'BreadcrumbList', itemListElement: breadcrumb },
+	],
+}).replace(/</g, '\\u003c');
+---
+
+<BaseLayout title={`${name} — Irenes`} description={description || name} canonical={canonical} noindex={noindex}>
+	<script slot="jsonld" type="application/ld+json" set:html={json} />
+	<div class="mx-auto w-full max-w-[var(--container-page)] px-4 py-8 md:px-8">
+		<nav class="mb-6" aria-label="Breadcrumb">
+			<ol class="flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
+				{
+					crumbs.map((crumb, index) => (
+						<li class:list={[index > 0 && 'flex min-w-0 items-center gap-1']}>
+							{index > 0 && <span aria-hidden="true">›</span>}
+							{
+								index === crumbs.length - 1 ? (
+									<span class="truncate font-medium text-foreground" aria-current="page">{crumb.name}</span>
+								) : crumb.item ? (
+									<a class="hover:text-foreground" href={crumb.item.startsWith('http') ? new URL(crumb.item).pathname : crumb.item}>{crumb.name}</a>
+								) : (
+									<span>{crumb.name}</span>
+								)
+							}
+						</li>
+					))
+				}
+			</ol>
+		</nav>
+		<p class="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-primary">{eyebrow}</p>
+		<h1 class="font-serif text-3xl font-bold leading-[1.12] md:text-5xl">{name}</h1>
+		{!grid && showDescription && <p class="mt-4 max-w-[var(--container-prose)] text-muted-foreground">{description}</p>}
+		<p class="mt-4 text-sm text-muted-foreground">
+			{posts.length} {noun} {verb}
+		</p>
+		<div class="mt-8 grid items-start gap-8 lg:grid-cols-12">
+			<div class="min-w-0 lg:col-span-8">
+				{
+					posts.length === 0 ? (
+						<p>Nenhum artigo encontrado.</p>
+					) : (
+						<ul class:list={[grid ? 'grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3' : 'flex flex-col gap-6']}>
+							{posts.map((entry, index) => (
+								<li>
+									<PostCard
+										entry={entry}
+										categoryName={categoryNames[entry.data.category] ?? entry.data.category}
+										variant={grid ? 'card' : 'list'}
+										excerpt={grid}
+										heading="h2"
+										eager={index === 0}
+										sizes={grid ? '(min-width: 80rem) 18vw, (min-width: 40rem) 40vw, 100vw' : undefined}
+									/>
+								</li>
+							))}
+						</ul>
+					)
+				}
+			</div>
+			<ListingSidebar searchId={kind === 'tag' ? 'busca-tag' : 'busca-categoria'} />
+		</div>
+	</div>
+</BaseLayout>

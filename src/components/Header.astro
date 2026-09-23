@@ -1,0 +1,143 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.webp';
+
+interface Props {
+	currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const items = [
+	{ href: '/', label: 'Home' },
+	{ href: '/categoria/beleza/', label: 'Beleza' },
+	{ href: '/categoria/casa/', label: 'Casa' },
+	{ href: '/categoria/decoracao/', label: 'Decoração' },
+	{ href: '/categorias/', label: 'Categorias' },
+	{ href: '/sobre/', label: 'Sobre' },
+	{ href: '/contato/', label: 'Contato' },
+];
+
+const isCurrent = (href: string) => (href === '/' ? currentPath === '/' : currentPath === href);
+const navLink = (href: string) =>
+	isCurrent(href)
+		? 'bg-background/20 text-primary-foreground'
+		: 'text-primary-foreground/90 hover:bg-background/15 hover:text-primary-foreground';
+---
+
+<div class="bg-foreground text-xs text-background">
+	<div class="mx-auto flex w-full max-w-[var(--container-page)] items-center justify-between px-4 py-2 md:px-8">
+		<span class="flex items-center gap-1.5">
+			<svg class="h-3 w-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<rect width="20" height="16" x="2" y="4" rx="2"></rect>
+				<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+			</svg>
+			contato@irenes.com.br
+		</span>
+		<div class="flex items-center gap-1">
+			<a class="inline-flex h-8 w-8 items-center justify-center text-background/80 transition-colors hover:text-background focus-visible:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background/50" href="https://www.facebook.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Facebook do Irenes">
+				<svg class="h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+			</a>
+			<a class="inline-flex h-8 w-8 items-center justify-center text-background/80 transition-colors hover:text-background focus-visible:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background/50" href="https://www.instagram.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Irenes">
+				<svg class="h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+			</a>
+			<a class="inline-flex h-8 w-8 items-center justify-center text-background/80 transition-colors hover:text-background focus-visible:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background/50" href="https://www.youtube.com/@irenes" target="_blank" rel="noopener noreferrer" aria-label="YouTube do Irenes">
+				<svg class="h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
+			</a>
+			<a class="inline-flex h-8 w-8 items-center justify-center text-background/80 transition-colors hover:text-background focus-visible:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background/50" href="https://twitter.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Twitter do Irenes">
+				<svg class="h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+			</a>
+		</div>
+	</div>
+</div>
+<header class="sticky top-0 z-50">
+	<div class="border-b border-border bg-card">
+		<div class="mx-auto flex w-full max-w-[var(--container-page)] items-center px-4 py-3 md:px-8">
+			<a href="/" class="inline-flex" aria-label="Irenes, página inicial">
+				<Image src={logo} alt="" format="webp" quality="mid" width={80} height={80} loading="eager" class="h-14 w-14 md:h-16 md:w-16" />
+			</a>
+		</div>
+	</div>
+	<div class="bg-primary text-primary-foreground">
+		<div class="mx-auto flex w-full max-w-[var(--container-page)] items-center gap-4 px-4 py-2 md:px-8">
+			<nav class="hidden flex-1 items-center gap-1 md:flex" aria-label="Principal">
+				{
+					items.map((item) => (
+						<a
+							href={item.href}
+							aria-current={isCurrent(item.href) ? 'page' : undefined}
+							class:list={['px-3 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background', navLink(item.href)]}
+						>
+							{item.label}
+						</a>
+					))
+				}
+			</nav>
+			<form class="relative ml-auto hidden items-center md:flex" action="/busca/" method="get" role="search">
+				<label class="sr-only" for="busca">Buscar</label>
+				<svg class="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-primary-foreground/80" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+					<circle cx="11" cy="11" r="8"></circle>
+					<path d="m21 21-4.3-4.3"></path>
+				</svg>
+				<input id="busca" class="h-9 w-44 bg-background/15 py-2 pl-9 pr-4 text-xs text-primary-foreground placeholder:text-primary-foreground/70 focus-visible:w-56 focus-visible:bg-background focus-visible:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" type="search" name="q" placeholder="Buscar..." />
+			</form>
+			<div class="ml-auto flex items-center gap-1 md:hidden">
+				<button class="inline-flex h-9 w-9 items-center justify-center text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" type="button" popovertarget="busca" aria-label="Abrir busca">
+					<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<circle cx="11" cy="11" r="8"></circle>
+						<path d="m21 21-4.3-4.3"></path>
+					</svg>
+				</button>
+				<button class="inline-flex h-9 w-9 items-center justify-center text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" type="button" popovertarget="menu" aria-label="Abrir menu">
+					<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<line x1="4" x2="20" y1="12" y2="12"></line>
+						<line x1="4" x2="20" y1="6" y2="6"></line>
+						<line x1="4" x2="20" y1="18" y2="18"></line>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div id="busca" popover>
+		<form action="/busca/" method="get" role="search">
+			<label class="sr-only" for="busca-mobile">Buscar</label>
+			<input id="busca-mobile" class="h-10 w-full border border-border bg-muted/60 px-4 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" type="search" name="q" placeholder="Buscar..." />
+		</form>
+	</div>
+	<div id="menu" popover>
+		<nav aria-label="Principal">
+			<ul class="flex flex-col">
+				{
+					items.map((item) => (
+						<li>
+							<a
+								href={item.href}
+								aria-current={isCurrent(item.href) ? 'page' : undefined}
+								class:list={[
+									'block px-3 py-2 text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
+									isCurrent(item.href) ? 'bg-primary text-primary-foreground' : 'text-foreground hover:bg-secondary',
+								]}
+							>
+								{item.label}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<style>
+	#busca[popover],
+	#menu[popover] {
+		inset: 8.5rem 0.75rem auto;
+		width: calc(100% - 1.5rem);
+		height: fit-content;
+		margin: 0;
+		padding: 0.75rem;
+		border: 1px solid var(--color-border);
+		background: var(--color-card);
+		color: var(--color-foreground);
+	}
+</style>

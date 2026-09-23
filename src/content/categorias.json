@@ -1,0 +1,178 @@
+[
+	{
+		"slug": "banheiro",
+		"name": "Banheiro",
+		"description": "Artigos sobre Banheiro — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=banheiro"
+	},
+	{
+		"slug": "beleza",
+		"name": "Beleza",
+		"description": "Artigos sobre Beleza — Dicas e inspirações no Irenes.",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=beleza"
+	},
+	{
+		"slug": "bem-estar",
+		"name": "Bem-Estar",
+		"description": "Artigos sobre Bem-Estar — Dicas e inspirações no Irenes.",
+		"familia": "beleza",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=bem-estar"
+	},
+	{
+		"slug": "cabelos",
+		"name": "Cabelos",
+		"description": "Artigos sobre Cabelos — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=cabelos"
+	},
+	{
+		"slug": "casa",
+		"name": "Casa",
+		"description": "Artigos sobre Casa — Dicas e inspirações no Irenes.",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=casa"
+	},
+	{
+		"slug": "comodos",
+		"name": "Cômodos",
+		"description": "Artigos sobre Cômodos — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=comodos"
+	},
+	{
+		"slug": "cozinha",
+		"name": "Cozinha",
+		"description": "Artigos sobre Cozinha — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=cozinha"
+	},
+	{
+		"slug": "decoracao",
+		"name": "Decoração",
+		"description": "Artigos sobre Decoração — Dicas e inspirações no Irenes.",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=decoracao"
+	},
+	{
+		"slug": "descompressao",
+		"name": "Descompressão",
+		"description": "Artigos sobre Descompressão — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=descompressao"
+	},
+	{
+		"slug": "dicas",
+		"name": "Dicas",
+		"description": "Artigos sobre Dicas — Dicas e inspirações no Irenes.",
+		"familia": "lifestyle",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=dicas"
+	},
+	{
+		"slug": "dormir-bem",
+		"name": "Dormir Bem",
+		"description": "Artigos sobre Dormir Bem — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=dormir-bem"
+	},
+	{
+		"slug": "estilos-de-decoracao",
+		"name": "Estilos de Decoração",
+		"description": "Artigos sobre Estilos de Decoração — Dicas e inspirações no Irenes.",
+		"familia": "decoracao",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=estilos-de-decoracao"
+	},
+	{
+		"slug": "faca-voce-mesma-diy",
+		"name": "Faça Você Mesma (DIY)",
+		"description": "Artigos sobre Faça Você Mesma (DIY) — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=faca-voce-mesma-diy"
+	},
+	{
+		"slug": "financas-do-lar",
+		"name": "Finanças do Lar",
+		"description": "Artigos sobre Finanças do Lar — Dicas e inspirações no Irenes.",
+		"familia": "casa",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=financas-do-lar"
+	},
+	{
+		"slug": "lifestyle",
+		"name": "Lifestyle",
+		"description": "Artigos sobre Lifestyle — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=lifestyle"
+	},
+	{
+		"slug": "maquiagem",
+		"name": "Maquiagem",
+		"description": "Artigos sobre Maquiagem — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=maquiagem"
+	},
+	{
+		"slug": "organizacao-pratica",
+		"name": "Organização Prática",
+		"description": "Artigos sobre Organização Prática — Dicas e inspirações no Irenes.",
+		"familia": "casa",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=organizacao-pratica"
+	},
+	{
+		"slug": "plantas-jardins",
+		"name": "Plantas e Jardins",
+		"description": "Artigos sobre Plantas e Jardins — Dicas e inspirações no Irenes.",
+		"familia": "casa",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=plantas-jardins"
+	},
+	{
+		"slug": "quarto",
+		"name": "Quarto",
+		"description": "Artigos sobre Quarto — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=quarto"
+	},
+	{
+		"slug": "rotinas-e-limpeza",
+		"name": "Rotinas e Limpeza",
+		"description": "Artigos sobre Rotinas e Limpeza — Dicas e inspirações no Irenes.",
+		"familia": "casa",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=rotinas-e-limpeza"
+	},
+	{
+		"slug": "sala",
+		"name": "Sala",
+		"description": "Artigos sobre Sala — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=sala"
+	},
+	{
+		"slug": "skincare",
+		"name": "Skincare",
+		"description": "Artigos sobre Skincare — Dicas e inspirações no Irenes.",
+		"familia": "beleza",
+		"noindex": false,
+		"originalUrl": "https://irenes.com.br/?categoria=skincare"
+	},
+	{
+		"slug": "skincare-de-noite",
+		"name": "Skincare de Noite",
+		"description": "Artigos sobre Skincare de Noite — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=skincare-de-noite"
+	},
+	{
+		"slug": "tecnologia-do-lar",
+		"name": "Tecnologia do Lar",
+		"description": "Artigos sobre Tecnologia do Lar — Dicas e inspirações no Irenes.",
+		"noindex": true,
+		"originalUrl": "https://irenes.com.br/?categoria=tecnologia-do-lar"
+	}
+]

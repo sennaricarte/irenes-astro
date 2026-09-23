@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import PostCard from './PostCard.astro';
+import home from '../data/home.json';
+import { sortPosts } from '../lib/sort-posts';
+
+interface Props {
+	excludeId?: string;
+	searchId?: string;
+}
+
+const { excludeId, searchId = 'busca-lateral' } = Astro.props;
+const [posts, categories] = await Promise.all([getCollection('posts'), getCollection('categorias')]);
+const sorted = sortPosts(posts);
+const others = sorted.filter((item) => item.id !== excludeId);
+const counts = new Map<string, number>();
+for (const post of posts) counts.set(post.data.category, (counts.get(post.data.category) ?? 0) + 1);
+const sidebarCategories = categories
+	.map((item) => ({ name: item.data.name, href: `/categoria/${item.id}/`, count: counts.get(item.id) ?? 0 }))
+	.filter((item) => item.count > 0)
+	.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'pt'));
+const names = Object.fromEntries(categories.map((item) => [item.id, item.data.name]));
+const popularIds = home.maisLidos.filter((slug) => slug !== excludeId && others.some((item) => item.id === slug));
+const popular = [
+	...popularIds.map((slug) => others.find((item) => item.id === slug)!),
+	...others.filter((item) => !popularIds.includes(item.id)),
+].slice(0, 4);
+---
+
+<aside class="min-w-0 lg:col-span-4">
+	<form class="relative" action="/busca/" method="get" role="search">
+		<label class="sr-only" for={searchId}>Buscar</label>
+		<input id={searchId} class="h-11 w-full border border-border bg-card px-4 pr-12 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" type="search" name="q" placeholder="Buscar..." />
+		<button class="absolute right-0 top-0 inline-flex h-11 w-11 items-center justify-center bg-primary text-primary-foreground" type="submit" aria-label="Buscar">
+			<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+		</button>
+	</form>
+	<section class="mt-8" aria-labelledby={`${searchId}-categorias`}>
+		<h2 id={`${searchId}-categorias`} class="mb-4 border-b-2 border-primary pb-2 font-serif text-xl font-bold">Categorias</h2>
+		<ul class="flex flex-col">
+			{
+				sidebarCategories.map((item) => (
+					<li>
+						<a class="flex items-center justify-between border-b border-border py-2 text-sm hover:text-primary" href={item.href}>
+							<span>{item.name}</span>
+							<span class="text-muted-foreground">{item.count}</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+	<div class="mt-8 bg-primary p-5 text-primary-foreground">
+		<h2 class="font-serif text-lg font-bold">Siga-nos</h2>
+		<ul class="mt-3 flex gap-2">
+			<li>
+				<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://www.facebook.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Facebook do Irenes">
+					<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+				</a>
+			</li>
+			<li>
+				<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://www.instagram.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Irenes">
+					<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+				</a>
+			</li>
+			<li>
+				<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://www.youtube.com/@irenes" target="_blank" rel="noopener noreferrer" aria-label="YouTube do Irenes">
+					<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
+				</a>
+			</li>
+			<li>
+				<a class="inline-flex h-10 w-10 items-center justify-center bg-background/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" href="https://twitter.com/irenes" target="_blank" rel="noopener noreferrer" aria-label="Twitter do Irenes">
+					<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<section class="mt-8" aria-labelledby={`${searchId}-lidos`}>
+		<h2 id={`${searchId}-lidos`} class="mb-4 border-b-2 border-primary pb-2 font-serif text-xl font-bold">Mais Lidos</h2>
+		<ul class="flex flex-col gap-4">
+			{
+				popular.map((item) => (
+					<li class="border border-border bg-card p-3">
+						<PostCard entry={item} categoryName={names[item.data.category] ?? item.data.category} variant="row" />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</aside>

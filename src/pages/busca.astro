@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const canonical = new URL('/busca/', Astro.site).href;
+---
+
+<BaseLayout title="Buscar — Irenes" description="Buscar no Irenes." canonical={canonical} noindex>
+	<div class="mx-auto w-full max-w-[var(--container-article)] px-4 py-8 md:px-8">
+		<h1 class="mb-6 font-serif text-3xl font-bold md:text-5xl">Buscar</h1>
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+		<div id="busca-resultado"></div>
+		<script is:inline src="/pagefind/pagefind-ui.js" defer></script>
+		<script is:inline>
+			window.addEventListener('DOMContentLoaded', () => {
+				const q = new URLSearchParams(window.location.search).get('q') || '';
+				const ui = new PagefindUI({
+					element: '#busca-resultado',
+					showSubResults: true,
+					translations: {
+						placeholder: 'Buscar...',
+						clear_search: 'Limpar',
+						load_more: 'Ver mais',
+						search_label: 'Buscar',
+						filters_label: 'Filtros',
+						zero_results: 'Nenhum artigo encontrado.',
+						many_results: '[count] resultados',
+						one_result: '[count] resultado',
+						searching: 'Buscando [query]...',
+					},
+				});
+				if (q) ui.triggerSearch(q);
+			});
+		</script>
+	</div>
+</BaseLayout>
+
+<style is:global>
+	#busca-resultado {
+		--pagefind-ui-primary: var(--color-primary);
+		--pagefind-ui-text: var(--color-foreground);
+		--pagefind-ui-background: var(--color-card);
+		--pagefind-ui-border: var(--color-border);
+		--pagefind-ui-tag: var(--color-secondary);
+		--pagefind-ui-border-radius: var(--radius-card);
+		--pagefind-ui-font: var(--font-sans);
+		font-family: var(--font-sans);
+	}
+</style>

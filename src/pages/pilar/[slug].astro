@@ -1,0 +1,93 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+export async function getStaticPaths() {
+	const [pilares, posts, categories] = await Promise.all([
+		getCollection('pilares'),
+		getCollection('posts'),
+		getCollection('categorias'),
+	]);
+	const byId = new Map(posts.map((post) => [post.id, post]));
+	const names = Object.fromEntries(categories.map((item) => [item.id, item.data.name]));
+	return pilares.map((entry) => ({
+		params: { slug: entry.id },
+		props: {
+			entry,
+			posts: entry.data.posts.map((id) => byId.get(id)).filter((post): post is CollectionEntry<'posts'> => Boolean(post)),
+			categoryNames: names,
+		},
+	}));
+}
+
+interface Props {
+	entry: CollectionEntry<'pilares'>;
+	posts: CollectionEntry<'posts'>[];
+	categoryNames: Record<string, string>;
+}
+
+const { entry, posts, categoryNames } = Astro.props;
+const { Content } = await render(entry);
+const { title, description, group, noindex } = entry.data;
+const groupName = group === 'ambientes' ? 'Ambientes' : 'Rituais';
+const canonical = new URL(`/pilar/${entry.id}/`, Astro.site).href;
+const home = new URL('/', Astro.site).href;
+const categorias = new URL('/categorias/', Astro.site).href;
+const json = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'CollectionPage',
+			name: title,
+			description,
+			url: canonical,
+		},
+		{
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{ '@type': 'ListItem', position: 1, name: 'Início', item: home },
+				{ '@type': 'ListItem', position: 2, name: groupName, item: categorias },
+				{ '@type': 'ListItem', position: 3, name: title, item: canonical },
+			],
+		},
+	],
+}).replace(/</g, '\\u003c');
+---
+
+<BaseLayout title={`${title} — ${groupName} | Irenes`} description={description} canonical={canonical} noindex={noindex} indexable>
+	<script slot="jsonld" type="application/ld+json" set:html={json} />
+	<article class="mx-auto w-full max-w-[var(--container-article)] px-4 py-8 md:px-8">
+		<nav aria-label="Breadcrumb">
+			<ol class="mb-6 flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
+				<li><a class="hover:text-foreground" href="/">Início</a></li>
+				<li class="flex items-center gap-1">
+					<span aria-hidden="true">›</span>
+					<a class="hover:text-foreground" href="/categorias/">{groupName}</a>
+				</li>
+				<li class="flex min-w-0 items-center gap-1">
+					<span aria-hidden="true">›</span>
+					<span class="truncate font-medium text-foreground" aria-current="page">{title}</span>
+				</li>
+			</ol>
+		</nav>
+		<p class="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-primary">{groupName}</p>
+		<h1 class="mb-6 font-serif text-3xl font-bold leading-[1.12] md:text-5xl">{title}</h1>
+		<div class="prose">
+			<Content />
+		</div>
+	</article>
+	{
+		posts.length > 0 && (
+			<section class="mx-auto w-full max-w-[var(--container-page)] px-4 py-8 md:px-8">
+				<ul class="flex flex-col gap-6">
+					{posts.map((post) => (
+						<li>
+							<PostCard entry={post} categoryName={categoryNames[post.data.category] ?? post.data.category} variant="list" heading="h2" />
+						</li>
+					))}
+				</ul>
+			</section>
+		)
+	}
+</BaseLayout>

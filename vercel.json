@@ -1,0 +1,50 @@
+{
+	"trailingSlash": true,
+	"redirects": [
+		{
+			"source": "/",
+			"has": [
+				{
+					"type": "query",
+					"key": "categoria",
+					"value": "(?<valor>.+)"
+				}
+			],
+			"destination": "/categoria/:valor/",
+			"permanent": true
+		}
+	],
+	"headers": [
+		{
+			"source": "/_astro/(.*)",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=31536000, immutable"
+				}
+			]
+		},
+		{
+			"source": "/pagefind/(.*)",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=3600"
+				}
+			]
+		},
+		{
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "X-Content-Type-Options",
+					"value": "nosniff"
+				},
+				{
+					"key": "Referrer-Policy",
+					"value": "strict-origin-when-cross-origin"
+				}
+			]
+		}
+	]
+}
