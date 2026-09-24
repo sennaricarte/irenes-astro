@@ -9,7 +9,7 @@
     "dev": "astro dev",
     "prebuild": "node scripts/generate-og.mjs",
     "build": "astro build",
-    "postbuild": "pagefind --site dist",
+    "postbuild": "node scripts/check-fresh-dates.mjs && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
     "extract": "node scripts/extract-site.mjs",

@@ -37,6 +37,7 @@ function postLastmods() {
 		if (!file.endsWith('.md')) continue;
 		const { data } = matter(fs.readFileSync(path.join(postsDir, file), 'utf8'));
 		const source = data.updatedDate ?? data.pubDate;
+		if (source == null || source === '') continue;
 		const date = source instanceof Date ? source : new Date(source);
 		if (Number.isNaN(date.getTime())) continue;
 		lastmods.set(`/${file.slice(0, -3)}/`, date.toISOString());
