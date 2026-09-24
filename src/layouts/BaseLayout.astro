@@ -2,7 +2,6 @@
 import '../styles/fonts.css';
 import '../styles/global.css';
 import '../styles/prose.css';
-import FontPreload from '../components/FontPreload.astro';
 import SEO from '../components/SEO.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -28,7 +27,7 @@ const { indexable = false, ...seo } = Astro.props;
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<FontPreload />
+		<slot name="head" />
 		<link rel="icon" href="/favicon.ico" sizes="any" />
 		<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />

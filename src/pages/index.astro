@@ -57,6 +57,17 @@ const rails = railDefs.map((rail) => {
 
 const site = new URL('/', Astro.site).href;
 const logoImage = await getImage({ src: logo, width: 320, format: 'webp', quality: 'mid' });
+const heroSizes = '(min-width: 64rem) 60vw, 100vw';
+const heroPreload = lead?.data.heroImage
+	? await getImage({
+			src: lead.data.heroImage,
+			width: lead.data.heroImage.width,
+			height: lead.data.heroImage.height,
+			format: 'webp',
+			widths: [480, 800, 1200],
+			quality: 'mid',
+		})
+	: null;
 const json = JSON.stringify({
 	'@context': 'https://schema.org',
 	'@graph': [
@@ -97,6 +108,18 @@ const cardSizes = '(min-width: 64rem) 22vw, (min-width: 40rem) 46vw, 100vw';
 	canonical={site}
 >
 	<script slot="jsonld" type="application/ld+json" set:html={json} />
+	{
+		heroPreload && (
+			<link
+				slot="head"
+				rel="preload"
+				as="image"
+				fetchpriority="high"
+				imagesrcset={heroPreload.srcSet.attribute}
+				imagesizes={heroSizes}
+			/>
+		)
+	}
 
 	{
 		lead && (
@@ -104,20 +127,22 @@ const cardSizes = '(min-width: 64rem) 22vw, (min-width: 40rem) 46vw, 100vw';
 				<div class="grid overflow-hidden bg-foreground text-background lg:grid-cols-5">
 					{
 						lead.data.heroImage && (
-							<a class="relative block min-h-72 lg:col-span-3 lg:min-h-[28rem]" href={`/${lead.id}/`}>
+							<a class="relative block lg:col-span-3 lg:min-h-[28rem]" href={`/${lead.id}/`}>
 								<Picture
 									src={lead.data.heroImage}
 									alt={lead.data.heroAlt}
-									formats={['avif', 'webp']}
+									formats={['webp']}
+									fallbackFormat="webp"
 									widths={[480, 800, 1200]}
-									sizes="(min-width: 64rem) 60vw, 100vw"
+									sizes={heroSizes}
 									quality="mid"
 									width={lead.data.heroImage.width}
 									height={lead.data.heroImage.height}
 									loading="eager"
 									fetchpriority="high"
-									class="h-full w-full object-cover"
-									pictureAttributes={{ class: 'absolute inset-0 h-full w-full' }}
+									decoding="sync"
+									class="h-auto w-full object-cover lg:absolute lg:inset-0 lg:h-full"
+									pictureAttributes={{ class: 'block w-full lg:absolute lg:inset-0 lg:h-full' }}
 								/>
 							</a>
 						)
