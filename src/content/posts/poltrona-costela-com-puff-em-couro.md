@@ -19,7 +19,7 @@ Criada na década de 50 pelo designer **Martin Eisler**, a Poltrona Costela (ou 
 
 Ao escolher essa poltrona, você não está apenas comprando um móvel, mas trazendo uma peça de história e autoridade em design para o seu santuário particular.
 
-## **Por que a Poltrona Costela com Puff em Couro é o Investimento Ideal?**
+## **Por que a poltrona costela com puff em couro?**
 
 A escolha do material diz muito sobre a durabilidade e a sensação térmica do seu ambiente. Optar pelo **couro legítimo ou sintético de alta qualidade** traz vantagens que vão além da beleza:
 
