@@ -21,8 +21,8 @@ const items = [
 const isCurrent = (href: string) => (href === '/' ? currentPath === '/' : currentPath === href);
 const navLink = (href: string) =>
 	isCurrent(href)
-		? 'bg-background/20 text-primary-foreground'
-		: 'text-primary-foreground/90 hover:bg-background/15 hover:text-primary-foreground';
+		? 'bg-primary-inset text-primary-foreground'
+		: 'text-primary-foreground/90 hover:bg-primary-inset hover:text-primary-foreground';
 ---
 
 <div class="bg-foreground text-xs text-background">
@@ -89,7 +89,7 @@ const navLink = (href: string) =>
 					<circle cx="11" cy="11" r="8"></circle>
 					<path d="m21 21-4.3-4.3"></path>
 				</svg>
-				<input id="busca" class="h-9 w-44 bg-background/15 py-2 pl-9 pr-4 text-xs text-primary-foreground placeholder:text-primary-foreground/70 focus-visible:w-56 focus-visible:bg-background focus-visible:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" type="search" name="q" placeholder="Buscar..." />
+				<input id="busca" class="h-9 w-44 bg-primary-inset py-2 pl-9 pr-4 text-xs text-primary-foreground placeholder:text-primary-foreground/80 focus-visible:w-56 focus-visible:bg-background focus-visible:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" type="search" name="q" placeholder="Buscar..." />
 			</form>
 			<div class="ml-auto flex items-center gap-1 md:hidden">
 				<button class="inline-flex h-9 w-9 items-center justify-center text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-background" type="button" popovertarget="busca" aria-label="Abrir busca">

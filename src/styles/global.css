@@ -15,6 +15,7 @@
 	--color-primary: hsl(326 35% 47%);
 	--color-primary-foreground: hsl(0 0% 100%);
 	--color-primary-on-dark: hsl(326 42% 68%);
+	--color-primary-inset: hsl(326 38% 42%);
 	--color-secondary: hsl(330 30% 95%);
 	--color-secondary-foreground: hsl(330 40% 35%);
 	--color-muted: hsl(0 0% 94%);
