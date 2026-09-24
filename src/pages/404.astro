@@ -7,7 +7,7 @@ import { sortPosts } from '../lib/sort-posts';
 const posts = await getCollection('posts');
 const categories = await getCollection('categorias');
 const categoryNames = Object.fromEntries(categories.map((item) => [item.id, item.data.name]));
-const recent = sortPosts(posts).slice(0, 6);
+const recent = sortPosts(posts, { indexableOnly: true }).slice(0, 6);
 const canonical = new URL('/404/', Astro.site).href;
 ---
 

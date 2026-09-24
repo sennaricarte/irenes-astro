@@ -43,7 +43,10 @@ const tagLinks = tags.map((slug) => {
 
 const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 
-const others = sortPosts(posts.filter((item) => item.id !== entry.id));
+const others = sortPosts(
+	posts.filter((item) => item.id !== entry.id),
+	{ indexableOnly: true },
+);
 const related = [
 	...others.filter((item) => item.data.category === category),
 	...others.filter((item) => item.data.category !== category),

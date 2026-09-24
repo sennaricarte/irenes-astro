@@ -9,7 +9,7 @@ import { sortPosts } from '../lib/sort-posts';
 import { cardDate } from '../lib/dates';
 
 const [posts, categories] = await Promise.all([getCollection('posts'), getCollection('categorias')]);
-sortPosts(posts);
+const indexable = sortPosts(posts, { indexableOnly: true });
 
 const byId = new Map(posts.map((post) => [post.id, post]));
 const categoryNames = Object.fromEntries(categories.map((item) => [item.id, item.data.name]));
@@ -31,7 +31,7 @@ const featured = postsBySlug(
 );
 const lead = mosaic[0] ?? featured[0];
 const leadRow = [...mosaic.slice(1), ...featured].slice(0, 4);
-const latest = posts.slice(0, 8);
+const latest = indexable.slice(0, 8);
 const popular = postsBySlug(home.maisLidos, 'maisLidos');
 const leadDate = lead ? cardDate(lead.data.pubDate) : null;
 
@@ -51,7 +51,7 @@ const rails = railDefs.map((rail) => {
 		...rail,
 		posts: fixed
 			? postsBySlug(fixed, `faixas.${rail.slug}`)
-			: posts.filter((post) => rail.categories.includes(post.data.category)).slice(0, 6),
+			: indexable.filter((post) => rail.categories.includes(post.data.category)).slice(0, 6),
 	};
 });
 

@@ -10,6 +10,7 @@ export function comparePosts(a: Post, b: Post) {
 	return a.id.localeCompare(b.id);
 }
 
-export function sortPosts<T extends Post>(posts: T[]) {
-	return posts.sort(comparePosts);
+export function sortPosts<T extends Post>(posts: T[], options?: { indexableOnly?: boolean }) {
+	const list = options?.indexableOnly ? posts.filter((post) => !post.data.noindex) : posts;
+	return list.sort(comparePosts);
 }

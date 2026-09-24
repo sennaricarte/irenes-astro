@@ -15,7 +15,7 @@ heroAlt: "Descrição da capa"
 Primeiro parágrafo.
 ```
 
-O `heroImage` entra no passo da capa. O build falha se a data estiver no futuro (tolerância de 5 minutos), se a categoria ou uma tag não existir, se a description passar de 160 caracteres, ou se `heroImage` apontar para um arquivo que não está no disco.
+O `heroImage` entra no passo da capa. O build falha se a data estiver no futuro (tolerância de 5 minutos), se a categoria ou uma tag não existir, se a description passar de 160 caracteres, se `heroImage` apontar para um arquivo que não está no disco, ou se um link externo do corpo não estiver em `src/data/outbound-rel.json`.
 
 ## Passo a passo
 
@@ -36,9 +36,10 @@ O `heroImage` entra no passo da capa. O build falha se a data estiver no futuro 
    ```
 
    O `--apply` baixa a foto original, salva `src/assets/posts/<slug>/capa.jpg` (1600px de largura, JPEG qualidade 82, sem metadados) e atualiza só `heroImage` e `heroAlt`.
-5. Rode `pnpm build`.
-6. Confira o post com `pnpm preview`.
-7. Commit `post: <slug>`.
-8. Push.
+5. Mapeie os links externos. Todo link externo novo entra em `src/data/outbound-rel.json` antes do build, com `"sponsored"` (pago ou afiliado), `"nofollow"` (rede própria) ou `""` (editorial).
+6. Rode `pnpm build`.
+7. Confira o post com `pnpm preview`.
+8. Commit `post: <slug>`.
+9. Push.
 
-Posts novos entram sozinhos em Últimos Artigos e na categoria; mosaico, destaque e maisLidos da home só mudam editando `src/data/home.json`.
+Posts novos entram sozinhos em Últimos Artigos e na categoria; mosaico, destaque e maisLidos da home só mudam editando `src/data/home.json`. Posts com `noindex: true` continuam nas páginas de categoria e tag, e ficam de fora de Últimos Artigos, das faixas da home, dos relacionados e da 404.
