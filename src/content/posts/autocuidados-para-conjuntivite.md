@@ -9,6 +9,7 @@ tags: []
 heroImage: ../../assets/posts/autocuidados-para-conjuntivite/autocuidados-para-conjuntivite.jpg
 heroAlt: "Autocuidados para Conjuntivite: 7 Dicas Eficazes"
 originalUrl: "https://irenes.com.br/autocuidados-para-conjuntivite"
+noindex: true
 ---
 Você sabia que pequenas ações do dia a dia podem acelerar a melhora da conjuntivite e diminuir o risco de transmissão? Sim, existem sete autocuidados práticos que aliviam os sintomas e ajudam na recuperação: neste texto você vai aprender, de forma direta, como identificar diferenças básicas entre conjuntivite viral, bacteriana e alérgica.
 

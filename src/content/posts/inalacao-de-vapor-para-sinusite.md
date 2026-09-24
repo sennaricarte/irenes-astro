@@ -9,6 +9,7 @@ tags: []
 heroImage: ../../assets/posts/inalacao-de-vapor-para-sinusite/inalacao-de-vapor-para-sinusite-03.jpg
 heroAlt: "Inalação de vapor para sinusite: guia completo, seguro e com aditivos naturais para aliviar a congestão rapidamente"
 originalUrl: "https://irenes.com.br/inalacao-de-vapor-para-sinusite"
+noindex: true
 ---
 ## Como a inalação de vapor para sinusite desobstrui o nariz, reduz a pressão facial e quais cuidados adotar em casa
 

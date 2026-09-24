@@ -8,6 +8,7 @@ tags: []
 heroImage: ../../assets/posts/autocuidados-para-sinusite/autocuidados-para-sinusite-01.jpg
 heroAlt: "Autocuidados para sinusite: tratamentos naturais e domésticos que realmente aliviam"
 originalUrl: "https://irenes.com.br/autocuidados-para-sinusite"
+noindex: true
 ---
 ## Um guia didático de autocuidados para sinusite, explicando por que cada método alivia os sintomas e quais sinais exigem atendimento médico
 

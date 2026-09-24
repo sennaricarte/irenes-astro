@@ -8,6 +8,7 @@ tags: []
 heroImage: ../../assets/posts/massagem-terapeutica-beneficios-tipos/uploads-massagem-terapeutica-capa.jpg
 heroAlt: "Massagem Terapêutica: Benefícios Comprovados, Tipos e Como Escolher a Ideal"
 originalUrl: "https://irenes.com.br/massagem-terapeutica-beneficios-tipos"
+noindex: true
 ---
 **Resposta rápida: o que é massagem terapêutica e para que serve?**
 

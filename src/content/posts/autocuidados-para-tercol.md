@@ -9,6 +9,7 @@ tags: []
 heroImage: ../../assets/posts/autocuidados-para-tercol/autocuidados-para-tercol.jpg
 heroAlt: "Autocuidados para Terçol: 5 Passos para Aliviar a Irritação"
 originalUrl: "https://irenes.com.br/autocuidados-para-tercol"
+noindex: true
 ---
 Já pensou em acabar com a ardência e o inchaço do terçol com passos simples que você faz em casa? Sim: com cinco autocuidados práticos, compressas mornas regulares, higiene adequada da pálpebra, evitar tocar ou espremer, pausar maquiagem e lentes de contato, e massagens leves quando indicadas, você pode aliviar a irritação, reduzir a dor e acelerar a recuperação, evitando que o quadro piore.
 

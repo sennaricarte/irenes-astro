@@ -8,6 +8,7 @@ tags: []
 heroImage: ../../assets/posts/limao-e-saude-beneficios-para-o-corpo/uploads-pexels-1835324-4090363.jpg
 heroAlt: "Limão e Saúde: 10 Benefícios da Fruta para o Corpo e a Rotina Diária"
 originalUrl: "https://irenes.com.br/limao-e-saude-beneficios-para-o-corpo"
+noindex: true
 ---
 **Resposta rápida: o limão é saudável?**
 

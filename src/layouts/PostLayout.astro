@@ -17,7 +17,7 @@ interface Props {
 }
 
 const { entry, headings, canonical } = Astro.props;
-const { title, seoTitle, description, pubDate, updatedDate, category, tags = [], heroImage, heroAlt } = entry.data;
+const { title, seoTitle, description, pubDate, updatedDate, category, tags = [], heroImage, heroAlt, noindex = false } = entry.data;
 
 const [categories, tagEntries, posts] = await Promise.all([
 	getCollection('categorias'),
@@ -94,6 +94,7 @@ const json = JSON.stringify(jsonLd).replace(/</g, '\\u003c');
 	title={seoTitle || title}
 	description={description}
 	canonical={canonical}
+	noindex={noindex}
 	image={ogImage}
 	imageAlt={heroImage ? heroAlt : 'Irenes'}
 	type="article"

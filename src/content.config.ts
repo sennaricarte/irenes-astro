@@ -27,6 +27,7 @@ const posts = defineCollection({
 			heroImage: image().optional(),
 			heroAlt: z.string(),
 			originalUrl: z.string().optional(),
+			noindex: z.boolean().default(false),
 		}),
 });
 

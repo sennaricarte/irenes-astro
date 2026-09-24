@@ -19,6 +19,14 @@ function blockedPaths() {
 	for (const item of tags) {
 		if (item.noindex) blocked.add(`/tag/${item.slug}/`);
 	}
+	const postsDir = path.join(root, 'src/content/posts');
+	if (fs.existsSync(postsDir)) {
+		for (const file of fs.readdirSync(postsDir)) {
+			if (!file.endsWith('.md')) continue;
+			const { data } = matter(fs.readFileSync(path.join(postsDir, file), 'utf8'));
+			if (data.noindex) blocked.add(`/${file.slice(0, -3)}/`);
+		}
+	}
 	const pilaresDir = path.join(root, 'src/content/pilares');
 	if (fs.existsSync(pilaresDir)) {
 		for (const file of fs.readdirSync(pilaresDir)) {

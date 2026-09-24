@@ -9,6 +9,7 @@ tags: []
 heroImage: ../../assets/posts/autocuidados-para-foliculite/autocuidados-para-foliculite.jpg
 heroAlt: "Autocuidados para Foliculite: 5 Dicas que Funcionam"
 originalUrl: "https://irenes.com.br/autocuidados-para-foliculite"
+noindex: true
 ---
 Já imaginou aliviar a coceira e reduzir aquelas bolinhas incômodas sem sair de casa? Sim, autocuidados bem simples e consistentes podem controlar a foliculite e acelerar a melhora: limpeza adequada, compressas mornas, evitar depilação ou barbear agressivo, não compartilhar objetos pessoais e usar calmantes naturais como babosa são medidas práticas que realmente funcionam.
 
