@@ -26,7 +26,7 @@ const posts = defineCollection({
 			tags: z.array(z.string()).default([]),
 			heroImage: image().optional(),
 			heroAlt: z.string(),
-			originalUrl: z.string(),
+			originalUrl: z.string().optional(),
 		}),
 });
 
