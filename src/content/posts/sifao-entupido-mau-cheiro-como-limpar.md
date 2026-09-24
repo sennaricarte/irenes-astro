@@ -5,8 +5,9 @@ description: "Aprenda como desmontar, limpar e trocar o sifão da pia ou do banh
 pubDate: "2026-06-30T18:21:24.355529+00:00"
 category: "casa"
 tags: []
-heroAlt: "Sifão Entupido e com Mau Cheiro? Guia Completo para Limpar, Desmontar e Quando Trocar"
+heroAlt: "Pia com o sifão à mostra e um balde ao lado, pronta para a limpeza."
 originalUrl: "https://irenes.com.br/sifao-entupido-mau-cheiro-como-limpar"
+heroImage: ../../assets/posts/sifao-entupido-mau-cheiro-como-limpar/capa.jpg
 ---
 **Resposta rápida: como limpar o sifão entupido e com mau cheiro?**
 

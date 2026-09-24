@@ -5,8 +5,9 @@ description: "Descubra quando o entupimento exige uma desentupidora especializad
 pubDate: "2026-07-17T18:01:11.997425+00:00"
 category: "casa"
 tags: []
-heroAlt: "Desentupidora Especializada: Quando Vale a Pena Chamar (e Parar de Insistir em Casa)"
+heroAlt: "Mãos de um encanador ajustando conexões metálicas da tubulação."
 originalUrl: "https://irenes.com.br/desentupidora-especializada-quando-chamar"
+heroImage: ../../assets/posts/desentupidora-especializada-quando-chamar/capa.jpg
 ---
 **Resposta rápida: quando chamar uma desentupidora especializada?**
 

@@ -5,8 +5,9 @@ description: "Entendendo quem paga o desentupimento em apartamentos, o que é re
 pubDate: "2026-07-17T18:03:54.994473+00:00"
 category: "casa"
 tags: []
-heroAlt: "Entupimento em Apartamento: De Quem é a Responsabilidade e Como Resolver Sem Brigar com o Vizinho"
+heroAlt: "Tubulações aparentes na fachada de um prédio, com canos verticais e curvas."
 originalUrl: "https://irenes.com.br/entupimento-em-apartamento-responsabilidade-como-resolver"
+heroImage: ../../assets/posts/entupimento-em-apartamento-responsabilidade-como-resolver/capa.jpg
 ---
 **Resposta rápida: de quem é a responsabilidade em um entupimento de apartamento?**
 

@@ -5,8 +5,9 @@ description: "Vazamento, entupimento ou refluxo de esgoto no meio da noite? Apre
 pubDate: "2026-07-17T17:46:29.953112+00:00"
 category: "casa"
 tags: []
-heroAlt: "Emergência Hidráulica em Casa: O Guia de Sobrevivência Para as Primeiras 2 Horas"
+heroAlt: "Cano branco com vazamento na junção e água escorrendo."
 originalUrl: "https://irenes.com.br/emergencia-hidraulica-em-casa-guia-primeiras-horas"
+heroImage: ../../assets/posts/emergencia-hidraulica-em-casa-guia-primeiras-horas/capa.jpg
 ---
 **Resposta rápida: o que fazer em uma emergência hidráulica em casa?**
 
