@@ -7,7 +7,7 @@ updatedDate: 2026-09-24
 category: "decoracao"
 tags: []
 heroImage: ../../assets/posts/como-calcular-papel-de-parede/como-calcular-papel-de-parede-02.jpg
-heroAlt: "Calcular Papel de Parede: Quantos metros 1 rolo cobre?"
+heroAlt: "Homem de costas aplicando uma faixa de papel de parede com estampa floral azul em parede branca"
 originalUrl: "https://irenes.com.br/como-calcular-papel-de-parede"
 ---
 **Resposta rápida:** o rolo mais comum no Brasil mede 0,53 m de largura por 10 m de comprimento e cobre, no papel, 5,3 m². Na prática, porém, você não aproveita o rolo inteiro, porque ele é cortado em tiras da altura da parede e as sobras nem sempre servem. Por isso, a forma segura de saber quantos rolos comprar é contar tiras, não metros quadrados.
@@ -27,6 +27,8 @@ Esse é o rendimento teórico. Alguns fabricantes já trabalham com um número m
 Antes de fazer qualquer conta, confira a embalagem do papel que você escolheu. Existem rolos mais largos e mais curtos, e os papéis adesivos costumam ter medidas próprias.
 
 ## Como calcular papel de parede pelo método das tiras
+
+![Homem em cima de uma escada alinhando uma tira vertical de papel de parede texturizado ao lado de uma parede azul](../../assets/posts/como-calcular-papel-de-parede/como-calcular-papel-de-parede.jpg)
 
 É o método usado pelos instaladores, porque reproduz o que acontece na aplicação: o rolo é cortado em tiras verticais, e cada tira cobre a altura inteira da parede.
 
