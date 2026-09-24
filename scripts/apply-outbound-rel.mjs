@@ -5,7 +5,7 @@
  * tipo:
  *   pago → sponsored
  *   editorial → ""
- *   rede → coluna rel_rede (sponsored, nofollow, ou vazio para manter o valor atual)
+ *   rede → nofollow
  */
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -55,16 +55,14 @@ function column(header, name) {
 	return header.findIndex((item) => item.trim().toLowerCase() === name);
 }
 
-const current = JSON.parse(await readFile(JSON_PATH, 'utf8'));
 const table = parseCsv(await readFile(CSV_PATH, 'utf8'));
 const header = table[0].map((item) => item.trim().toLowerCase());
 const urlCol = column(header, 'url');
 const tipoCol = column(header, 'tipo');
-const redeCol = column(header, 'rel_rede');
 if (urlCol < 0 || tipoCol < 0) throw new Error('CSV precisa das colunas url e tipo');
 
 const next = {};
-const counts = { pago: 0, editorial: 0, redeSponsored: 0, redeNofollow: 0, redeManter: 0, semTipo: 0 };
+const counts = { pago: 0, editorial: 0, rede: 0, semTipo: 0 };
 const seen = new Map();
 
 for (const row of table.slice(1)) {
@@ -84,17 +82,8 @@ for (const row of table.slice(1)) {
 		rel = '';
 		bucket = 'editorial';
 	} else if (tipo === 'rede') {
-		const rede = redeCol < 0 ? '' : (row[redeCol] || '').trim().toLowerCase();
-		if (rede === 'sponsored') {
-			rel = 'sponsored';
-			bucket = 'redeSponsored';
-		} else if (rede === 'nofollow') {
-			rel = 'nofollow';
-			bucket = 'redeNofollow';
-		} else if (!rede) {
-			rel = Object.prototype.hasOwnProperty.call(current, url) ? current[url] : '';
-			bucket = 'redeManter';
-		} else throw new Error(`rel_rede inválido em ${url}: ${rede}`);
+		rel = 'nofollow';
+		bucket = 'rede';
 	} else {
 		throw new Error(`tipo inválido em ${url}: ${tipo}`);
 	}
@@ -109,9 +98,7 @@ for (const row of table.slice(1)) {
 const ordered = Object.fromEntries(Object.entries(next).sort(([a], [b]) => a.localeCompare(b)));
 console.log(`${apply ? 'gravado' : 'dry-run'}: ${Object.keys(ordered).length} URLs`);
 console.log(`pago → sponsored: ${counts.pago}`);
-console.log(`rede → sponsored: ${counts.redeSponsored}`);
-console.log(`rede → nofollow: ${counts.redeNofollow}`);
-console.log(`rede → manter: ${counts.redeManter}`);
+console.log(`rede → nofollow: ${counts.rede}`);
 console.log(`editorial → vazio: ${counts.editorial}`);
 console.log(`sem tipo (ignoradas): ${counts.semTipo}`);
 
