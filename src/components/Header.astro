@@ -54,7 +54,17 @@ const navLink = (href: string) =>
 	<div class="border-b border-border bg-card">
 		<div class="mx-auto flex w-full max-w-[var(--container-page)] items-center px-4 py-3 md:px-8">
 			<a href="/" class="inline-flex" aria-label="Irenes, página inicial">
-				<Image src={logo} alt="" format="webp" quality="mid" width={80} height={80} loading="eager" class="h-14 w-14 md:h-16 md:w-16" />
+				<Image
+					src={logo}
+					alt=""
+					format="webp"
+					quality="mid"
+					width={64}
+					height={64}
+					densities={[1, 2, 3]}
+					loading="eager"
+					class="h-14 w-14 md:h-16 md:w-16"
+				/>
 			</a>
 		</div>
 	</div>
