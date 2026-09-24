@@ -1,5 +1,9 @@
 /**
- * Rastreamento somente leitura de irenes.com.br.
+ * Rastreamento somente leitura.
+ * Uso: node scripts/crawl-all.mjs [https://origem]
+ * Sem argumento, a origem é https://irenes.com.br.
+ * A comparação com o inventário usa o caminho (e ?categoria=), para a origem
+ * poder ser o preview Lovable enquanto o inventário guarda irenes.com.br.
  * Grava _extract/crawl-diff.md e _extract/crawl-meta.json (breadcrumbs e tempo de leitura).
  */
 import { chromium } from 'playwright';
@@ -8,7 +12,17 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const ORIGIN = 'https://irenes.com.br';
+const ORIGIN = (process.argv[2] || 'https://irenes.com.br').replace(/\/+$/, '');
+const HOST = new URL(ORIGIN).hostname.replace(/^www\./, '');
+const INVENTORY_HOSTS = new Set([HOST, 'irenes.com.br']);
+
+function pathKey(url) {
+	const categoria = url.searchParams.get('categoria');
+	let pathname = url.pathname.replace(/\/{2,}/g, '/').replace(/\/+$/, '');
+	if (!pathname) pathname = '/';
+	if (pathname === '/' && categoria) return `/?categoria=${categoria}`;
+	return pathname;
+}
 
 function canonical(input) {
 	let url;
@@ -18,29 +32,43 @@ function canonical(input) {
 		return null;
 	}
 	const host = url.hostname.replace(/^www\./, '');
-	if (host !== 'irenes.com.br') return null;
+	if (host !== HOST) return null;
 	if (url.protocol !== 'http:' && url.protocol !== 'https:') return null;
-	const categoria = url.searchParams.get('categoria');
-	let pathname = url.pathname.replace(/\/{2,}/g, '/').replace(/\/+$/, '');
-	if (!pathname) pathname = '/';
-	if (pathname === '/' && categoria) return `${ORIGIN}/?categoria=${categoria}`;
-	if (pathname === '/') return `${ORIGIN}/`;
-	return `${ORIGIN}${pathname}`;
+	const key = pathKey(url);
+	if (key === '/') return `${ORIGIN}/`;
+	if (key.startsWith('/?')) return `${ORIGIN}/${key.slice(1)}`;
+	return `${ORIGIN}${key}`;
 }
 
-function sameKey(url) {
-	return canonical(url);
+function inventoryKey(input) {
+	let url;
+	try {
+		url = new URL(input);
+	} catch {
+		return null;
+	}
+	const host = url.hostname.replace(/^www\./, '');
+	if (!INVENTORY_HOSTS.has(host)) return null;
+	return pathKey(url);
+}
+
+function toOrigin(key) {
+	if (!key) return null;
+	if (key === '/') return `${ORIGIN}/`;
+	if (key.startsWith('/?')) return `${ORIGIN}/${key.slice(1)}`;
+	return `${ORIGIN}${key}`;
 }
 
 const inventory = JSON.parse(await readFile(path.join(ROOT, '_extract/inventory.json'), 'utf8'));
-const known = new Set(inventory.map((item) => sameKey(item.url)).filter(Boolean));
+const known = new Set(inventory.map((item) => inventoryKey(item.url)).filter(Boolean));
 
-const seeds = [canonical(`${ORIGIN}/`), ...inventory.map((item) => sameKey(item.url))].filter(Boolean);
+const seeds = [canonical(`${ORIGIN}/`), ...inventory.map((item) => toOrigin(inventoryKey(item.url)))].filter(Boolean);
 const queue = [...new Set(seeds)];
 const visited = new Set();
 const foundOn = new Map();
 const records = [];
 
+console.log(`origem ${ORIGIN}`);
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 
@@ -65,8 +93,9 @@ async function openAndSettle(url) {
 
 while (queue.length) {
 	const url = queue.shift();
-	if (!url || visited.has(url)) continue;
-	visited.add(url);
+	const key = inventoryKey(url);
+	if (!url || !key || visited.has(key)) continue;
+	visited.add(key);
 	process.stdout.write(`(${visited.size}) ${url}\n`);
 	try {
 		await openAndSettle(url);
@@ -107,7 +136,7 @@ while (queue.length) {
 	records.push({
 		url,
 		tipo,
-		known: known.has(url),
+		known: known.has(key),
 		from: foundOn.get(url) || '(semente)',
 		crumbs: data.crumbs,
 		reading: data.reading,
@@ -116,7 +145,8 @@ while (queue.length) {
 
 	for (const href of data.hrefs) {
 		const next = canonical(href);
-		if (!next || visited.has(next) || queue.includes(next)) continue;
+		const nextKey = next ? inventoryKey(next) : null;
+		if (!next || !nextKey || visited.has(nextKey) || queue.includes(next)) continue;
 		if (!foundOn.has(next)) foundOn.set(next, url);
 		queue.push(next);
 	}

@@ -44,23 +44,34 @@ const overlayWidths = widths;
 		href={href}
 	>
 		{
-			heroImage && variant === 'overlay' && (
-				<span class="relative block h-full">
-					<Picture
-						src={heroImage}
-						alt={heroAlt}
-						formats={['avif', 'webp']}
-						widths={overlayWidths}
-						sizes={sizes}
-						quality="mid"
-						width={heroImage.width}
-						height={heroImage.height}
-						loading={eager ? 'eager' : 'lazy'}
-						fetchpriority={eager ? 'high' : undefined}
-						class="h-full w-full object-cover"
-						pictureAttributes={{ class: 'absolute inset-0 h-full w-full' }}
-					/>
-					<span class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+			variant === 'overlay' && (
+				<span class="relative block aspect-[3/2] h-full w-full">
+					{heroImage ? (
+						<Picture
+							src={heroImage}
+							alt={heroAlt}
+							formats={['avif', 'webp']}
+							widths={overlayWidths}
+							sizes={sizes}
+							quality="mid"
+							width={heroImage.width}
+							height={heroImage.height}
+							loading={eager ? 'eager' : 'lazy'}
+							fetchpriority={eager ? 'high' : undefined}
+							class="h-full w-full object-cover"
+							pictureAttributes={{ class: 'absolute inset-0 h-full w-full' }}
+						/>
+					) : (
+						<span
+							aria-hidden="true"
+							class="absolute inset-0 flex items-center justify-center border border-border bg-hero-panel px-4 text-center font-serif text-lg leading-snug text-foreground"
+						>
+							{categoryName}
+						</span>
+					)}
+					{
+						heroImage && <span class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+					}
 					<time class="absolute right-3 top-3 rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold text-primary-foreground" datetime={date.datetime}>
 						{date.label}
 					</time>
@@ -68,7 +79,7 @@ const overlayWidths = widths;
 						<span class="mb-2 inline-flex rounded-full bg-primary px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-primary-foreground">
 							{categoryName}
 						</span>
-						<Heading class:list={['font-serif font-bold leading-snug text-white group-hover:text-primary', heading === 'h2' ? 'text-xl md:text-2xl' : 'text-base']}>
+						<Heading class:list={['font-serif font-bold leading-snug group-hover:text-primary', heroImage ? 'text-white' : 'text-foreground', heading === 'h2' ? 'text-xl md:text-2xl' : 'text-base']}>
 							{title}
 						</Heading>
 					</span>
@@ -76,8 +87,8 @@ const overlayWidths = widths;
 			)
 		}
 		{
-			heroImage && variant === 'card' && (
-				<span class="relative block overflow-hidden">
+			variant === 'card' && heroImage && (
+				<span class="relative block shrink-0 overflow-hidden">
 					<Picture
 						src={heroImage}
 						alt={heroAlt}
@@ -98,7 +109,17 @@ const overlayWidths = widths;
 			)
 		}
 		{
-			heroImage && variant === 'row' && (
+			variant === 'card' && !heroImage && (
+				<span
+					aria-hidden="true"
+					class="flex aspect-[3/2] w-full shrink-0 items-center justify-center border border-border bg-hero-panel px-4 text-center font-serif text-lg leading-snug text-foreground"
+				>
+					{categoryName}
+				</span>
+			)
+		}
+		{
+			variant === 'row' && heroImage && (
 				<Picture
 					src={heroImage}
 					alt={heroAlt}
@@ -114,15 +135,18 @@ const overlayWidths = widths;
 			)
 		}
 		{
+			variant === 'row' && !heroImage && (
+				<span
+					aria-hidden="true"
+					class="flex h-20 w-28 shrink-0 items-center justify-center border border-border bg-hero-panel px-1 text-center font-serif text-[11px] leading-tight text-foreground"
+				>
+					{categoryName}
+				</span>
+			)
+		}
+		{
 			variant === 'card' && (
 				<span class="flex flex-1 flex-col p-4">
-					{
-						!heroImage && (
-							<span class="mb-2 inline-flex w-fit bg-primary px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-primary-foreground">
-								{categoryName}
-							</span>
-						)
-					}
 					<Heading class="font-serif text-lg font-bold leading-snug group-hover:text-primary">{title}</Heading>
 					<time class="mt-2 text-xs text-muted-foreground" datetime={date.datetime}>
 						{date.label}
@@ -136,7 +160,7 @@ const overlayWidths = widths;
 			variant === 'list' && (
 				<>
 					{
-						heroImage && (
+						heroImage ? (
 							<Picture
 								src={heroImage}
 								alt={heroAlt}
@@ -151,6 +175,13 @@ const overlayWidths = widths;
 								class="h-full w-full object-cover"
 								pictureAttributes={{ class: 'block h-56 w-full shrink-0 self-stretch md:h-auto md:w-2/5' }}
 							/>
+						) : (
+							<span
+								aria-hidden="true"
+								class="flex h-56 w-full shrink-0 items-center justify-center self-stretch border border-border bg-hero-panel px-4 text-center font-serif text-xl leading-snug text-foreground md:h-auto md:w-2/5"
+							>
+								{categoryName}
+							</span>
 						)
 					}
 					<span class="flex flex-1 flex-col p-5">

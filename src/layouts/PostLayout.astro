@@ -56,7 +56,7 @@ const shareText = encodeURIComponent(title);
 const og = heroImage
 	? await getImage({ src: heroImage, width: 1200, height: 630, format: 'jpg', fit: 'cover', quality: 'mid' })
 	: undefined;
-const ogImage = og ? new URL(og.src, Astro.site).href : undefined;
+const ogImage = og ? new URL(og.src, Astro.site).href : new URL('/og-default.jpg', Astro.site).href;
 
 const publishedTime = pubDate.toISOString();
 const modifiedTime = updatedDate?.toISOString();
@@ -95,7 +95,7 @@ const json = JSON.stringify(jsonLd).replace(/</g, '\\u003c');
 	description={description}
 	canonical={canonical}
 	image={ogImage}
-	imageAlt={heroAlt}
+	imageAlt={heroImage ? heroAlt : 'Irenes'}
 	type="article"
 	publishedTime={publishedTime}
 	modifiedTime={modifiedTime}
@@ -220,9 +220,9 @@ const json = JSON.stringify(jsonLd).replace(/</g, '\\u003c');
 					related.length > 0 && (
 						<section class="mt-10" aria-labelledby="continue-lendo">
 							<h2 id="continue-lendo" class="mb-4 border-b-2 border-primary pb-2 font-serif text-2xl font-bold">Continue lendo</h2>
-							<ul class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+							<ul class="grid grid-cols-1 items-stretch gap-4 sm:grid-cols-3">
 								{related.map((item) => (
-									<li>
+									<li class="h-full">
 										<PostCard entry={item} categoryName={nameOf(item.data.category)} sizes="(min-width: 64rem) 22vw, 100vw" widths={[320, 480]} />
 									</li>
 								))}

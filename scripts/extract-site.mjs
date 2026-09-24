@@ -13,8 +13,6 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const ORIGIN = 'https://irenes.com.br';
-const SITEMAP_URL = `${ORIGIN}/sitemap.xml`;
 const EXTRACT_DIR = path.join(ROOT, '_extract');
 const SCREENSHOT_DIR = path.join(EXTRACT_DIR, 'screenshots');
 const ERROR_LOG = path.join(EXTRACT_DIR, 'errors.log');
@@ -31,6 +29,30 @@ const only = (argv.find((arg) => arg.startsWith('--only=')) || '')
 	.split(',')
 	.map((item) => item.trim())
 	.filter(Boolean);
+const originFlag = (argv.find((arg) => arg.startsWith('--origin=')) || '').slice('--origin='.length);
+const ORIGIN = (originFlag || 'https://irenes.com.br').replace(/\/+$/, '');
+const PUBLIC_ORIGIN = 'https://irenes.com.br';
+const SOURCE_HOST = new URL(ORIGIN).hostname.replace(/^www\./, '');
+const PUBLIC_HOST = new URL(PUBLIC_ORIGIN).hostname.replace(/^www\./, '');
+const SITEMAP_URL = `${ORIGIN}/sitemap.xml`;
+
+function acceptedHost(hostname) {
+	const host = hostname.replace(/^www\./, '');
+	return host === PUBLIC_HOST || host === SOURCE_HOST;
+}
+
+function rewriteHost(input, targetOrigin) {
+	const url = new URL(input, ORIGIN);
+	if (!acceptedHost(url.hostname)) return String(input);
+	const target = new URL(targetOrigin);
+	url.protocol = target.protocol;
+	url.host = target.host;
+	return url.href;
+}
+
+function toPublicUrl(input) {
+	return rewriteHost(input, PUBLIC_ORIGIN);
+}
 
 const MONTHS = {
 	janeiro: 1,
@@ -73,8 +95,7 @@ function canonicalKey(input) {
 	} catch {
 		return null;
 	}
-	const host = url.hostname.replace(/^www\./, '');
-	if (host !== 'irenes.com.br') return null;
+	if (!acceptedHost(url.hostname)) return null;
 	if (url.protocol !== 'http:' && url.protocol !== 'https:') return null;
 	let pathname = url.pathname.replace(/\/+$/, '');
 	if (!pathname) pathname = '/';
@@ -384,9 +405,8 @@ function convertSiteHref(raw) {
 	} catch {
 		return raw;
 	}
-	const host = url.hostname.replace(/^www\./, '');
-	if (host !== 'irenes.com.br') return raw;
-	const absoluteSite = /^https?:\/\/(?:www\.)?irenes\.com\.br\b/i.test(href);
+	if (!acceptedHost(url.hostname)) return raw;
+	const absoluteSite = acceptedHost(new URL(href, ORIGIN).hostname) && /^https?:\/\//i.test(href);
 	const rootRelative = href.startsWith('/') && !href.startsWith('//');
 	if (!absoluteSite && !rootRelative) return raw;
 	if (/\.(?:png|jpe?g|webp|gif|svg|avif|css|js|pdf|xml)$/i.test(url.pathname)) return raw;
@@ -474,12 +494,13 @@ async function discoverByCrawl(page) {
 		if (!key || seen.has(key)) continue;
 		seen.add(key);
 		urls.push(current);
+		const target = rewriteHost(current, ORIGIN);
 		try {
-			await page.goto(current, { waitUntil: 'networkidle', timeout: 45000 });
+			await page.goto(target, { waitUntil: 'networkidle', timeout: 45000 });
 		} catch (error) {
 			await logError(current, error);
 			try {
-				await page.goto(current, { waitUntil: 'domcontentloaded', timeout: 30000 });
+				await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 30000 });
 			} catch (fallbackError) {
 				await logError(current, fallbackError);
 				continue;
@@ -704,10 +725,11 @@ async function readPage(page) {
 }
 
 async function openUrl(page, url) {
+	const target = rewriteHost(url, ORIGIN);
 	try {
-		return await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
+		return await page.goto(target, { waitUntil: 'networkidle', timeout: 45000 });
 	} catch {
-		return page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+		return page.goto(target, { waitUntil: 'domcontentloaded', timeout: 30000 });
 	}
 }
 
@@ -1011,6 +1033,8 @@ async function main() {
 			const response = await openUrl(page, url);
 			const status = response?.status() ?? 0;
 			const data = await readPage(page);
+			const publicUrl = toPublicUrl(url);
+			const sourceUrl = rewriteHost(url, ORIGIN);
 			const tipo = classify(url, data.isPost);
 			const slug = slugFor(url, tipo);
 			const titulo = data.h1 || data.title || slug;
@@ -1021,14 +1045,14 @@ async function main() {
 			);
 
 			remember({
-				url,
+				url: publicUrl,
 				slug,
 				tipo,
 				titulo,
 				status,
 			});
 			await writeFile(path.join(EXTRACT_DIR, 'inventory.json'), `${JSON.stringify(inventory, null, '\t')}\n`, 'utf8');
-			console.log(`${status} ${tipo} ${url}`);
+			console.log(`${status} ${tipo} ${publicUrl}`);
 
 			if (!only.length && !tokensWritten && tipo === 'home') {
 				await writeFile(
@@ -1065,7 +1089,7 @@ async function main() {
 					name: data.h1 || data.categoryName || raw,
 					description,
 					noindex: Boolean(data.noindex),
-					originalUrl: url,
+					originalUrl: publicUrl,
 				};
 				if (isTag) tags.push(record);
 				else categorias.push(record);
@@ -1113,11 +1137,11 @@ async function main() {
 					...(heroSrc ? [{ src: heroSrc, alt: heroAlt || titulo, hero: true }] : []),
 					...collectImages(withAlts.html),
 				];
-				const { map, heroPath } = await downloadImages(sources, url, slug);
+				const { map, heroPath } = await downloadImages(sources, sourceUrl, slug);
 				markdown = rewriteInternalLinks(rewriteMarkdownImages(markdown, map));
 				const body = buildPostFrontmatter(
 					{
-						url,
+						url: publicUrl,
 						titulo,
 						seoTitle: data.title,
 						description: description || titulo,

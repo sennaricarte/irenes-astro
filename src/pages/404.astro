@@ -28,10 +28,10 @@ const canonical = new URL('/404/', Astro.site).href;
 			<input id="busca-404" class="h-10 flex-1 rounded-full border border-border/50 bg-muted/60 px-4 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" type="search" name="q" placeholder="Buscar..." />
 			<button class="h-10 rounded-full bg-primary px-4 text-sm font-bold text-primary-foreground" type="submit">Buscar</button>
 		</form>
-		<ul class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+		<ul class="mt-10 grid grid-cols-1 items-stretch gap-6 sm:grid-cols-2 lg:grid-cols-3">
 			{
 				recent.map((entry) => (
-					<li>
+					<li class="h-full">
 						<PostCard entry={entry} categoryName={categoryNames[entry.data.category] ?? entry.data.category} />
 					</li>
 				))
