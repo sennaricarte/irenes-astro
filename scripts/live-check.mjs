@@ -61,21 +61,42 @@ function permanentChain(hops) {
 	return last?.status === 200 && redirects.length > 0 && redirects.length <= 2 && redirects.every((hop) => hop.status === 301 || hop.status === 308);
 }
 
-function verdict(check, hops) {
+function locationPath(hop) {
+	if (!hop?.location) return '';
+	try {
+		return new URL(hop.location, hop.url).pathname;
+	} catch {
+		return '';
+	}
+}
+
+const esperadoDe = {
+	sitemap: '301/308, Location termina em /sitemap-index.xml, destino 200',
+	'direct-200': '200',
+	missing: '404',
+};
+
+function obtidoDe(hops) {
+	return hops.map((hop) => `${hop.status}${hop.location ? ` ${hop.location}` : ''}`).join(' → ');
+}
+
+function extraOk(check, hops) {
 	const first = hops[0];
 	const last = hops.at(-1);
-	if (check.expect === 'direct-200') {
-		return first.status === 200 && hops.length === 1 ? 'OK' : 'falha';
-	}
-	if (check.expect === 'missing') {
-		const saw200 = hops.some((hop) => hop.status === 200);
-		return !saw200 && last.status === 404 ? 'OK' : 'falha';
-	}
-	const locations = hops.map((hop) => hop.location).filter(Boolean).join(' ');
-	const standard = (first.status === 200 && hops.length === 1) || permanentChain(hops);
+	if (!first || !last) return false;
+	if (check.expect === 'direct-200') return first.status === 200 && hops.length === 1;
+	if (check.expect === 'missing') return hops.every((hop) => hop.status !== 200) && last.status === 404;
 	if (check.expect === 'sitemap') {
-		return standard && locations.includes('sitemap-index.xml') ? 'OK' : 'falha';
+		const redirect = first.status === 301 || first.status === 308;
+		return redirect && locationPath(first).endsWith('/sitemap-index.xml') && last.status === 200;
 	}
+	return false;
+}
+
+function verdict(check, hops) {
+	if (check.kind === 'extra') return extraOk(check, hops) ? 'OK' : 'falha';
+	const first = hops[0];
+	const standard = (first.status === 200 && hops.length === 1) || permanentChain(hops);
 	return standard ? 'OK' : 'falha';
 }
 
@@ -101,6 +122,8 @@ const rows = await mapPool(checks, 6, async (check) => {
 		return {
 			...check,
 			ok: verdict(check, hops) === 'OK',
+			esperado: esperadoDe[check.expect] ?? '',
+			obtido: obtidoDe(hops),
 			initial: first.status,
 			location: first.location ?? '',
 			saltos: Math.max(0, hops.length - 1),
@@ -111,6 +134,8 @@ const rows = await mapPool(checks, 6, async (check) => {
 		return {
 			...check,
 			ok: false,
+			esperado: esperadoDe[check.expect] ?? '',
+			obtido: error instanceof Error ? error.message : String(error),
 			initial: 'erro',
 			location: '',
 			saltos: 0,
@@ -141,11 +166,9 @@ const lines = [
 	'',
 	'## Extras',
 	'',
-	'| URL | Resultado | Status inicial | Location | Saltos | Status final |',
-	'| --- | --- | --- | --- | --- | --- |',
-	...extraRows.map(
-		(row) => `| ${cell(row.label)} | ${row.ok ? 'OK' : 'falha'} | ${cell(row.initial)} | ${cell(row.location)} | ${row.saltos} | ${cell(row.final)} |`,
-	),
+	'| URL | Esperado | Obtido | Resultado |',
+	'| --- | --- | --- | --- |',
+	...extraRows.map((row) => `| ${cell(row.label)} | ${cell(row.esperado)} | ${cell(row.obtido)} | ${row.ok ? 'OK' : 'falha'} |`),
 	'',
 	'## Falhas',
 	'',
