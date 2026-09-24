@@ -1,211 +1,127 @@
 ---
-title: "Calcular Papel de Parede: Quantos metros 1 rolo cobre?"
-seoTitle: "Calcular Papel de Parede: Quantos metros 1 rolo cobre? — Irenes"
-description: "Quanto cobre 1 rolo de papel de parede? Em média, 5 a 5,3 m² (rolo padrão de 0,53 m × 10 m). Aprenda a calcular sem desperdício."
+title: "Como calcular papel de parede: quantos rolos comprar"
+seoTitle: "Como calcular papel de parede: quantos rolos comprar"
+description: "Um rolo de 0,53 × 10 m cobre 5,3 m², mas a conta certa é feita por tiras. Veja o passo a passo com exemplos, estampa, portas e janelas."
 pubDate: "2025-10-29T14:04:54+00:00"
-updatedDate: 2026-02-20
+updatedDate: 2026-09-24
 category: "decoracao"
 tags: []
 heroImage: ../../assets/posts/como-calcular-papel-de-parede/como-calcular-papel-de-parede-02.jpg
 heroAlt: "Calcular Papel de Parede: Quantos metros 1 rolo cobre?"
 originalUrl: "https://irenes.com.br/como-calcular-papel-de-parede"
 ---
-**Resposta rápida: 1 rolo de papel de parede cobre quantos metros?**
+**Resposta rápida:** o rolo mais comum no Brasil mede 0,53 m de largura por 10 m de comprimento e cobre, no papel, 5,3 m². Na prática, porém, você não aproveita o rolo inteiro, porque ele é cortado em tiras da altura da parede e as sobras nem sempre servem. Por isso, a forma segura de saber quantos rolos comprar é contar tiras, não metros quadrados.
 
-Em média, **1 rolo padrão de papel de parede cobre cerca de 5 a 5,3 m²** (medida usual: 0,53 m de largura × 10 m de comprimento). Para papéis com estampa de grande repetição, considere um rendimento útil de aproximadamente **4 a 4,5 m² por rolo**, já descontando emendas. Para o cálculo: divida a área total da parede (em m²) pelo rendimento do rolo e some 10% de margem de segurança.
+Parece complicado, mas são cinco contas simples. A seguir, você vê o método passo a passo, dois exemplos completos e os ajustes para papel com estampa, portas, janelas e meia parede.
 
-Quer saber exatamente quanto papel de parede comprar sem desperdício ou surpresas? Calcular papel de parede é simples: meça a largura e a altura das paredes para obter a área total, divida pela área coberta por um rolo (ajustando para estampas e recortes) e some uma margem de segurança, pronto, você tem a quantidade necessária.
+## Quantos metros quadrados um rolo cobre
 
-Saber fazer essa conta evita compras a mais, economiza tempo e dinheiro e garante que o padrão bata certinho na instalação; nas próximas seções você verá passo a passo como medir, como ajustar para emendas e estampas, e dicas práticas para escolher a quantidade certa para qualquer ambiente.
+A área de um rolo é a largura multiplicada pelo comprimento. Segundo o [guia da Leroy Merlin](https://blog.leroymerlin.com.br/como-calcular-papel-de-parede/), o tamanho varia um pouco entre fabricantes, mas o mais comum é 53 cm por 10 m. Com essa medida:
 
-## Medir e entender as medidas da sua parede: fundamentos para calcular papel de parede
+- **1 rolo (0,53 × 10 m)** = 5,3 m²
+- **5 metros de papel com 0,53 m de largura** = 2,65 m²
+- **1 metro de papel com 0,53 m de largura** = 0,53 m²
 
-Antes de comprar, é importante medir com cuidado: a largura e a altura da parede são o ponto de partida para calcular papel de parede com precisão e evitar tanto desperdício quanto falta de material.
+Esse é o rendimento teórico. Alguns fabricantes já trabalham com um número menor, que considera as perdas de corte: a [Sr. Celulose](https://srcelulose.com.br/calculoderolos), por exemplo, usa 4,5 m² como área de cobertura de um rolo de 53 cm × 10 m.
 
-### Comece pelo básico e ganhe tempo
+Antes de fazer qualquer conta, confira a embalagem do papel que você escolheu. Existem rolos mais largos e mais curtos, e os papéis adesivos costumam ter medidas próprias.
 
-Ao calcular papel de parede, primeiro meça largura e altura em metros e anote os valores; em seguida multiplique uma medida pela outra para chegar aos metros quadrados. Se a parede tiver rodapé, sancas ou nichos, inclua essas áreas na conta, pois isso evita surpresas na hora da aplicação. Uma fita métrica de 5 metros e um nível simples costumam ser suficientes para garantir medidas confiáveis.
+## Como calcular papel de parede pelo método das tiras
 
-Registre portas e janelas separadamente para depois descontar, e confirme o tamanho do padrão (repetição) e a altura do rolo, já que ambos influenciam diretamente o rendimento. Mesmo em paredes pequenas é recomendável medir duas vezes e comparar os resultados: medir novamente reduz bastante a chance de erro.
+É o método usado pelos instaladores, porque reproduz o que acontece na aplicação: o rolo é cortado em tiras verticais, e cada tira cobre a altura inteira da parede.
 
-Medir duas vezes reduz 80% dos erros comuns ao calcular papel de parede.
+1. **Meça a altura da parede** no ponto mais alto e some 10 cm (cerca de 5 cm de sobra em cima e 5 cm embaixo, para o acabamento). Esse é o comprimento de cada tira.
+2. **Descubra quantas tiras saem de um rolo:** divida o comprimento do rolo (10 m) pelo comprimento da tira e arredonde para baixo, porque tira incompleta não serve.
+3. **Meça a largura de todas as paredes** que vão receber papel e some.
+4. **Descubra quantas tiras você precisa:** divida essa largura total pela largura do rolo (0,53 m) e arredonde para cima.
+5. **Divida o número de tiras necessárias pelo número de tiras por rolo** e arredonde para cima. Esse é o número de rolos.
 
-Tenha sempre à mão fita, bloco de notas e a medida do padrão; assim a base para calcular papel de parede fica simples e precisa, e o processo se torna bem menos estressante.
+### Exemplo: quarto de 3 × 4 metros
 
-## Calcular a quantidade de papel de parede e descontar portas janelas: passo a passo prático
+Imagine um quarto de 3 m por 4 m, com pé-direito de 2,60 m, uma porta de 0,80 m de largura e uma janela.
 
-Calcular a quantidade certa começa por somar os metros quadrados de todas as paredes e depois subtrair as áreas de portas e janelas; esse procedimento simples evita compras exageradas e garante mais economia e eficiência no projeto.
+1. Comprimento da tira: 2,60 + 0,10 = **2,70 m**
+2. Tiras por rolo: 10 ÷ 2,70 = 3,7 → **3 tiras**
+3. Largura das paredes: 3 + 4 + 3 + 4 = 14 m. Descontando a largura da porta: 14 − 0,80 = **13,20 m**
+4. Tiras necessárias: 13,20 ÷ 0,53 = 24,9 → **25 tiras**
+5. Rolos: 25 ÷ 3 = 8,3 → **9 rolos**
 
-### Subtrair sem medo: método direto
+### Por que a conta por área costuma dar menos rolos
 
-Primeiro some a área total das paredes que receberão o papel de parede. Em seguida, calcule cada abertura multiplicando altura × largura e subtraia essas áreas do total. Curiosamente, muitos fabricantes orientam a não descontar janelinhas pequenas; por outro lado, descontar portas e janelas grandes costuma reduzir bastante a quantidade necessária e, consequentemente, o custo.
+Faça a mesma conta pelo método da área, descontando a porta (0,80 × 2,10 m) e uma janela de 1,20 × 1,20 m: 36,4 m² de parede, menos 1,68 m² da porta e 1,44 m² da janela, dá 33,28 m². Dividindo por 5,3 m², o resultado é 6,3, ou seja, **7 rolos**.
 
-Depois de ajustar pelas portas e janelas, divida o resultado pela cobertura de um rolo, lembrando de considerar perdas por causa do padrão. Usar uma calculadora ou uma planilha para inserir medidas e o rendimento do rolo acelera bastante o processo e evita sobras desnecessárias, fluxo simples e prático que facilita a compra.
+São dois rolos a menos do que no método das tiras. A diferença está nas sobras: cada rolo rende três tiras de 2,70 m, que somam 8,10 m. O 1,90 m restante de cada rolo só serve para trechos curtos, como acima da porta e abaixo da janela. Quem compra pela área costuma descobrir isso na metade da parede.
 
-Descontar portas janelas grandes reduz o custo total sem comprometer aplicação.
+## Papel com estampa: como o rapport muda a conta
 
--   Meça todas as paredes e some os metros quadradosCalcule a área de portas e janelasSubtraia as aberturas e aplique o rendimento do rolo
-    
--   Meça todas as paredes e some os metros quadrados
-    
--   Calcule a área de portas e janelas
-    
--   Subtraia as aberturas e aplique o rendimento do rolo
+Papéis com desenho precisam que a estampa de uma tira encaixe na da tira ao lado. A distância entre uma repetição e outra do desenho se chama **rapport** e vem informada na embalagem, em centímetros.
 
-Com medidas bem feitas e descontos aplicados de forma prática, chega-se à quantidade ideal e evita-se tanto sobra quanto falta na hora da instalação, mesmo em projetos menores.
+Com rapport, cada tira precisa ter um número inteiro de repetições. O cálculo muda só no passo 1:
 
-## Rolos e tamanhos: como usar a calculadora e entender o rendimento do rolo
+1. Divida o comprimento da tira pelo rapport e arredonde para cima. Esse é o número de repetições por tira.
+2. Multiplique o número de repetições pelo rapport. Esse é o novo comprimento da tira.
 
-Entender quanto cada rolo rende é fundamental para que o responsável pelo projeto compre a quantidade certa, sem surpresas nem desperdício.
+Veja como isso pesa. Numa parede de 2,80 m de altura, a tira de papel liso teria 2,90 m, e cada rolo renderia 3 tiras. Com um rapport de 72 cm:
 
-### Rendimento explicado em números
+- 2,90 ÷ 0,72 = 4,03 → **5 repetições**
+- 5 × 0,72 = **3,60 m por tira**
+- 10 ÷ 3,60 = 2,8 → **2 tiras por rolo**
 
-Os rolos costumam ter medidas padrão, por exemplo 0,53 m × 10 m, e basta multiplicar largura por comprimento para obter os metros quadrados por rolo; depois, ajuste conforme o padrão do papel, pois isso influencia bastante o aproveitamento.
+O rolo passou de 3 para 2 tiras. Para as mesmas 25 tiras do exemplo anterior, seriam 13 rolos em vez de 9. Por isso, a estampa grande é o fator que mais aumenta a quantidade de papel.
 
-Quando o papel tem padrão, é preciso dividir a altura da parede pelo comprimento do motivo para saber quantos cortes serão necessários; esse cálculo demonstra como o padrão reduz o rendimento efetivo do rolo e, consequentemente, altera a quantidade a comprar.
+Há ainda os papéis com **encaixe desencontrado**, em que cada tira começa meia repetição acima ou abaixo da anterior. Nesse caso, a embalagem costuma trazer dois números, como 53/26. Vale acrescentar um rolo à conta.
 
-Curiosamente, inserir no cálculo o tamanho do rolo, a metragem total das paredes e uma margem de perda, geralmente entre 10–15%, evita erros comuns; seja usando uma calculadora online ou uma planilha, o processo fica bem mais ágil e confiável.
+## Portas e janelas: descontar ou não
 
-Sempre aplique 10–15% a mais para perdas por padrão e emendas ao calcular rolo.
+No método das tiras, a regra prática é:
 
-Com o rendimento do rolo claramente definido e a calculadora à mão, a compra fica precisa e o cronograma do projeto segue sem imprevistos, por outro lado caso ignore esse ajuste corre-se o risco de faltar material no último momento.
+- **Portas:** desconte a largura. A porta ocupa quase toda a altura, e a faixa estreita acima dela pode ser coberta com as sobras dos rolos.
+- **Janelas:** não desconte. Acima e abaixo da janela também vai papel, em faixas que também podem vir das sobras, mas é melhor não contar com isso.
+- **Aberturas muito grandes**, como uma porta de correr de vidro ou uma janela que vai do chão ao teto: desconte a largura, como se fosse uma porta.
 
-## Papel de parede infantil e para bebê: cuidados, medidas e aplicação específica
+Descontar pouco é mais seguro do que descontar demais. Faltar papel no meio da aplicação é o pior cenário, porque o rolo comprado depois pode vir de outro lote.
 
-Ao calcular papel de parede infantil ou para bebê, é importante levar em conta padrões repetitivos, alturas reduzidas e a segurança do ambiente para que a aplicação fique adequada e charmosa.
+## Uma parede só, meia parede ou faixa
 
-### Medidas seguras para quartos pequenos
+O método das tiras funciona do mesmo jeito para uma parede isolada. Uma parede de 5 m de largura por 4 m de altura tem 20 m² e, pela área, pediria 4 rolos. Pelas tiras:
 
-Quartos infantis geralmente têm móveis encostados nas paredes e alturas menores, por isso medir com atenção é essencial. Para calcular papel de parede infantil, anota-se a medida da parede até a altura do berço ou do móvel usado, e muitas vezes optar por meia parede ou por uma faixa evita desperdício e cai bem esteticamente.
+- Tira: 4 + 0,10 = 4,10 m → 10 ÷ 4,10 = **2 tiras por rolo**
+- Tiras necessárias: 5 ÷ 0,53 = 9,4 → **10 tiras**
+- Rolos: 10 ÷ 2 = **5 rolos**
 
-Escolher materiais laváveis e sem odores fortes é uma regra prática; ao calcular papel de parede para bebê, inclua sempre uma margem extra para reposição, já que manchas ou pequenos danos acontecem. Curiosamente, comprar um rolo adicional pode resolver problemas de lote e garantir que a cor fique uniforme em todo o quarto.
+Em paredes altas, a diferença entre os dois métodos aumenta, porque a sobra de cada rolo fica maior.
 
-Para quartos de bebê, um rolo extra evita problemas de lote e garante segurança estética.
+Para **meia parede**, comum em quarto infantil, a Leroy Merlin sugere cerca de 1,2 m de altura para um bom efeito visual. A conta é a mesma, só que com a tira mais curta. Com tiras de 1,30 m (1,20 m + 10 cm), cada rolo de 10 m rende 7 tiras.
 
--   Meça até a altura real usada no quarto
-    
--   Considere meia parede ou faixa para economizar
-    
--   Compre um rolo extra para combinar lotes
+Para uma **faixa horizontal**, meça o comprimento total da faixa e calcule quantos metros de rolo ela consome. Uma faixa com a própria largura do rolo (53 cm) e 14 m de comprimento pede 14 m de papel, ou seja, 2 rolos.
 
-Medidas específicas, materiais adequados e planejamento tornam a aplicação infantil mais segura, econômica e visualmente consistente, por outro lado, descuidos com o padrão podem aumentar o número de cortes por rolo e gerar mais desperdício.
+## Quanto comprar a mais
 
-## Aplicação parcial, faixas e atenção com portas janelas: ajustes na quantidade
+Depois da conta, dois cuidados evitam dor de cabeça:
 
-![como calcular papel de parede](../../assets/posts/como-calcular-papel-de-parede/como-calcular-papel-de-parede.jpg)
+- **Compre todos os rolos do mesmo lote.** Rolos da mesma referência, mas de lotes diferentes, podem ter pequenas variações de cor. O número do lote vem na etiqueta.
+- **Reserve um rolo extra** se for sua primeira aplicação ou se o papel tiver estampa. Ele cobre erros de corte e serve para reparos futuros, já com a cor idêntica.
 
-Aplicações parciais e faixas mudam a conta: medir só áreas selecionadas pede cuidado especial para calcular o papel de parede corretamente.
+Para conferir as contas, uma [calculadora online](https://www.calculadoraonline.com.br/basica) comum já basta: são só divisões e multiplicações.
 
-### Economize sem perder acabamento
-
-Quando a escolha recai sobre uma faixa ou painel, o ideal é primeiro delimitar com precisão a porção que será coberta e calcular os metros quadrados dessa área. É preciso descontar portas e janelas que cruzam a faixa, porque esse método diminui a quantidade a comprar, mas exige precisão nas medidas e nos cortes, cortes verticais, por exemplo, precisam casar com os padrões das paredes vizinhas.
-
-Para fazer o cálculo neste cenário, recomenda-se usar a calculadora somando apenas as faixas desejadas e acrescentando desperdício para os cortes; curiosamente, o passo que parece mais simples costuma ser o que traz mais erros. A medida deve levar em conta a proximidade de cantos e esquadrias, pois esse cuidado evita comprar material a menos e interromper o trabalho no meio do serviço.
-
-Aplicacao parcial exige medição milimétrica para evitar falta de material no acabamento.
-
--   Defina a área da faixa e meça altura × larguraDesconte portas janelas incluídas na faixaAdicione desperdício para cortes
-    
--   Defina a área da faixa e meça altura × largura
-    
--   Desconte portas janelas incluídas na faixa
-    
--   Adicione desperdício para cortes
-
-Com faixas bem medidas e ajustes precisos o resultado fica mais econômico sem comprometer a qualidade final.
-
-## Dicas práticas, erros comuns e checklist final para não errar ao calcular papel de parede
-
-Checklist rápido: medir com calma, conferir o padrão, descontar portas e janelas e calcular o rendimento do rolo evitam os erros mais frequentes ao estimar papel de parede.
-
-### Evite erros que custam dinheiro
-
-Os equívocos mais comuns são fáceis de listar: não medir duas vezes, ignorar a repetição do padrão e esquecer de descontar portas ou janelas grandes. Para fazer a conta com segurança, registre as medidas em metros, use uma calculadora e inclua **10–15%** de perda. Curiosamente, seguir esse fluxo, mesmo que pareça repetitivo, diminui bastante o retrabalho e melhora o acabamento final.
-
-O procedimento prático passa por etapas claras: medir largura e altura, somar metros quadrados, descontar portas e janelas, conferir o rendimento do rolo e levar um ou dois rolos extras. Se houver dúvida, tirar fotos das paredes e consultar a calculadora do fabricante resolve muitos impasses. Por outro lado, anotar tudo evita surpresas na decoração.
-
-Seguir um checklist reduz retrabalho e garante que a quantidade comprada seja a correta.
-
--   Meça duas vezes e registre em metrosVerifique padrão e repetiçãoDesconte portas e janelas grandesAdicione **10–15%** para perdas
-    
--   Meça duas vezes e registre em metros
-    
--   Verifique padrão e repetição
-    
--   Desconte portas e janelas grandes
-    
--   Adicione **10–15%** para perdas
-
-Use a lista e a calculadora antes da compra; com esses passos simples o trabalho fica pronto pra aplicação sem percalços.
-
-## Conclusão
-
-Calcular a quantidade de papel de parede vira algo simples quando a pessoa tem as medidas certas, subtrai portas janelas e considera o rendimento do rolo; seguindo esses passos evita-se desperdício e garante um acabamento bem feito.
-
-É importante reforçar o hábito de medir duas vezes, e anotar em metros, antes de qualquer compra. Em seguida, combinar a área total em metros quadrados com as especificações do rolo e deixar uma margem para perdas garante precisão; curiosamente, esse cuidado pequeno costuma poupar tempo e dinheiro depois.
-
-Se pintar dúvida, o ideal é pedir indicação de um instalador ou recorrer à calculadora online do fabricante. Por outro lado, comprar todos os rolos do mesmo lote e reservar um rolo extra minimiza diferenças de tonalidade e assegura que a parede fique com aparência uniforme e profissional.
-
-Medidas precisas e um rolo extra são a melhor proteção contra imprevistos na aplicação.
-
-Ao aplicar as medições e usar a calculadora, a pessoa consegue fazer uma compra certeira e obter um resultado duradouro, e se algo parecer incerto, nada impede de tirar fotos do ambiente e consultar um especialista.
-
-## Perguntas Frequentes
-
-### Como calcular papel de parede para um cômodo?
-
-Para calcular papel de parede, meça a altura e o perímetro da parede (soma das larguras das paredes a cobrir). Multiplique a altura pelo perímetro para obter a área total em metros quadrados. Esse é o ponto de partida para saber quantos rolos serão necessários.
-
-Em seguida, verifique a metragem útil por rolo (informação do fabricante) e considere a repetição do padrão e uma margem de desperdício de 5% a 15% para cortes e alinhamento. Assim obtém-se um número de rolos mais realista.
-
-### Quais medidas são essenciais ao aprender como calcular papel de parede?
-
-As medidas essenciais são a altura da parede, a largura de cada parede a ser coberta e a largura do rolo de papel de parede. Também é importante anotar a metragem por rolo e a repetição do padrão (match), pois influenciam diretamente no aproveitamento.
-
-Ao registrar essas medidas, anota-se portas e janelas para subtrair da área quando for o caso, e adiciona-se uma margem extra para cortes. Essa rotina ajuda a evitar falta de material e a reduzir sobras desnecessárias.
-
-### Como calcular quantos rolos de papel de parede serão necessários?
-
-Divida a altura da parede pela altura útil de um rolo (quantos metros cada rolo permite em tiras) para saber quantas tiras cabem por rolo. Depois, calcule quantas tiras são necessárias para cobrir o perímetro usando a largura do rolo. Por fim, divida o número de tiras necessárias pelo número de tiras por rolo para obter a quantidade de rolos.
-
-Não esqueça de ajustar pelo padrão do papel: se houver correspondência de desenho (match), poderá haver sobras maiores por tira. Incluir 5% a 15% de sobra é uma prática comum para compensar erros de corte e alinhamento.
-
-### Qual a diferença entre largura do rolo e metragem útil do rolo?
-
-A largura do rolo é a medida horizontal do papel (por exemplo, 52 cm ou 70 cm) e determina quantas tiras serão necessárias para cobrir a parede. Já a metragem útil é o comprimento total do rolo em metros que pode ser usado para cortar tiras com a altura da parede.
-
-Ao calcular papel de parede, ambos os valores são fundamentais: a largura impacts diretamente no número de tiras e a metragem útil define quantas tiras podem ser obtidas por rolo. Verificar essas informações no rótulo do produto evita surpresas na instalação.
-
-### Como considerar portas, janelas e cantos ao calcular papel de parede?
-
-Ao calcular a área total, subtraia a área de portas e janelas se for cobrir apenas as superfícies sólidas. No entanto, em muitos projetos recomenda-se não subtrair pequenas aberturas e, em vez disso, manter a margem de desperdício para cortes e emendas, o que simplifica a logística da instalação.
-
-Para cantos, vãos e paredes com muitos recortes, é prudente adicionar uma porcentagem extra de material. Isso cobre cortes complexos e evita ter que comprar um rolo adicional no meio da obra.
-
-### Que dicas práticas ajudam quem quer aprender como calcular papel de parede sem erros?
-
-Use uma planilha ou [calculadora online](https://www.calculadoraonline.com.br/basica) para registrar altura, perímetro, largura do rolo, metragem por rolo e repetição do padrão; isso reduz erros de conta. Sempre compre pelo menos um rolo extra do mesmo lote para garantir uniformidade de cor, caso precise de retoques futuros.
-
-Mantenha as medidas anotadas em cada etapa, confira as especificações do fabricante e, se houver dúvida, consulte um instalador profissional. Essas ações simples tornam o cálculo mais confiável e economizam tempo e dinheiro na hora da aplicação.
-
-## Perguntas Frequentes sobre Cálculo de Papel de Parede
+## Perguntas frequentes
 
 ### 1 rolo de papel de parede cobre quantos metros?
 
-Um rolo padrão de papel de parede (0,53 m de largura × 10 m de comprimento) cobre em média **5 a 5,3 m²** de parede. Para papéis com estampas grandes ou de repetição (rapport), o rendimento útil cai para cerca de **4 a 4,5 m²** por rolo, devido às emendas necessárias para alinhar o desenho.
+Um rolo de 0,53 × 10 m cobre 5,3 m² em teoria. Na prática, cobre menos, porque as sobras de cada tira nem sempre são aproveitadas. Em paredes de altura comum, é mais seguro calcular pelo número de tiras.
 
-### Como calcular papel de parede com estampa?
+### 10 metros de papel de parede cobrem quantos metros quadrados?
 
-Para papéis estampados, primeiro descubra o **rapport** (altura da repetição do desenho), informado na embalagem. Em seguida, some o rapport à altura da parede para obter a "altura útil" de cada tira. Calcule quantas tiras de 0,53 m cabem na largura da parede, multiplique pela altura útil e divida pelos 10 m do rolo. Adicione **15% a 20% de margem** (em vez dos 10% padrão) para compensar emendas e desperdício.
+Depende da largura. Com a largura mais comum, de 0,53 m, são 5,3 m². Com outra largura, multiplique a largura em metros por 10.
 
-### Quantos rolos de papel de parede preciso para um quarto de 12m²?
+### Quantos rolos preciso para um quarto de 3 × 4 m?
 
-Um quarto de 12 m² de piso costuma ter cerca de **32 a 36 m² de parede** (considerando pé-direito de 2,7 m e descontando portas e janelas). Dividindo por 5 m² por rolo, você precisará de aproximadamente **7 a 8 rolos de papel liso**, ou **9 a 10 rolos** se o papel for estampado com rapport médio. Sempre arredonde para cima e adicione 1 rolo extra de segurança.
+Com pé-direito de 2,60 m, uma porta e papel liso, cerca de 9 rolos pelo método das tiras. Com estampa de rapport grande, a quantidade pode passar de 12.
 
-### Preciso descontar portas e janelas no cálculo?
+### Uma parede de 5 m por 4 m tem quantos metros quadrados?
 
-Sim, mas com cautela. Desconte apenas **aberturas grandes** (portas inteiras, janelas amplas acima de 1 m²). Pequenas aberturas devem ser ignoradas, é melhor ter sobra do que faltar material no meio da instalação, já que o lote pode mudar e gerar diferença de tonalidade.
+Tem 20 m² (5 × 4). Para cobri-la com rolos de 0,53 × 10 m, são necessários 5 rolos, porque cada rolo rende apenas 2 tiras de 4,10 m.
 
-### Por que devo somar 10% de margem ao cálculo?
+## Resumo
 
-A margem de 10% (ou até 20% para estampados) cobre **cortes, emendas, erros de aplicação e reparos futuros**. Comprar do mesmo lote garante que, se houver dano em um trecho, você terá material idêntico para reparo, papéis comprados depois podem ter variações de cor mesmo na mesma referência.
+Para calcular papel de parede sem errar, conte tiras: some 10 cm à altura, veja quantas tiras cabem em um rolo, divida a largura total das paredes pela largura do rolo e divida uma coisa pela outra, sempre arredondando para cima. Em papel com estampa, ajuste o comprimento da tira ao rapport. E compre tudo do mesmo lote, com um rolo de reserva.
