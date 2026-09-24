@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/check-new-posts.mjs && node scripts/generate-og.mjs",
+    "prebuild": "node scripts/check-home-noindex.mjs && node scripts/check-new-posts.mjs && node scripts/generate-og.mjs",
     "build": "astro build",
     "postbuild": "node scripts/check-fresh-dates.mjs && pagefind --site dist",
     "preview": "astro preview",
@@ -16,6 +16,7 @@
     "extract:apply": "node scripts/extract-site.mjs --apply"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.1",
     "@astrojs/sitemap": "^3.7.4",
     "@fontsource/lato": "^5.3.0",
     "@fontsource/playfair-display": "^5.3.0",

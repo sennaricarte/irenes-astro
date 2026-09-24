@@ -6,6 +6,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
+import rehypeOutboundRel from './src/lib/rehype-outbound-rel.mjs';
+import { checkHomeNoindex } from './scripts/check-home-noindex.mjs';
+
+checkHomeNoindex();
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 
@@ -63,6 +67,9 @@ export default defineConfig({
 	trailingSlash: 'always',
 	build: {
 		inlineStylesheets: 'always',
+	},
+	markdown: {
+		rehypePlugins: [rehypeOutboundRel],
 	},
 	integrations: [
 		sitemap({

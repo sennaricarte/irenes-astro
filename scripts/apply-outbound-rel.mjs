@@ -1,0 +1,120 @@
+/**
+ * Lê _extract/outbound-classificar.csv e grava src/data/outbound-rel.json.
+ * Dry-run por padrão. Grava só com --apply.
+ *
+ * tipo:
+ *   pago → sponsored
+ *   editorial → ""
+ *   rede → coluna rel_rede (sponsored, nofollow, ou vazio para manter o valor atual)
+ */
+import { readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const CSV_PATH = path.join(root, '_extract', 'outbound-classificar.csv');
+const JSON_PATH = path.join(root, 'src', 'data', 'outbound-rel.json');
+const apply = process.argv.includes('--apply');
+
+function parseCsv(text) {
+	const rows = [];
+	let row = [];
+	let cell = '';
+	let quoted = false;
+	const source = text.replace(/^\uFEFF/, '');
+	for (let index = 0; index < source.length; index += 1) {
+		const char = source[index];
+		if (quoted) {
+			if (char === '"') {
+				if (source[index + 1] === '"') {
+					cell += '"';
+					index += 1;
+				} else quoted = false;
+			} else cell += char;
+			continue;
+		}
+		if (char === '"') quoted = true;
+		else if (char === ',') {
+			row.push(cell);
+			cell = '';
+		} else if (char === '\n') {
+			row.push(cell);
+			rows.push(row);
+			row = [];
+			cell = '';
+		} else if (char !== '\r') cell += char;
+	}
+	if (cell.length || row.length) {
+		row.push(cell);
+		rows.push(row);
+	}
+	return rows.filter((item) => item.some((value) => value.trim()));
+}
+
+function column(header, name) {
+	return header.findIndex((item) => item.trim().toLowerCase() === name);
+}
+
+const current = JSON.parse(await readFile(JSON_PATH, 'utf8'));
+const table = parseCsv(await readFile(CSV_PATH, 'utf8'));
+const header = table[0].map((item) => item.trim().toLowerCase());
+const urlCol = column(header, 'url');
+const tipoCol = column(header, 'tipo');
+const redeCol = column(header, 'rel_rede');
+if (urlCol < 0 || tipoCol < 0) throw new Error('CSV precisa das colunas url e tipo');
+
+const next = {};
+const counts = { pago: 0, editorial: 0, redeSponsored: 0, redeNofollow: 0, redeManter: 0, semTipo: 0 };
+const seen = new Map();
+
+for (const row of table.slice(1)) {
+	const url = (row[urlCol] || '').trim();
+	const tipo = (row[tipoCol] || '').trim().toLowerCase();
+	if (!url) continue;
+	if (!tipo) {
+		counts.semTipo += 1;
+		continue;
+	}
+	let rel;
+	let bucket;
+	if (tipo === 'pago') {
+		rel = 'sponsored';
+		bucket = 'pago';
+	} else if (tipo === 'editorial') {
+		rel = '';
+		bucket = 'editorial';
+	} else if (tipo === 'rede') {
+		const rede = redeCol < 0 ? '' : (row[redeCol] || '').trim().toLowerCase();
+		if (rede === 'sponsored') {
+			rel = 'sponsored';
+			bucket = 'redeSponsored';
+		} else if (rede === 'nofollow') {
+			rel = 'nofollow';
+			bucket = 'redeNofollow';
+		} else if (!rede) {
+			rel = Object.prototype.hasOwnProperty.call(current, url) ? current[url] : '';
+			bucket = 'redeManter';
+		} else throw new Error(`rel_rede inválido em ${url}: ${rede}`);
+	} else {
+		throw new Error(`tipo inválido em ${url}: ${tipo}`);
+	}
+	if (seen.has(url) && seen.get(url) !== rel) {
+		throw new Error(`URL com classificação divergente: ${url}`);
+	}
+	if (!seen.has(url)) counts[bucket] += 1;
+	seen.set(url, rel);
+	next[url] = rel;
+}
+
+const ordered = Object.fromEntries(Object.entries(next).sort(([a], [b]) => a.localeCompare(b)));
+console.log(`${apply ? 'gravado' : 'dry-run'}: ${Object.keys(ordered).length} URLs`);
+console.log(`pago → sponsored: ${counts.pago}`);
+console.log(`rede → sponsored: ${counts.redeSponsored}`);
+console.log(`rede → nofollow: ${counts.redeNofollow}`);
+console.log(`rede → manter: ${counts.redeManter}`);
+console.log(`editorial → vazio: ${counts.editorial}`);
+console.log(`sem tipo (ignoradas): ${counts.semTipo}`);
+
+if (apply) {
+	await writeFile(JSON_PATH, `${JSON.stringify(ordered, null, '\t')}\n`, 'utf8');
+}
