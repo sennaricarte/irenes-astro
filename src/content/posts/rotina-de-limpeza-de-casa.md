@@ -1,6 +1,6 @@
 ---
 title: "Rotina de Limpeza de Casa: O Checklist Definitivo para uma Casa Impecável"
-seoTitle: "Rotina de Limpeza de Casa: Checklist Definitivo"
+seoTitle: "Rotina de Limpeza de Casa: Checklist Definitivo — Irenes"
 description: "Rotina de limpeza de casa: como montar um cronograma semanal e mensal, com os produtos e utensílios essenciais para cada tarefa."
 pubDate: "2026-02-20T14:16:50.505+00:00"
 category: "organizacao-pratica"

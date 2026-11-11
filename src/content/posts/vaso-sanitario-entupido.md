@@ -1,6 +1,6 @@
 ---
 title: "Vaso Sanitário Entupido? 5 Métodos Infalíveis para Recuperar a Paz no seu Banheiro"
-seoTitle: "Vaso Sanitário Entupido: 5 Métodos para Resolver"
+seoTitle: "Vaso Sanitário Entupido: 5 Métodos para Resolver — Irenes"
 description: "Vaso sanitário entupido: 5 métodos caseiros, de água quente com detergente ao arame, para tentar antes de chamar um profissional."
 pubDate: "2026-02-20T14:18:13.072+00:00"
 category: "rotinas-e-limpeza"

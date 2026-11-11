@@ -1,6 +1,6 @@
 ---
 title: "Contratação Sem Stress: O Guia Para Escolher Profissionais de Confiança Para Sua Casa"
-seoTitle: "Contratar Profissionais de Confiança para Sua Casa"
+seoTitle: "Contratar Profissionais de Confiança para Sua Casa — Irenes"
 description: "Aprenda como escolher os melhores profissionais para cuidar da sua casa com segurança e praticidade. Dicas essenciais para evitar stress na manutenção do lar."
 pubDate: "2026-08-19T17:38:39.743407+00:00"
 category: "casa"

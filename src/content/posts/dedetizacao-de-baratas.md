@@ -1,6 +1,6 @@
 ---
 title: "Dedetização de Baratas: Guia Completo para Recuperar a Paz e a Harmonia do Seu Lar"
-seoTitle: "Dedetização de Baratas: Guia Completo"
+seoTitle: "Dedetização de Baratas: Guia Completo — Irenes"
 description: "Dedetização de baratas: sinais de infestação, tipos mais comuns, por que métodos caseiros podem falhar e quando chamar um profissional."
 pubDate: "2025-11-27T21:57:03+00:00"
 updatedDate: 2026-02-20

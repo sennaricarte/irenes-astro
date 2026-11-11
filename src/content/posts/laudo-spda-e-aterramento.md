@@ -1,6 +1,6 @@
 ---
 title: "Laudo SPDA: O Guia Completo para Garantir a Paz e a Segurança do seu Lar"
-seoTitle: "Laudo SPDA: Guia Completo para Segurança do Lar"
+seoTitle: "Laudo SPDA: Guia Completo para Segurança do Lar — Irenes"
 description: "O que é o laudo SPDA e aterramento: para que serve a inspeção, quando fazer e quem deve fazer para proteger sua casa nas tempestades."
 pubDate: "2026-02-20T14:17:17.444+00:00"
 category: "organizacao-pratica"

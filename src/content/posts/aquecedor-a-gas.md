@@ -1,6 +1,6 @@
 ---
 title: "Aquecedor a Gás: O Segredo para o Banho de Hotel e a Paz no seu Lar"
-seoTitle: "Aquecedor a Gás: Como Ter Banho de Hotel em Casa"
+seoTitle: "Aquecedor a Gás: Como Ter Banho de Hotel em Casa — Irenes"
 description: "Aquecedor a gás: vantagens sobre o chuveiro elétrico, modelos digital e mecânico, ventilação, segurança e como calcular a capacidade em litros por minuto."
 pubDate: "2026-02-20T14:19:13.834+00:00"
 category: "financas-do-lar"

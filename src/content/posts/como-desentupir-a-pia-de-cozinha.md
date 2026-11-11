@@ -1,6 +1,6 @@
 ---
 title: "Dicas Práticas de Como Desentupir a Pia de Cozinha: Soluções Rápidas e Eficazes"
-seoTitle: "Como Desentupir a Pia de Cozinha: Soluções Rápidas"
+seoTitle: "Como Desentupir a Pia de Cozinha: Soluções Rápidas — Irenes"
 description: "Pia da cozinha entupida? Veja como reconhecer os sinais e desentupir com soluções rápidas e práticas, passo a passo, sem pânico."
 pubDate: "2025-10-25T12:46:05+00:00"
 updatedDate: 2026-02-20

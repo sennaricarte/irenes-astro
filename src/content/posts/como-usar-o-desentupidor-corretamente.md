@@ -1,6 +1,6 @@
 ---
 title: "Aprenda Como Usar o Desentupidor Corretamente"
-seoTitle: "Como Usar o Desentupidor Corretamente"
+seoTitle: "Como Usar o Desentupidor Corretamente — Irenes"
 description: "Como usar o desentupidor corretamente: tipos, técnica de vedação no vaso sanitário e passo a passo para pias e ralos."
 pubDate: "2025-11-17T22:18:39+00:00"
 updatedDate: 2026-02-20

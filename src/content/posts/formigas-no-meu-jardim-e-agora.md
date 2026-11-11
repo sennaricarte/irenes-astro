@@ -1,6 +1,6 @@
 ---
 title: "Formigas no Meu Jardim, e Agora? Dicas para um Jardim Harmônico"
-seoTitle: "Formigas no Meu Jardim, e Agora? Dicas"
+seoTitle: "Formigas no Meu Jardim, e Agora? Dicas — Irenes"
 description: "Descubra como lidar com formigas no jardim de forma eficaz e natural, mantendo a harmonia e a beleza do seu espaço verde."
 pubDate: "2026-02-20T18:31:49.823+00:00"
 category: "plantas-jardins"

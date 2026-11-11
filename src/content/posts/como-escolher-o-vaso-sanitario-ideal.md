@@ -1,6 +1,6 @@
 ---
 title: "Como Escolher o Vaso Sanitário Ideal: Alinhando Design, Conforto e Paz no seu Banheiro"
-seoTitle: "Como Escolher o Vaso Sanitário Ideal"
+seoTitle: "Como Escolher o Vaso Sanitário Ideal — Irenes"
 description: "Como escolher o vaso sanitário: compare caixa acoplada, convencional, monobloco e suspenso e use o checklist antes de comprar."
 pubDate: "2026-02-20T14:18:39.935+00:00"
 category: "estilos-de-decoracao"

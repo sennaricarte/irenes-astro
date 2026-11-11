@@ -44,7 +44,7 @@ for (const file of await readdir(postsDir)) {
 	}
 
 	if (data.noindex !== true) {
-		const titulo = `${data.seoTitle || data.title} — Irenes`;
+		const titulo = data.seoTitle || data.title;
 		if (titulo.length > TITLE_MAX) {
 			failures.push(`${slug}: <title> tem ${titulo.length} caracteres (máximo ${TITLE_MAX}); use seoTitle`);
 		}

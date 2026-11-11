@@ -1,6 +1,6 @@
 ---
 title: "Aluguel de Van: Conforto e Paz em Viagens e Eventos de Grupo"
-seoTitle: "Aluguel de Van para Viagens e Eventos de Grupo"
+seoTitle: "Aluguel de Van para Viagens e Eventos de Grupo — Irenes"
 description: "Garanta conforto e segurança em seus eventos e viagens de grupo! Descubra como o aluguel de van da Transporte Pazuti oferece uma experiência tranquila em SP."
 pubDate: "2026-03-14T13:40:11.527+00:00"
 category: "dicas"

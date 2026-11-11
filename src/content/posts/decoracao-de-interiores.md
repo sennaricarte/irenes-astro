@@ -1,6 +1,6 @@
 ---
 title: "Decoração de interiores: Guia essencial para transformar seu lar com paleta, luz e conforto"
-seoTitle: "Decoração de Interiores: Paleta, Luz e Conforto"
+seoTitle: "Decoração de Interiores: Paleta, Luz e Conforto — Irenes"
 description: "Decoração de interiores: como escolher paleta de cores, iluminação, mobiliário e texturas para uma casa funcional, confortável e no orçamento."
 pubDate: "2025-11-04T11:52:38+00:00"
 updatedDate: 2026-02-20

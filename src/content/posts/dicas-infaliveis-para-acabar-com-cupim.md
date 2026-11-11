@@ -1,6 +1,6 @@
 ---
 title: "Como acabar com cupim em casa: o que funciona e o que é mito"
-seoTitle: "Como acabar com cupim em casa: o que funciona"
+seoTitle: "Como acabar com cupim em casa: o que funciona — Irenes"
 description: "Descubra se o cupim é de madeira seca ou subterrâneo, como tratar móveis, quando chamar uma dedetizadora e por que água quente e vinagre não resolvem."
 pubDate: "2025-10-25T13:07:31+00:00"
 updatedDate: 2026-09-24
