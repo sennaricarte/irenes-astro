@@ -69,6 +69,6 @@ Lembre-se: ser a guardiã da paz no seu lar também significa saber a hora de co
 
 **Leia também:**
 
-- [como encontrar mão de obra especializada para manutenção](/como-encontrar-mao-de-obra-especializada-manutencao-residencia/)
 - [como escolher profissionais de confiança](/contratacao-sem-stress-guia-profissionais-confianca/)
 - [quando chamar uma desentupidora especializada](/desentupidora-especializada-quando-chamar/)
+- [laudo SPDA e aterramento](/laudo-spda-e-aterramento/)
