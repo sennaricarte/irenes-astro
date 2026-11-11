@@ -146,6 +146,6 @@ Um montador de móveis cobra, em média, de R$ 120 a R$ 230 por móveis simples 
 
 **Leia também:**
 
-- [como encontrar mão de obra especializada para manutenção](/como-encontrar-mao-de-obra-especializada-manutencao-residencia/)
+- [como escolher profissionais de confiança](/contratacao-sem-stress-guia-profissionais-confianca/)
 - [quando chamar uma desentupidora especializada](/desentupidora-especializada-quando-chamar/)
 - [o que fazer nas primeiras horas de uma emergência hidráulica](/emergencia-hidraulica-em-casa-guia-primeiras-horas/)

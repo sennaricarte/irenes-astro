@@ -143,4 +143,4 @@ Em capitais como São Paulo, empresas especializadas em atendimento emergencial 
 
 - [aquecedor a gás e o banho de hotel em casa](/aquecedor-a-gas/)
 - [como prolongar a vida útil das estruturas hídricas da casa](/como-prolongar-a-vida-util-das-estruturas-hidricas/)
-- [como encontrar mão de obra especializada para manutenção](/como-encontrar-mao-de-obra-especializada-manutencao-residencia/)
+- [como escolher profissionais de confiança](/contratacao-sem-stress-guia-profissionais-confianca/)

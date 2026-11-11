@@ -59,6 +59,5 @@ Afinal, uma casa em harmonia é aquela onde tudo, inclusive o que não vemos, fu
 
 **Leia também:**
 
-- [como encontrar mão de obra especializada para manutenção](/como-encontrar-mao-de-obra-especializada-manutencao-residencia/)
 - [como o caça-vazamentos ajuda a economizar](/como-o-caca-vazamentos-salva-seu-bolso/)
 - [como escolher profissionais de confiança](/contratacao-sem-stress-guia-profissionais-confianca/)
