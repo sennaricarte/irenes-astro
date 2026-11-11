@@ -9,7 +9,7 @@
 	{
 		"slug": "beleza",
 		"name": "Beleza",
-		"description": "Artigos sobre Beleza — Dicas e inspirações no Irenes.",
+		"description": "Guias de beleza para o dia a dia: rotinas de skincare, limpeza de pele e cuidados com os cabelos, como cronograma e hidratação capilar.",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=beleza"
 	},
@@ -18,7 +18,7 @@
 		"name": "Bem-Estar",
 		"description": "Artigos sobre Bem-Estar — Dicas e inspirações no Irenes.",
 		"familia": "beleza",
-		"noindex": false,
+		"noindex": true,
 		"originalUrl": "https://irenes.com.br/?categoria=bem-estar"
 	},
 	{
@@ -31,7 +31,7 @@
 	{
 		"slug": "casa",
 		"name": "Casa",
-		"description": "Artigos sobre Casa — Dicas e inspirações no Irenes.",
+		"description": "Guias para cuidar da casa: desentupimento, vazamentos, pragas, manutenção, limpeza e como contratar bons profissionais, passo a passo.",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=casa"
 	},
@@ -52,7 +52,7 @@
 	{
 		"slug": "decoracao",
 		"name": "Decoração",
-		"description": "Artigos sobre Decoração — Dicas e inspirações no Irenes.",
+		"description": "Ideias e guias de decoração: papel de parede (como calcular, aplicar e tirar), decoração de interiores e escolhas de estilo para a casa.",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=decoracao"
 	},
@@ -81,7 +81,7 @@
 	{
 		"slug": "estilos-de-decoracao",
 		"name": "Estilos de Decoração",
-		"description": "Artigos sobre Estilos de Decoração — Dicas e inspirações no Irenes.",
+		"description": "Peças que definem o estilo da casa: o sofá Chesterfield e a poltrona costela com puff em couro, com seu design e sua história.",
 		"familia": "decoracao",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=estilos-de-decoracao"
@@ -118,7 +118,7 @@
 	{
 		"slug": "organizacao-pratica",
 		"name": "Organização Prática",
-		"description": "Artigos sobre Organização Prática — Dicas e inspirações no Irenes.",
+		"description": "Organização do dia a dia da casa: rotina de limpeza, mudança, como prevenir entupimentos e como encontrar profissionais de manutenção.",
 		"familia": "casa",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=organizacao-pratica"
@@ -141,7 +141,7 @@
 	{
 		"slug": "rotinas-e-limpeza",
 		"name": "Rotinas e Limpeza",
-		"description": "Artigos sobre Rotinas e Limpeza — Dicas e inspirações no Irenes.",
+		"description": "Rotinas e problemas do dia a dia da casa: como eliminar pernilongos e resolver um vaso sanitário entupido com métodos caseiros.",
 		"familia": "casa",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=rotinas-e-limpeza"
@@ -156,7 +156,7 @@
 	{
 		"slug": "skincare",
 		"name": "Skincare",
-		"description": "Artigos sobre Skincare — Dicas e inspirações no Irenes.",
+		"description": "Skincare na prática: o que é, como montar a rotina, como fazer limpeza de pele em casa e quanto custa a limpeza profissional.",
 		"familia": "beleza",
 		"noindex": false,
 		"originalUrl": "https://irenes.com.br/?categoria=skincare"

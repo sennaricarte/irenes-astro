@@ -20,7 +20,7 @@ const eyebrow = kind === 'categoria' ? 'Categoria' : 'Tag';
 const noun = posts.length === 1 ? 'artigo' : 'artigos';
 const verb = kind === 'categoria' ? (posts.length === 1 ? 'publicado' : 'publicados') : posts.length === 1 ? 'encontrado' : 'encontrados';
 const home = new URL('/', Astro.site).href;
-const showDescription = kind !== 'categoria' && Boolean(description);
+const showDescription = Boolean(description) && (kind !== 'categoria' || !noindex);
 const grid = kind === 'categoria';
 
 const crumbs: { name: string; item?: string }[] = [{ name: 'Início', item: home }];
@@ -72,7 +72,7 @@ const json = JSON.stringify({
 		</nav>
 		<p class="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-primary">{eyebrow}</p>
 		<h1 class="font-serif text-3xl font-bold leading-[1.12] md:text-5xl">{name}</h1>
-		{!grid && showDescription && <p class="mt-4 max-w-[var(--container-prose)] text-muted-foreground">{description}</p>}
+		{showDescription && <p class="mt-4 max-w-[var(--container-prose)] text-muted-foreground">{description}</p>}
 		<p class="mt-4 text-sm text-muted-foreground">
 			{posts.length} {noun} {verb}
 		</p>
