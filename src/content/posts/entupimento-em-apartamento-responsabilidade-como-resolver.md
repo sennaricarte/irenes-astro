@@ -1,6 +1,6 @@
 ---
 title: "Entupimento em Apartamento: De Quem é a Responsabilidade e Como Resolver Sem Brigar com o Vizinho"
-seoTitle: "Entupimento em Apartamento: De Quem é a Responsabilidade e Como Resolver Sem Brigar com o Vizinho — Irenes"
+seoTitle: "Entupimento em Apartamento: Quem É Responsável?"
 description: "Entendendo quem paga o desentupimento em apartamentos, o que é responsabilidade do condomínio, do morador e como agir sem transtornos."
 pubDate: "2026-07-17T18:03:54.994473+00:00"
 category: "casa"

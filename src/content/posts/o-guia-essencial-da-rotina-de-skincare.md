@@ -1,6 +1,6 @@
 ---
 title: "Guia da Rotina de Skincare para uma Pele Radiante"
-seoTitle: "Guia da Rotina de Skincare para uma Pele Radiante — Irenes"
+seoTitle: "Rotina de Skincare: Guia para uma Pele Radiante"
 description: "Guia de rotina de skincare: produtos essenciais, ordem correta de aplicação e como adaptar os cuidados ao seu tipo de pele."
 pubDate: "2026-02-20T14:16:27.169+00:00"
 category: "skincare"

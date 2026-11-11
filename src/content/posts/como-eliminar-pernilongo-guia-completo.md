@@ -1,6 +1,6 @@
 ---
 title: "Como Eliminar Pernilongos: Guia Completo para um Lar de Paz e Harmonia"
-seoTitle: "Como Eliminar Pernilongos: Guia Completo para um Lar de Paz e Harmonia — Irenes"
+seoTitle: "Como Eliminar Pernilongos: Guia Completo"
 description: "Descubra as melhores estratégias para eliminar pernilongos e desfrutar de um lar tranquilo. Dicas naturais, preventivas e eficazes para sua paz."
 pubDate: "2026-04-23T20:13:30.039+00:00"
 category: "rotinas-e-limpeza"

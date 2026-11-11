@@ -1,6 +1,6 @@
 ---
 title: "Quanto cobra um montador de móveis: preços por móvel e como orçar"
-seoTitle: "Quanto cobra um montador de móveis? Preços por móvel"
+seoTitle: "Quanto Cobra um Montador de Móveis? Preços"
 description: "Montar um guarda-roupa custa de R$ 150 a R$ 350; mesa, rack e cômoda ficam entre R$ 120 e R$ 230. Veja preços por móvel, por hora e como pedir orçamento."
 pubDate: "2025-10-29T18:56:43+00:00"
 updatedDate: 2026-09-24

@@ -1,6 +1,6 @@
 ---
 title: "Como aplicar papel de parede adesivo: Em 3 passos"
-seoTitle: "Como aplicar papel de parede adesivo: Em 3 passos — Irenes"
+seoTitle: "Como Aplicar Papel de Parede Adesivo em 3 Passos"
 description: "Cultive a Paz. Realce a Beleza. Transforme o Seu Lar. Dicas de beleza, organização e decoração para a mulher moderna."
 pubDate: "2025-10-29T14:12:21+00:00"
 updatedDate: 2026-02-20

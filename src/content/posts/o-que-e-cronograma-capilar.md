@@ -1,6 +1,6 @@
 ---
 title: "O que é Cronograma Capilar e Como Ele Pode Transformar Seus Fios"
-seoTitle: "O que é Cronograma Capilar e Como Ele Pode Transformar Seus Fios — Irenes"
+seoTitle: "O Que É Cronograma Capilar? Guia para Seus Fios"
 description: "O que é cronograma capilar: para que serve e como montar as etapas de hidratação, nutrição e reconstrução para fios mais saudáveis."
 pubDate: "2025-10-23T14:09:59+00:00"
 updatedDate: 2026-02-20

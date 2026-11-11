@@ -1,6 +1,6 @@
 ---
 title: "Esgoto Entupido? O Guia Completo da Irene para Solucionar e Prevenir o Caos no Seu Lar!"
-seoTitle: "Esgoto Entupido? O Guia Completo da Irene para Solucionar e Prevenir o Caos no Seu Lar! — Irenes"
+seoTitle: "Esgoto Entupido: Como Solucionar e Prevenir"
 description: "Esgoto entupido: reconheça os 4 sinais de alerta, as causas mais comuns e 3 soluções caseiras e seguras para tentativas rápidas."
 pubDate: "2025-12-15T22:47:04+00:00"
 updatedDate: 2026-02-20

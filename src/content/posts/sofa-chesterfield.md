@@ -1,6 +1,6 @@
 ---
 title: "Sofá Chesterfield: O Guia Definitivo para Trazer Elegância e História ao seu Lar"
-seoTitle: "Sofá Chesterfield: O Guia Definitivo para Trazer Elegância e História ao seu Lar — Irenes"
+seoTitle: "Sofá Chesterfield: Guia Definitivo"
 description: "Sofá Chesterfield: origem, como identificar um autêntico, como usá-lo do clássico ao industrial e como escolher entre couro e veludo."
 pubDate: "2026-02-20T14:19:00.94+00:00"
 category: "estilos-de-decoracao"
