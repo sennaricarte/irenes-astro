@@ -17,6 +17,101 @@
 			],
 			"destination": "/categoria/:valor/",
 			"permanent": true
+		},
+		{
+			"source": "/index.htm",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/aquecedor-a-gas-o-segredo-para-o-banho-de-hotel-e-a-paz-no-seu-lar/",
+			"destination": "/aquecedor-a-gas/",
+			"permanent": true
+		},
+		{
+			"source": "/decoracao-de-interiores-guia-essencial-para-transformar-seu-lar-com-paleta-luz-e-conforto/",
+			"destination": "/decoracao-de-interiores/",
+			"permanent": true
+		},
+		{
+			"source": "/dedetizacao-de-baratas-guia-completo-para-recuperar-a-paz-e-a-harmonia-do-seu-lar/",
+			"destination": "/dedetizacao-de-baratas/",
+			"permanent": true
+		},
+		{
+			"source": "/dicas-praticas-como-desentupir-caixa-de-gordura/",
+			"destination": "/como-desentupir-caixa-de-gordura/",
+			"permanent": true
+		},
+		{
+			"source": "/dicas-praticas-de-como-desentupir-a-pia-de-cozinha-solucoes-rapidas-e-eficazes/",
+			"destination": "/como-desentupir-a-pia-de-cozinha/",
+			"permanent": true
+		},
+		{
+			"source": "/esgoto-entupido-o-guia-completo-da-irene-para-solucionar-e-prevenir-o-caos-no-seu-lar/",
+			"destination": "/esgoto-entupido-o-guia-completo-da-irene/",
+			"permanent": true
+		},
+		{
+			"source": "/limpeza-da-cozinha-o-segredo-de-vo-para-tirar-o-cheiro-de-gordura-sem-esforco/",
+			"destination": "/limpeza-da-cozinha/",
+			"permanent": true
+		},
+		{
+			"source": "/o-guia-essencial-da-rotina-de-skincare-para-iniciantes-manha-e-noite/",
+			"destination": "/o-guia-essencial-da-rotina-de-skincare/",
+			"permanent": true
+		},
+		{
+			"source": "/paz-no-ralo-o-guia-de-irenes-para-nunca-mais-sofrer-com-restos-de-comida-na-pia/",
+			"destination": "/guia-de-irenes-para-nunca-mais-sofrer-com-restos-de-comida-na-pia/",
+			"permanent": true
+		},
+		{
+			"source": "/rotina-de-limpeza-de-casa-o-checklist-definitivo-para-uma-casa-impecavel/",
+			"destination": "/rotina-de-limpeza-de-casa/",
+			"permanent": true
+		},
+		{
+			"source": "/vaso-sanitario-entupido-5-metodos-infaliveis-para-recuperar-a-paz-no-seu-banheiro/",
+			"destination": "/vaso-sanitario-entupido/",
+			"permanent": true
+		},
+		{
+			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho/feed/",
+			"destination": "/categoria/:pai/",
+			"permanent": true
+		},
+		{
+			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho/page/:n/",
+			"destination": "/categoria/:pai/",
+			"permanent": true
+		},
+		{
+			"source": "/categoria/:cat/feed/",
+			"destination": "/categoria/:cat/",
+			"permanent": true
+		},
+		{
+			"source": "/categoria/:cat/page/:n/",
+			"destination": "/categoria/:cat/",
+			"permanent": true
+		},
+		{
+			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho(bem-estar|skincare|estilos-de-decoracao|financas-do-lar|organizacao-pratica|rotinas-e-limpeza)/",
+			"destination": "/categoria/:filho/",
+			"permanent": true
+		},
+		{
+			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho(banheiro|cabelos|comodos|cozinha|descompressao|dicas|dormir-bem|faca-voce-mesma-diy|lifestyle|maquiagem|plantas-jardins|quarto|sala|skincare-de-noite|tecnologia-do-lar)/",
+			"destination": "/categoria/:pai/",
+			"permanent": true
+		},
+		{
+			"source": "/:slug/feed/",
+			"destination": "/:slug/",
+			"permanent": true
 		}
 	],
 	"headers": [
