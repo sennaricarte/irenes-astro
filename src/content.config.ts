@@ -28,6 +28,7 @@ const posts = defineCollection({
 			heroAlt: z.string(),
 			originalUrl: z.string().optional(),
 			noindex: z.boolean().default(false),
+			calculadora: z.enum(['papel-de-parede']).optional(),
 		}),
 });
 

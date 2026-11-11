@@ -5,6 +5,7 @@ import type { MarkdownHeading } from 'astro';
 import BaseLayout from './BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import ListingSidebar from '../components/ListingSidebar.astro';
+import CalculadoraPapelDeParede from '../components/CalculadoraPapelDeParede.astro';
 import logo from '../assets/logo.webp';
 import { readingMinutes } from '../lib/reading';
 import { postDate } from '../lib/dates';
@@ -17,7 +18,7 @@ interface Props {
 }
 
 const { entry, headings, canonical } = Astro.props;
-const { title, seoTitle, description, pubDate, updatedDate, category, tags = [], heroImage, heroAlt, noindex = false } = entry.data;
+const { title, seoTitle, description, pubDate, updatedDate, category, tags = [], heroImage, heroAlt, noindex = false, calculadora } = entry.data;
 
 const [categories, tagEntries, posts] = await Promise.all([
 	getCollection('categorias'),
@@ -183,6 +184,7 @@ const json = JSON.stringify(jsonLd).replace(/</g, '\\u003c');
 						</details>
 					)
 				}
+				{calculadora === 'papel-de-parede' && <CalculadoraPapelDeParede />}
 				<div class="prose prose-wide mt-8 max-w-none">
 					<slot />
 				</div>
