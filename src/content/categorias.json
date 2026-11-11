@@ -98,7 +98,7 @@
 		"name": "Finanças do Lar",
 		"description": "Artigos sobre Finanças do Lar — Dicas e inspirações no Irenes.",
 		"familia": "casa",
-		"noindex": false,
+		"noindex": true,
 		"originalUrl": "https://irenes.com.br/?categoria=financas-do-lar"
 	},
 	{
