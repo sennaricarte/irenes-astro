@@ -99,12 +99,12 @@
 			"permanent": true
 		},
 		{
-			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho(bem-estar|skincare|estilos-de-decoracao|financas-do-lar|organizacao-pratica|rotinas-e-limpeza)/",
+			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho(bem-estar|skincare|estilos-de-decoracao|organizacao-pratica|rotinas-e-limpeza)/",
 			"destination": "/categoria/:filho/",
 			"permanent": true
 		},
 		{
-			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho(banheiro|cabelos|comodos|cozinha|descompressao|dicas|dormir-bem|faca-voce-mesma-diy|lifestyle|maquiagem|plantas-jardins|quarto|sala|skincare-de-noite|tecnologia-do-lar)/",
+			"source": "/categoria/:pai(beleza|casa|decoracao)/:filho(banheiro|financas-do-lar|cabelos|comodos|cozinha|descompressao|dicas|dormir-bem|faca-voce-mesma-diy|lifestyle|maquiagem|plantas-jardins|quarto|sala|skincare-de-noite|tecnologia-do-lar)/",
 			"destination": "/categoria/:pai/",
 			"permanent": true
 		},

@@ -3,7 +3,7 @@ title: "Guia de Cuidados: Como Prolongar a Vida Útil das Estruturas Hídricas d
 seoTitle: "Como Prolongar a Vida Útil das Estruturas Hídricas — Irenes"
 description: "Cuidados para prolongar a vida útil da caixa d'água e das tubulações: limpeza periódica, vazamentos invisíveis, impermeabilização e sinais de alerta."
 pubDate: "2026-02-20T14:17:45.669+00:00"
-category: "financas-do-lar"
+category: "casa"
 tags: []
 heroImage: ../../assets/posts/como-prolongar-a-vida-util-das-estruturas-hidricas/como-prolongar-a-vida-util-das-estruturas-hidricas-02.jpg
 heroAlt: "Guia de Cuidados: Como Prolongar a Vida Útil das Estruturas Hídricas da sua Casa"
