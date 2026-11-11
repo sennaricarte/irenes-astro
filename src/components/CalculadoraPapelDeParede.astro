@@ -1,0 +1,133 @@
+---
+/**
+ * Calculadora de rolos de papel de parede pelo método das tiras.
+ * Mesma conta do artigo: tira = altura + 0,10 m (ajustada ao rapport),
+ * tiras por rolo = piso(comprimento do rolo / tira),
+ * tiras necessárias = teto(largura útil / largura do rolo),
+ * rolos = teto(tiras necessárias / tiras por rolo).
+ */
+---
+
+<section class="calc mt-8 border border-border bg-card p-5" aria-labelledby="calc-titulo" data-pagefind-ignore>
+	<h2 id="calc-titulo" class="font-serif text-xl font-bold">Calculadora de rolos de papel de parede</h2>
+	<p class="mt-2 text-sm leading-relaxed text-muted-foreground">
+		Preencha as medidas em metros. A conta usa o método das tiras explicado neste artigo e arredonda sempre para o lado seguro.
+	</p>
+	<form class="mt-4 grid gap-4 sm:grid-cols-2" id="calc-form" novalidate>
+		<div>
+			<label class="block text-sm font-semibold" for="calc-altura">Altura da parede (m)</label>
+			<input class="mt-1 h-11 w-full border border-border bg-background px-3 text-base" id="calc-altura" name="altura" type="text" inputmode="decimal" placeholder="2,60" autocomplete="off" />
+		</div>
+		<div>
+			<label class="block text-sm font-semibold" for="calc-largura">Largura total das paredes (m)</label>
+			<input class="mt-1 h-11 w-full border border-border bg-background px-3 text-base" id="calc-largura" name="largura" type="text" inputmode="decimal" placeholder="14" autocomplete="off" />
+		</div>
+		<div>
+			<label class="block text-sm font-semibold" for="calc-portas">Largura de portas a descontar (m)</label>
+			<input class="mt-1 h-11 w-full border border-border bg-background px-3 text-base" id="calc-portas" name="portas" type="text" inputmode="decimal" placeholder="0,80" value="0" autocomplete="off" />
+		</div>
+		<div>
+			<label class="block text-sm font-semibold" for="calc-rapport">Rapport da estampa (cm)</label>
+			<input class="mt-1 h-11 w-full border border-border bg-background px-3 text-base" id="calc-rapport" name="rapport" type="text" inputmode="decimal" placeholder="0 para papel liso" value="0" autocomplete="off" />
+		</div>
+		<div>
+			<label class="block text-sm font-semibold" for="calc-largura-rolo">Largura do rolo (m)</label>
+			<input class="mt-1 h-11 w-full border border-border bg-background px-3 text-base" id="calc-largura-rolo" name="larguraRolo" type="text" inputmode="decimal" value="0,53" autocomplete="off" />
+		</div>
+		<div>
+			<label class="block text-sm font-semibold" for="calc-comprimento-rolo">Comprimento do rolo (m)</label>
+			<input class="mt-1 h-11 w-full border border-border bg-background px-3 text-base" id="calc-comprimento-rolo" name="comprimentoRolo" type="text" inputmode="decimal" value="10" autocomplete="off" />
+		</div>
+		<div class="sm:col-span-2">
+			<button class="inline-flex h-11 items-center justify-center bg-primary px-6 text-sm font-bold text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" type="submit">Calcular rolos</button>
+		</div>
+	</form>
+	<div id="calc-resultado" class="mt-4 text-sm leading-relaxed" role="status" aria-live="polite"></div>
+	<noscript>
+		<p class="mt-4 text-sm text-muted-foreground">Ative o JavaScript para usar a calculadora ou siga o passo a passo do método das tiras mais abaixo.</p>
+	</noscript>
+</section>
+
+<script>
+	const form = document.getElementById('calc-form') as HTMLFormElement | null;
+	const out = document.getElementById('calc-resultado');
+
+	function num(value: string): number {
+		const n = Number(String(value).trim().replace(',', '.'));
+		return Number.isFinite(n) ? n : NaN;
+	}
+
+	function fmt(value: number, digits = 2): string {
+		return value.toLocaleString('pt-BR', { maximumFractionDigits: digits });
+	}
+
+	function calcular() {
+		if (!form || !out) return;
+		const data = new FormData(form);
+		const altura = num(String(data.get('altura') ?? ''));
+		const largura = num(String(data.get('largura') ?? ''));
+		const portas = num(String(data.get('portas') ?? '0') || '0');
+		const rapportCm = num(String(data.get('rapport') ?? '0') || '0');
+		const larguraRolo = num(String(data.get('larguraRolo') ?? ''));
+		const comprimentoRolo = num(String(data.get('comprimentoRolo') ?? ''));
+
+		const invalido =
+			![altura, largura, larguraRolo, comprimentoRolo].every((n) => n > 0) || !(portas >= 0) || !(rapportCm >= 0);
+		if (invalido) {
+			out.textContent = 'Preencha altura, largura e as medidas do rolo com números maiores que zero.';
+			return;
+		}
+
+		const largUtil = largura - portas;
+		if (largUtil <= 0) {
+			out.textContent = 'A largura descontada das portas não pode ser maior que a largura total das paredes.';
+			return;
+		}
+
+		let tira = altura + 0.1;
+		if (rapportCm > 0) {
+			const rapport = rapportCm / 100;
+			tira = Math.ceil(tira / rapport - 1e-9) * rapport;
+		}
+
+		const tirasPorRolo = Math.floor(comprimentoRolo / tira + 1e-9);
+		if (tirasPorRolo < 1) {
+			out.textContent = `Cada tira precisa de ${fmt(tira)} m e o rolo tem só ${fmt(comprimentoRolo)} m. Confira a altura e o comprimento do rolo.`;
+			return;
+		}
+
+		const tirasNecessarias = Math.ceil(largUtil / larguraRolo - 1e-9);
+		const rolos = Math.ceil(tirasNecessarias / tirasPorRolo - 1e-9);
+		const areaRolo = larguraRolo * comprimentoRolo;
+
+		out.innerHTML = '';
+		const titulo = document.createElement('p');
+		titulo.className = 'text-lg font-bold';
+		titulo.textContent = `Compre ${rolos} ${rolos === 1 ? 'rolo' : 'rolos'}`;
+		const lista = document.createElement('ul');
+		lista.className = 'mt-2 list-disc pl-5';
+		[
+			`Comprimento de cada tira: ${fmt(tira)} m (altura + 10 cm${rapportCm > 0 ? ', ajustada ao rapport' : ''}).`,
+			`Tiras por rolo: ${tirasPorRolo}.`,
+			`Tiras necessárias: ${tirasNecessarias}.`,
+			`Área de papel comprada: ${fmt(rolos * areaRolo)} m².`,
+		].forEach((texto) => {
+			const li = document.createElement('li');
+			li.textContent = texto;
+			lista.appendChild(li);
+		});
+		const aviso = document.createElement('p');
+		aviso.className = 'mt-2 text-muted-foreground';
+		aviso.textContent =
+			'Se for a primeira aplicação ou o papel tiver estampa, considere um rolo extra. Compre todos do mesmo lote.';
+		out.append(titulo, lista, aviso);
+	}
+
+	form?.addEventListener('submit', (event) => {
+		event.preventDefault();
+		calcular();
+	});
+	form?.addEventListener('input', () => {
+		if (out && out.childNodes.length) calcular();
+	});
+</script>
