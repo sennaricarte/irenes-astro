@@ -56,3 +56,9 @@ A escolha do material depende da rotina da sua "Irene" interior:
 Escolher um [sofá Chesterfield](https://osvaldoantiguidades.com.br/produto/poltrona-chesterfield/) é um ato de cuidado com o seu espaço. Ele não é apenas um lugar para sentar, mas o centro das atenções de um lar que valoriza a história e o bem-estar. Seja ele de couro envelhecido ou veludo colorido, o importante é que ele reflita a sua personalidade e traga a harmonia que você merece.
 
 **Gostou dessa inspiração?** Continue navegando no **Irenes.com.br** para descobrir mais dicas de como transformar sua casa e sua rotina com leveza e beleza.
+
+**Leia também:**
+
+- [como aplicar papel de parede adesivo](/como-aplicar-papel-de-parede-adesivo/)
+- [como tirar papel de parede](/como-tirar-papel-de-parede/)
+- [guia de decoração de interiores](/decoracao-de-interiores/)

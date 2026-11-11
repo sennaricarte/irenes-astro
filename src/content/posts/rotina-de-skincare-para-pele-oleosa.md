@@ -169,3 +169,9 @@ A rotina de skincare para pele oleosa pode parecer desafiadora, mas com as dicas
 Adotar hábitos saudáveis também faz toda a diferença: manter uma alimentação balanceada, beber bastante água e dormir bem são aliados na batalha contra a oleosidade. Não esqueça que cada pele é única; o que funciona para um pode não funcionar para outro. Portanto, teste diferentes combinações até encontrar a sua perfeita.  
   
 Se persistirem problemas ou dúvidas sobre cuidados específicos, procurar um dermatologista nunca é demais! Cuide-se bem e curta seu novo ritual de beleza!
+
+**Leia também:**
+
+- [quanto custa uma limpeza de pele profissional](/quanto-custa-limpeza-de-pele-profissional/)
+- [como fazer limpeza de pele em casa](/como-fazer-limpeza-de-pele-em-casa-guia-completo/)
+- [guia da rotina de skincare](/o-guia-essencial-da-rotina-de-skincare/)

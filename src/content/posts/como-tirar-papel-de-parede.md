@@ -151,3 +151,9 @@ Esses métodos são mais seguros para quem tem sensibilidade a cheiros e reduzem
 Depois de remover o papel e a cola, lavar a parede e deixá-la secar completamente. Em seguida, nivelar imperfeições com massa corrida e lixar suavemente. Aplicar um primer ou selador é essencial para uniformizar a absorção antes da pintura, garantindo aderência e acabamento uniforme.
 
 Se houver manchas ou áreas muito porosas, pode ser necessário repetir o selador. Para um resultado duradouro, escolher tinta adequada ao ambiente (ex.: tinta acrílica para áreas internas) e seguir o tempo de secagem entre demãos.
+
+**Leia também:**
+
+- [como escolher o vaso sanitário ideal](/como-escolher-o-vaso-sanitario-ideal/)
+- [guia de decoração de interiores](/decoracao-de-interiores/)
+- [poltrona costela com puff em couro](/poltrona-costela-com-puff-em-couro/)

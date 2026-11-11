@@ -23,7 +23,7 @@ Na cozinha, o maior vilão não é apenas o resto de comida, mas a **gordura acu
 
 ### **O Desafio do Banheiro: Resíduos de Autocuidado**
 
-No banheiro, o entupimento geralmente é um acúmulo de **fios de cabelo, restos de sabonete e produtos de beleza**. O cabelo se enrosca nas curvas do sifão, criando uma rede que retém outros detritos. Manter a paz no banheiro exige atenção ao que deixamos descer pelo ralo durante nosso ritual de beleza.
+No banheiro, o entupimento geralmente é um acúmulo de **fios de cabelo, restos de sabonete e produtos de beleza**. O cabelo se enrosca nas curvas do [sifão](/sifao-entupido-mau-cheiro-como-limpar/), criando uma rede que retém outros detritos. Manter a paz no banheiro exige atenção ao que deixamos descer pelo ralo durante nosso ritual de beleza.
 
 ## **Sinais de que algo não vai bem**
 
@@ -68,3 +68,9 @@ Manter a **cozinha e o banheiro livres de entupimentos** vai muito além de uma 
 Lembre-se de que a prevenção é o maior ato de carinho que você pode ter com o seu lar. Ao adotar hábitos simples, como descartar o óleo corretamente e limpar os ralos semanalmente, você garante que sua rotina continue leve, funcional e, acima de tudo, harmoniosa.
 
 No final das contas, ser uma "Irene" é saber que a beleza de viver bem está no equilíbrio entre o cuidado com a mente e o cuidado com o espaço que nos acolhe. Que sua casa seja sempre um lugar onde tudo flui com facilidade!
+
+**Leia também:**
+
+- [entupimento em apartamento: de quem é a responsabilidade](/entupimento-em-apartamento-responsabilidade-como-resolver/)
+- [esgoto entupido: como resolver e prevenir](/esgoto-entupido-o-guia-completo-da-irene/)
+- [como evitar restos de comida na pia](/guia-de-irenes-para-nunca-mais-sofrer-com-restos-de-comida-na-pia/)

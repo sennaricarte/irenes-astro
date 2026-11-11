@@ -11,9 +11,9 @@ heroImage: ../../assets/posts/desentupidora-especializada-quando-chamar/capa.jpg
 ---
 **Resposta rápida: quando chamar uma desentupidora especializada?**
 
-Chame uma **desentupidora especializada** quando o entupimento retorna em menos de 48 horas, atinge mais de um ponto da casa ao mesmo tempo, provoca refluxo de esgoto, envolve caixa de gordura ou tubulação principal, ou quando desentupidores caseiros e produtos químicos já falharam. Nesses casos, apenas equipamentos profissionais como hidrojato e câmera de inspeção resolvem sem quebrar paredes.
+Chame uma **desentupidora especializada** quando o entupimento retorna em menos de 48 horas, atinge mais de um ponto da casa ao mesmo tempo, provoca refluxo de esgoto, envolve [caixa de gordura](/como-desentupir-caixa-de-gordura/) ou tubulação principal, ou quando desentupidores caseiros e produtos químicos já falharam. Nesses casos, apenas equipamentos profissionais como hidrojato e câmera de inspeção resolvem sem quebrar paredes.
 
-Existe um momento em que a pia insiste em entupir, o ralo do banheiro devolve água suja e a gente ainda tenta, mais uma vez, resolver com bicarbonato, vinagre e um desentupidor de borracha. É natural. Ninguém quer gastar com serviço técnico se um empurrãozinho resolve. Mas há sinais claros de que o problema deixou de ser doméstico e virou uma questão estrutural da tubulação. Ignorar esse limite é o caminho mais curto para uma parede quebrada, um piso levantado e um orçamento três vezes maior.
+Existe um momento em que a pia insiste em entupir, o [ralo do banheiro](/como-desentupir-o-ralo-do-banheiro-usando-ingredientes-naturais/) devolve água suja e a gente ainda tenta, mais uma vez, resolver com bicarbonato, vinagre e um [desentupidor](/como-usar-o-desentupidor-corretamente/) de borracha. É natural. Ninguém quer gastar com serviço técnico se um empurrãozinho resolve. Mas há sinais claros de que o problema deixou de ser doméstico e virou uma questão estrutural da tubulação. Ignorar esse limite é o caminho mais curto para uma parede quebrada, um piso levantado e um orçamento três vezes maior.
 
 Neste guia, você vai entender exatamente quando parar de tentar em casa, o que uma desentupidora profissional faz de diferente, quais equipamentos são realmente eficazes e como escolher uma empresa confiável sem cair em armadilhas.
 
@@ -106,3 +106,9 @@ A maioria dos serviços residenciais é resolvida em 1 a 3 horas, incluindo diag
 ### Serviços de desentupidora oferecem garantia?
 
 Empresas sérias oferecem garantia por escrito entre 30 e 90 dias, dependendo do tipo de serviço. Sempre exija o comprovante e leia as condições, o que a garantia cobre e o que exige nova visita.
+
+**Leia também:**
+
+- [laudo SPDA e aterramento](/laudo-spda-e-aterramento/)
+- [quanto cobra um montador de móveis](/quanto-cobra-um-montador-de-moveis/)
+- [telhadista: guia para proteger a casa](/telhadista/)

@@ -143,3 +143,9 @@ Não necessariamente. O Triider aponta uma média de R$ 260 para desmontar e mon
 ## Resumo
 
 Um montador de móveis cobra, em média, de R$ 120 a R$ 230 por móveis simples e de R$ 150 a R$ 350 por guarda-roupas, ou de R$ 60 a R$ 100 por hora. Para pagar um preço justo, descreva bem o que precisa ser montado, junte vários móveis no mesmo atendimento, confira as peças antes da visita e compare pelo menos três orçamentos com o mesmo escopo.
+
+**Leia também:**
+
+- [como encontrar mão de obra especializada para manutenção](/como-encontrar-mao-de-obra-especializada-manutencao-residencia/)
+- [quando chamar uma desentupidora especializada](/desentupidora-especializada-quando-chamar/)
+- [o que fazer nas primeiras horas de uma emergência hidráulica](/emergencia-hidraulica-em-casa-guia-primeiras-horas/)

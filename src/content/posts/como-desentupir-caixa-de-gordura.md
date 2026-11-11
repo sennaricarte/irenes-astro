@@ -90,7 +90,7 @@ Ao escolher um produto, busque aqueles com boas avaliações e que sejam seguros
 
 ### Use um desentupidor
 
-Usar um desentupidor pode ser uma solução prática e rápida para desobstruir a caixa de gordura. Ao aplicar pressão, você ajuda a soltar o que está causando o entupimento. É uma ferramenta simples que todo mundo deveria ter em casa.  
+Usar um [desentupidor](/como-usar-o-desentupidor-corretamente/) pode ser uma solução prática e rápida para desobstruir a caixa de gordura. Ao aplicar pressão, você ajuda a soltar o que está causando o entupimento. É uma ferramenta simples que todo mundo deveria ter em casa.  
   
 Certifique-se de usar o modelo adequado, com ventosas grandes e resistentes. A técnica é fácil: faça movimentos firmes para cima e para baixo, sempre respeitando a força do material ao redor.
 
@@ -171,3 +171,9 @@ Se você costuma cozinhar com frequência ou fritar alimentos, pode ser necessá
 ## Conclusão
 
 Manter a caixa de gordura sempre limpa e livre de entupimentos é essencial para o bom funcionamento do sistema hidráulico da sua casa. Com as dicas práticas que vimos, você pode desentupi-la facilmente, utilizando produtos caseiros ou específicos. Lembre-se também de fazer a limpeza regularmente e evitar descartes inadequados. Assim, você garante um ambiente mais saudável e evita dores de cabeça no futuro. Cuide bem da sua caixa de gordura!
+
+**Leia também:**
+
+- [esgoto entupido: como resolver e prevenir](/esgoto-entupido-o-guia-completo-da-irene/)
+- [como evitar restos de comida na pia](/guia-de-irenes-para-nunca-mais-sofrer-com-restos-de-comida-na-pia/)
+- [como desentupir a pia de cozinha](/como-desentupir-a-pia-de-cozinha/)

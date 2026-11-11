@@ -32,7 +32,7 @@ A função da hidratação, portanto, é reverter esse quadro, devolvendo a águ
 
 ### **O Grande Trio: Hidratação, Nutrição e Reconstrução (O Cronograma Perfeito)**
 
-É comum as pessoas se confundirem, mas a hidratação é apenas uma parte de um cuidado mais completo, conhecido como Cronograma Capilar. Para você ter o seu cabelo sempre em harmonia, é importante saber a diferença:
+É comum as pessoas se confundirem, mas a hidratação é apenas uma parte de um cuidado mais completo, conhecido como [Cronograma Capilar](/o-que-e-cronograma-capilar/). Para você ter o seu cabelo sempre em harmonia, é importante saber a diferença:
 
 | Tratamento | Principal Foco | O que Repõe | Ativos Comuns |
 | --- | --- | --- | --- |
@@ -120,3 +120,9 @@ Lembre-se: o nome **Irene significa Paz**. E a paz, assim como o brilho de um ca
 Seja aplicando uma máscara, escolhendo um produto com carinho, ou respeitando o tempo de pausa, cada ato é um passo em direção ao seu **equilíbrio**. Transforme o momento da hidratação em um encontro com você mesma, e veja o brilho e a maciez refletirem a tranquilidade que você está cultivando.
 
 **Junte-se a nós para transformar a sua rotina!**
+
+**Leia também:**
+
+- [guia da rotina de skincare](/o-guia-essencial-da-rotina-de-skincare/)
+- [o que é skincare](/o-que-e-skincare/)
+- [rotina de skincare para pele oleosa](/rotina-de-skincare-para-pele-oleosa/)

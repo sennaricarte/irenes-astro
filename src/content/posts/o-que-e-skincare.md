@@ -152,3 +152,9 @@ Recomenda-se aplicar protetor solar diariamente, mesmo em dias nublados, e reapl
 Os resultados variam conforme o objetivo e os produtos usados. Mudanças iniciais, como melhora na hidratação e textura, podem aparecer em poucas semanas; já tratamentos para acne, manchas ou sinais de envelhecimento podem levar de 8 a 12 semanas para mostrar resultados consistentes.
 
 Persistência e consistência na rotina, além do uso correto de ativos ([vitamina C](https://www.gsuplementos.com.br/vitamina-c-120-caps-growth-supplements-p985857?srsltid=AfmBOoonrWtp9aRtDogxjpOp5IcsowrgsFAmg_ME4abXXvIRwtU5XERo), retinol, ácidos) e proteção solar, são essenciais para alcançar uma pele saudável a longo prazo. Consultar um dermatologista acelera o diagnóstico e a escolha de tratamentos mais eficazes.
+
+**Leia também:**
+
+- [o que é cronograma capilar](/o-que-e-cronograma-capilar/)
+- [o que é hidratação capilar](/o-que-e-hidratacao-capilar-o-ritual-de-paz-e-brilho-que-seu-cabelo-merece/)
+- [quanto custa uma limpeza de pele profissional](/quanto-custa-limpeza-de-pele-profissional/)

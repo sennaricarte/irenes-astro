@@ -62,3 +62,9 @@ Cuidar do lar é, em última análise, cuidar de si mesma. A [**Poltrona Costela
 Aqui no Irenes, celebramos essas escolhas conscientes que trazem mais leveza à rotina. Afinal, toda "Irene" merece um lugar onde a beleza encontra a paz.
 
 **Gostou dessa análise de design e bem-estar?** Deixe um comentário contando: em qual cômodo da sua casa a Poltrona Costela seria o seu refúgio ideal?
+
+**Leia também:**
+
+- [como escolher, instalar e cuidar do box de vidro](/box-de-banheiro-de-vidro-guia-completo/)
+- [como calcular quantos rolos de papel de parede comprar](/como-calcular-papel-de-parede/)
+- [como escolher o vaso sanitário ideal](/como-escolher-o-vaso-sanitario-ideal/)

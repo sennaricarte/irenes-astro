@@ -137,3 +137,9 @@ Cuidar dos cabelos não precisa ser um sacrifício. Com o cronograma capilar, vo
 O que é cronograma capilar? Uma rotina que traz resultados visíveis em pouco tempo. Escolha os produtos certos para cada etapa e adapte o tratamento às necessidades do seu cabelo. Lembre-se: a beleza está na saúde dos fios.  
   
 Agora é hora de colocar em prática tudo o que aprendeu! Prepare-se para desfilar com cabelos incríveis e cheios de brilho. Essa jornada pode se tornar uma experiência divertida e cheia de aprendizado sobre sua própria beleza!
+
+**Leia também:**
+
+- [guia da rotina de skincare](/o-guia-essencial-da-rotina-de-skincare/)
+- [o que é hidratação capilar](/o-que-e-hidratacao-capilar-o-ritual-de-paz-e-brilho-que-seu-cabelo-merece/)
+- [o que é skincare](/o-que-e-skincare/)

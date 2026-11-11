@@ -150,3 +150,9 @@ Cuidar da pele não é apenas uma questão de estética, mas um ato de amor pró
 Seja você adepto dos produtos veganos ou dos clássicos [cosméticos anti-idade](https://amzn.to/3JnmjPU), o importante é encontrar o que funciona melhor para você. Com dedicação e paciência, os efeitos positivos serão visíveis com o tempo.  
   
 Agora que você já conhece todos os passos essenciais do skincare, é hora de colocar tudo em prática! Sua pele merece esse cuidado especial. Experimente essa nova abordagem e prepare-se para brilhar por dentro e por fora!
+
+**Leia também:**
+
+- [o que é cronograma capilar](/o-que-e-cronograma-capilar/)
+- [o que é hidratação capilar](/o-que-e-hidratacao-capilar-o-ritual-de-paz-e-brilho-que-seu-cabelo-merece/)
+- [como fazer limpeza de pele em casa](/como-fazer-limpeza-de-pele-em-casa-guia-completo/)

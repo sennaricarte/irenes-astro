@@ -13,7 +13,7 @@ heroImage: ../../assets/posts/entupimento-em-apartamento-responsabilidade-como-r
 
 Em apartamentos, o entupimento dentro da unidade (pia, ralo, vaso) é **responsabilidade do morador**. Já obstruções na coluna vertical de esgoto, prumada geral ou tubulação de uso coletivo são **responsabilidade do condomínio**. A regra prática: se o problema afeta só o seu apartamento, é seu; se afeta vizinhos de andares diferentes, é do prédio.
 
-Morar em apartamento tem uma vantagem invisível: quando algo dá errado, quase sempre existe alguém para dividir a conta. Mas quando o assunto é entupimento, essa divisão gera confusão, discussão em grupo de WhatsApp e, muitas vezes, atraso no reparo, enquanto o esgoto continua subindo pelo ralo do banheiro.
+Morar em apartamento tem uma vantagem invisível: quando algo dá errado, quase sempre existe alguém para dividir a conta. Mas quando o assunto é entupimento, essa divisão gera confusão, discussão em grupo de WhatsApp e, muitas vezes, atraso no reparo, enquanto o esgoto continua subindo pelo [ralo do banheiro](/como-desentupir-o-ralo-do-banheiro-usando-ingredientes-naturais/).
 
 Neste guia, você vai entender exatamente o que é seu, o que é do condomínio, quando acionar o síndico, como reunir provas para não pagar sozinho um problema coletivo e o que fazer nas primeiras horas de emergência.
 
@@ -22,7 +22,7 @@ Neste guia, você vai entender exatamente o que é seu, o que é do condomínio,
 A convenção de condomínio e o Código Civil (art. 1.331) definem áreas de uso exclusivo (sua unidade) e áreas comuns (estrutura do prédio). Aplicado à hidráulica:
 
 -   **Responsabilidade sua:** ramais internos até o ponto em que se conectam à coluna vertical, pia, tanque, ralos, vaso, sifões, engates.
--   **Responsabilidade do condomínio:** colunas verticais (prumadas de esgoto e água), tubulação enterrada, caixa de gordura coletiva, caixa de inspeção e rede até o coletor público.
+-   **Responsabilidade do condomínio:** colunas verticais (prumadas de esgoto e água), tubulação enterrada, [caixa de gordura](/como-desentupir-caixa-de-gordura/) coletiva, caixa de inspeção e rede até o coletor público.
 
 Parece simples, mas o ponto de conflito é justamente onde termina uma coisa e começa a outra, e é aí que a maioria das brigas de condomínio nasce.
 
@@ -30,7 +30,7 @@ Parece simples, mas o ponto de conflito é justamente onde termina uma coisa e c
 
 ### Cenário 1: só a sua pia entope
 
-Obstrução em ralo, sifão ou ramal interno. **Você paga.** Não envolve o síndico.
+Obstrução em ralo, [sifão](/sifao-entupido-mau-cheiro-como-limpar/) ou ramal interno. **Você paga.** Não envolve o síndico.
 
 ### Cenário 2: pia entope e água sobe no seu ralo do banheiro
 
@@ -117,3 +117,9 @@ Não é recomendado. Além de corroer tubulações antigas típicas de prédios,
 ### Com que frequência o condomínio deve fazer manutenção preventiva?
 
 O ideal é hidrojateamento anual das colunas de esgoto e caixa de gordura coletiva, inspeção por câmera a cada dois anos e limpeza semestral das caixas coletoras. Prédios que seguem essa rotina praticamente eliminam entupimentos coletivos e reduzem custos emergenciais.
+
+**Leia também:**
+
+- [vaso sanitário entupido: 5 métodos](/vaso-sanitario-entupido/)
+- [como desentupir a pia de cozinha](/como-desentupir-a-pia-de-cozinha/)
+- [como prevenir entupimentos em cozinhas e banheiros](/cozinha-e-banheiro-propensos-a-entupimentos/)

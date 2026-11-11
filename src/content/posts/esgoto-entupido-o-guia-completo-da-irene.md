@@ -58,7 +58,7 @@ Se o problema for na pia da cozinha, gordura é o foco.
 
 ![esgoto entupido](../../assets/posts/esgoto-entupido-o-guia-completo-da-irene/esgoto-entupido-02-1024x576.jpg)
 
-Use-o para criar o vácuo perfeito. Encha a área com água suficiente para cobrir a cúpula do desentupidor e faça movimentos firmes e rápidos para cima e para baixo. A pressão vai desalojar a obstrução.
+Use-o para criar o vácuo perfeito. Encha a área com água suficiente para cobrir a cúpula do [desentupidor](/como-usar-o-desentupidor-corretamente/) e faça movimentos firmes e rápidos para cima e para baixo. A pressão vai desalojar a obstrução.
 
 Alerta da Irene: Por Que NUNCA Usar Soda Cáustica
 
@@ -70,7 +70,7 @@ Se os métodos caseiros falharam após duas tentativas, o entupimento está alé
 
 ### **O Entupimento Não Cedeu: Qual é o Próximo Passo?**
 
-O problema provavelmente está na coluna principal de esgoto, ou em um ponto de difícil acesso. A **desentupidora de esgoto profissional** utiliza equipamentos como o *Roto-Rooter* (cabos giratórios que quebram e removem a obstrução) ou o *Jato de Hidrojateamento* (água de altíssima pressão) para limpar o cano por completo.
+O problema provavelmente está na coluna principal de esgoto, ou em um ponto de difícil acesso. A **desentupidora de esgoto profissional** utiliza equipamentos como o *Roto-Rooter* (cabos giratórios que quebram e removem a obstrução) ou o *Jato de [Hidrojateamento](/hidrojateamento-de-tubulacoes-guia-completo/)* (água de altíssima pressão) para limpar o cano por completo.
 
 ### **Guia de Confiança: O Que Perguntar Antes de Contratar uma Desentupidora**
 
@@ -96,3 +96,9 @@ Nosso maior desejo é que você use este guia apenas para prevenção. O verdade
 Com conhecimento, você transforma um problema de encanamento em uma simples rotina de autocuidado com o lar. Mantenha a sua casa organizada e funcional, e a paz reinará!
 
 Com carinho.
+
+**Leia também:**
+
+- [como prevenir entupimentos em cozinhas e banheiros](/cozinha-e-banheiro-propensos-a-entupimentos/)
+- [entupimento em apartamento: de quem é a responsabilidade](/entupimento-em-apartamento-responsabilidade-como-resolver/)
+- [como evitar restos de comida na pia](/guia-de-irenes-para-nunca-mais-sofrer-com-restos-de-comida-na-pia/)

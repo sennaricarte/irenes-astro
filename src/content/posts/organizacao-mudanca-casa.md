@@ -62,3 +62,9 @@ Mudar de casa pode até ser um desafio físico, mas quando encaramos esse proces
 Não tenha pressa para deixar tudo "perfeito" no primeiro dia. Permita-se sentir o espaço, entender onde a luz bate melhor e descobrir, aos poucos, como cada cantinho pode refletir a sua paz. Afinal, a beleza de um lar nasce no cuidado diário e na harmonia que cultivamos dentro de nós.
 
 **Você está prestes a mudar ou acabou de chegar em um novo cantinho?** Deixe um comentário aqui embaixo contando qual é a sua maior dificuldade (ou sua maior alegria) nesse processo! E se você quiser levar essa organização para o próximo nível, **que tal baixar nosso Checklist de Mudança Consciente?** Ele foi feito para ser o seu braço direito nessa jornada rumo à sua nova versão.
+
+**Leia também:**
+
+- [aluguel de van para viagens e eventos em grupo](/aluguel-van-conforto-paz-viagens-eventos-grupo/)
+- [como tirar o cheiro de gordura da cozinha](/limpeza-da-cozinha/)
+- [rotina de limpeza de casa](/rotina-de-limpeza-de-casa/)

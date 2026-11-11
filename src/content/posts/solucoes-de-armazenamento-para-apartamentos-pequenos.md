@@ -163,3 +163,9 @@ Aproveitar ao máximo pequenos espaços não precisa ser uma tarefa hercúlea. C
 Lembre-se: cada detalhe conta! Um banco na entrada ou um criado-mudo que funciona como cômoda pode ser o toque mágico que estava faltando. Explore sua criatividade e busque maneiras inovadoras de armazenar sem abrir mão do estilo.  
   
 Seu apartamento pequeno pode se tornar um refúgio prático, confortável e cheio de personalidade. Então, mãos à obra! As grandes ideias estão esperando por você nos pequenos espaços.
+
+**Leia também:**
+
+- [como lavar a caixa d'água](/como-lavar-sua-caixa-dagua/)
+- [como tirar o cheiro de gordura da cozinha](/limpeza-da-cozinha/)
+- [como organizar a mudança e o novo lar](/organizacao-mudanca-casa/)

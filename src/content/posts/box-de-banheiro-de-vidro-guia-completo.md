@@ -104,3 +104,10 @@ Depende do efeito desejado. O incolor maximiza luminosidade e amplia o espaço; 
 ### Como remover manchas brancas que já se formaram?
 
 Aplique vinagre branco puro com um pano macio, deixe agir por 10 minutos e enxágue. Para casos persistentes, repita o processo ou consulte um profissional de limpeza pesada.
+
+**Leia também:**
+
+- [poltrona costela com puff em couro](/poltrona-costela-com-puff-em-couro/)
+- [sofá chesterfield](/sofa-chesterfield/)
+- [como aplicar papel de parede adesivo](/como-aplicar-papel-de-parede-adesivo/)
+- [soluções de armazenamento para apartamentos pequenos](/solucoes-de-armazenamento-para-apartamentos-pequenos/)
