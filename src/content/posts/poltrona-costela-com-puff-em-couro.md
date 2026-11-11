@@ -61,7 +61,7 @@ Cuidar do lar é, em última análise, cuidar de si mesma. A [**Poltrona Costela
 
 Aqui no Irenes, celebramos essas escolhas conscientes que trazem mais leveza à rotina. Afinal, toda "Irene" merece um lugar onde a beleza encontra a paz.
 
-**Gostou dessa análise de design e bem-estar?** Deixe um comentário contando: em qual cômodo da sua casa a Poltrona Costela seria o seu refúgio ideal?
+**Gostou dessa análise de design e bem-estar?** Pense em qual cômodo da sua casa a Poltrona Costela seria o seu refúgio ideal e meça o espaço antes de decidir.
 
 **Leia também:**
 
