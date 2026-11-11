@@ -1,6 +1,6 @@
 ---
 title: "Dicas Práticas: Como Desentupir Caixa de Gordura"
-seoTitle: "Dicas Práticas: Como Desentupir Caixa de Gordura — Irenes"
+seoTitle: "Como Desentupir Caixa de Gordura: Dicas Práticas — Irenes"
 description: "Como desentupir caixa de gordura: função da caixa, passo a passo com e sem cesto, produtos, água quente e cuidados para evitar novo entupimento."
 pubDate: "2025-11-04T20:44:37+00:00"
 updatedDate: 2026-02-20

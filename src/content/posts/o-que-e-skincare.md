@@ -1,6 +1,6 @@
 ---
 title: "O Que é Skincare: 5 Passos Para Pele Saudável"
-seoTitle: "O Que é Skincare: 5 Passos Para Pele Saudável — Irenes"
+seoTitle: "O Que É Skincare: 5 Passos para Pele Saudável — Irenes"
 description: "O que é skincare e como fazer em 5 passos: limpeza, tonificação e esfoliação, tratamentos, hidratação e proteção solar."
 pubDate: "2026-02-20T14:20:50.377+00:00"
 category: "skincare"

@@ -1,6 +1,6 @@
 ---
 title: "Hidrojateamento de Tubulações: O Guia Completo para Limpar Canos sem Quebrar Paredes"
-seoTitle: "Hidrojateamento de Tubulações: O Guia Completo para Limpar Canos sem Quebrar Paredes — Irenes"
+seoTitle: "Hidrojateamento de Tubulações: Guia Completo — Irenes"
 description: "Entenda o que é o hidrojateamento, como funciona, quando vale a pena e por que ele é a forma mais limpa de devolver a paz aos canos da sua casa."
 pubDate: "2026-06-30T17:56:27.514267+00:00"
 category: "casa"

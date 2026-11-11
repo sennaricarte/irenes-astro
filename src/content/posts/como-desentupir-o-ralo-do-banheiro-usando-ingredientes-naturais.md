@@ -1,6 +1,6 @@
 ---
 title: "Como Desentupir o Ralo do Banheiro Usando Ingredientes Naturais"
-seoTitle: "Como Desentupir o Ralo do Banheiro Usando Ingredientes Naturais — Irenes"
+seoTitle: "Desentupir Ralo do Banheiro: Ingredientes Naturais — Irenes"
 description: "Ralo do banheiro entupido? Veja como desentupir com sal, vinagre, bicarbonato e água quente, além de arame e mangueira, sem química agressiva."
 pubDate: "2025-11-13T17:08:26+00:00"
 updatedDate: 2026-02-20

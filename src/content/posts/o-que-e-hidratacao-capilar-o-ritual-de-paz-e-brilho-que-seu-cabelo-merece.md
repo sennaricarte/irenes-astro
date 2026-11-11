@@ -1,6 +1,6 @@
 ---
 title: "O Que é Hidratação Capilar? O Ritual de Paz e Brilho que Seu Cabelo Merece"
-seoTitle: "O Que é Hidratação Capilar? O Ritual de Paz e Brilho que Seu Cabelo Merece — Irenes"
+seoTitle: "O Que É Hidratação Capilar? Guia para Seu Cabelo — Irenes"
 description: "Olá! Seja muito bem-vinda ao Irenes.com.br, o seu refúgio de inspiração onde o autocuidado e a harmonia se encontram."
 pubDate: "2025-11-24T17:29:49+00:00"
 updatedDate: 2026-02-20

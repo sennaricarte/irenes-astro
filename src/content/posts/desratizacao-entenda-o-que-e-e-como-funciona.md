@@ -1,6 +1,6 @@
 ---
 title: "Desratização: Entenda o que é e como funciona"
-seoTitle: "Desratização: Entenda o que é e como funciona — Irenes"
+seoTitle: "Desratização: O Que É e Como Funciona — Irenes"
 description: "O que é desratização e como funciona: investigação técnica, instalação de iscas, mapeamento da área e métodos conforme cada caso."
 pubDate: "2025-11-11T21:02:04+00:00"
 updatedDate: 2026-02-20

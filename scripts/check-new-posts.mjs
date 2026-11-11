@@ -12,6 +12,7 @@ import matter from 'gray-matter';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const postsDir = path.join(root, 'src/content/posts');
 const DESCRIPTION_MAX = 160;
+const TITLE_MAX = 60;
 
 const categories = new Set(
 	JSON.parse(await readFile(path.join(root, 'src/content/categorias.json'), 'utf8')).map((item) => item.slug),
@@ -40,6 +41,13 @@ for (const file of await readdir(postsDir)) {
 	const description = typeof data.description === 'string' ? data.description : '';
 	if (description.length > DESCRIPTION_MAX) {
 		failures.push(`${slug}: description tem ${description.length} caracteres (máximo ${DESCRIPTION_MAX})`);
+	}
+
+	if (data.noindex !== true) {
+		const titulo = data.seoTitle || data.title;
+		if (titulo.length > TITLE_MAX) {
+			failures.push(`${slug}: <title> tem ${titulo.length} caracteres (máximo ${TITLE_MAX}); use seoTitle`);
+		}
 	}
 
 	const original = typeof data.originalUrl === 'string' ? data.originalUrl.trim() : '';

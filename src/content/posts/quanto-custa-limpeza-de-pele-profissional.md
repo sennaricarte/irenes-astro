@@ -1,6 +1,6 @@
 ---
 title: "Quanto Custa uma Limpeza de Pele Profissional? O Guia Completo para Sua Pele Radiante"
-seoTitle: "Quanto Custa uma Limpeza de Pele Profissional? O Guia Completo para Sua Pele Radiante — Irenes"
+seoTitle: "Quanto Custa uma Limpeza de Pele Profissional? — Irenes"
 description: "Quanto custa uma limpeza de pele profissional? Veja a faixa de preço, o que faz o valor variar e como escolher esteticista ou dermatologista."
 pubDate: "2026-04-20T18:00:08.647+00:00"
 category: "skincare"

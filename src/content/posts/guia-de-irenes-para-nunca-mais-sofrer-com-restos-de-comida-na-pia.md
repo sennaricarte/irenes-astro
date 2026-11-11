@@ -1,6 +1,6 @@
 ---
 title: "Paz no Ralo: O Guia de Irenes para Nunca Mais Sofrer com Restos de Comida na Pia"
-seoTitle: "Paz no Ralo: O Guia de Irenes para Nunca Mais Sofrer com Restos de Comida na Pia — Irenes"
+seoTitle: "Restos de Comida na Pia: Como Nunca Mais Sofrer — Irenes"
 description: "Como evitar restos de comida na pia: organização preventiva, soluções caseiras para salvar o ralo e descarte consciente dos resíduos."
 pubDate: "2026-02-20T14:19:50.461+00:00"
 category: "organizacao-pratica"

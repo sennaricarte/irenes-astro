@@ -1,6 +1,6 @@
 ---
 title: "Sifão Entupido e com Mau Cheiro? Guia Completo para Limpar, Desmontar e Quando Trocar"
-seoTitle: "Sifão Entupido e com Mau Cheiro? Guia Completo para Limpar, Desmontar e Quando Trocar — Irenes"
+seoTitle: "Sifão Entupido e com Mau Cheiro: Como Limpar — Irenes"
 description: "Aprenda como desmontar, limpar e trocar o sifão da pia ou do banheiro para eliminar mau cheiro e pequenos entupimentos sem chamar profissional."
 pubDate: "2026-06-30T18:21:24.355529+00:00"
 category: "casa"

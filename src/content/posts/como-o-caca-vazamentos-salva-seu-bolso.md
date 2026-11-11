@@ -1,6 +1,6 @@
 ---
 title: "Como o Caça Vazamentos Salva Seu Bolso e sua sanidade"
-seoTitle: "Como o Caça Vazamentos Salva Seu Bolso e sua sanidade — Irenes"
+seoTitle: "Caça Vazamentos: Como Ele Salva Seu Bolso — Irenes"
 description: "Veja 5 sinais de vazamento oculto e como o serviço de caça-vazamentos ajuda a evitar desperdício de água e contas altas."
 pubDate: "2025-11-15T00:00:19+00:00"
 updatedDate: 2026-02-20

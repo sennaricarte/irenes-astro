@@ -1,6 +1,6 @@
 ---
 title: "Emergência Hidráulica em Casa: O Guia de Sobrevivência Para as Primeiras 2 Horas"
-seoTitle: "Emergência Hidráulica em Casa: O Guia de Sobrevivência Para as Primeiras 2 Horas — Irenes"
+seoTitle: "Emergência Hidráulica em Casa: Primeiras 2 Horas — Irenes"
 description: "Vazamento, entupimento ou refluxo de esgoto no meio da noite? Aprenda o passo a passo para conter o estrago antes da desentupidora chegar."
 pubDate: "2026-07-17T17:46:29.953112+00:00"
 category: "casa"
