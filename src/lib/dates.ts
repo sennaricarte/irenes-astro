@@ -14,8 +14,9 @@ function saoPaulo(date: Date) {
 
 export function cardDate(date: Date) {
 	const { year, month, day } = saoPaulo(date);
+	const currentYear = saoPaulo(new Date()).year;
 	return {
-		label: `${day} ${MONTHS[month - 1]}`,
+		label: year === currentYear ? `${day} ${MONTHS[month - 1]}` : `${day} ${MONTHS[month - 1]} ${year}`,
 		datetime: `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`,
 	};
 }
