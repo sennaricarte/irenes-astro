@@ -14,8 +14,12 @@ const [posts, categories] = await Promise.all([getCollection('posts'), getCollec
 const sorted = sortPosts(posts);
 const others = sorted.filter((item) => item.id !== excludeId);
 const counts = new Map<string, number>();
-for (const post of posts) counts.set(post.data.category, (counts.get(post.data.category) ?? 0) + 1);
+for (const post of posts) {
+	if (post.data.noindex) continue;
+	counts.set(post.data.category, (counts.get(post.data.category) ?? 0) + 1);
+}
 const sidebarCategories = categories
+	.filter((item) => !item.data.noindex)
 	.map((item) => ({ name: item.data.name, href: `/categoria/${item.id}/`, count: counts.get(item.id) ?? 0 }))
 	.filter((item) => item.count > 0)
 	.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'pt'));
