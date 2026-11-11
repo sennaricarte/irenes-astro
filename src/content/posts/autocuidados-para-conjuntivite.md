@@ -1,7 +1,7 @@
 ---
 title: "Autocuidados para Conjuntivite: 7 Dicas Eficazes"
 seoTitle: "Autocuidados para Conjuntivite: 7 Dicas Eficazes — Irenes"
-description: "Você sabia que pequenas ações do dia a dia podem acelerar a melhora da conjuntivite e diminuir o risco de transmissão? Sim, existem sete autocuidados práticos que aliviam os sintomas e ajudam na recuperação: neste texto você vai aprender, de forma direta, como identificar diferenças básicas entre…"
+description: "Autocuidados para conjuntivite: higiene das mãos e dos olhos, compressas, cuidados com maquiagem e superfícies, e quando procurar atendimento médico."
 pubDate: "2025-10-29T20:26:42+00:00"
 updatedDate: 2026-02-20
 category: "beleza"

@@ -1,7 +1,7 @@
 ---
 title: "Como tirar papel de parede: 5 passos simples"
 seoTitle: "Como tirar papel de parede: 5 passos simples — Irenes"
-description: "Quer dar adeus ao papel de parede sem transformar a parede num pesadelo de reformas? É possível, e mais simples do que você imagina, seguindo cinco passos práticos: preparar o ambiente, identificar o tipo de papel, usar as ferramentas e soluções certas, remover cuidadosamente sem danificar a…"
+description: "Como tirar papel de parede em 5 passos: preparar o ambiente, soltar o papel, usar removedor, tirar a cola e deixar a parede pronta."
 pubDate: "2025-10-29T14:34:25+00:00"
 updatedDate: 2026-02-20
 category: "decoracao"

@@ -1,7 +1,7 @@
 ---
 title: "Mudança Sem Caos: O Guia Completo para Organizar seu Novo Lar com Paz"
 seoTitle: "Mudança Sem Caos: O Guia Completo para Organizar seu Novo Lar com Paz — Irenes"
-description: "Mudar de casa é muito mais do que transportar móveis de um endereço para outro. É o fechamento de um ciclo e o nascimento de novas possibilidades. No entanto, sabemos que o processo de mudanças pode ser um dos eventos mais estressantes da vida se não houver um método claro."
+description: "Guia para organizar a mudança: planejamento, desapego estratégico, checklist para embalar, chegada ao novo lar e autocuidado no processo."
 pubDate: "2026-02-20T14:18:00.607+00:00"
 category: "organizacao-pratica"
 tags: []

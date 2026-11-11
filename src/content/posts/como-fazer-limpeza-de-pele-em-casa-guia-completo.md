@@ -1,7 +1,7 @@
 ---
 title: "Como Fazer Limpeza de Pele em Casa: O Guia Completo para uma Pele Radiante"
 seoTitle: "Como Fazer Limpeza de Pele em Casa: O Guia Completo para uma Pele Radiante — Irenes"
-description: "Descubra como fazer uma limpeza de pele em casa eficaz e segura com nosso guia passo a passo. Transforme sua rotina de autocuidado e conquiste uma pele luminosa e equilibrada."
+description: "Passo a passo da limpeza de pele em casa: limpeza, esfoliação, vaporização, máscara, tonificação e hidratação, sem agredir a pele."
 pubDate: "2026-04-20T17:49:46.181+00:00"
 category: "skincare"
 tags: []

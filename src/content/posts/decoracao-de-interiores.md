@@ -1,7 +1,7 @@
 ---
 title: "Decoração de interiores: Guia essencial para transformar seu lar com paleta, luz e conforto"
 seoTitle: "Decoração de interiores: Guia essencial para transformar seu lar com paleta, luz e conforto — Irenes"
-description: "A decoração de interiores vai muito além de estética, ela é a linguagem que organiza espaços, define rotinas e promove bem-estar. Ao planejar a transformação de um cômodo, é fundamental considerar a paleta de cores, a iluminação, o mobiliário, as texturas e a funcionalidade. Esses elementos, combina"
+description: "Decoração de interiores: como escolher paleta de cores, iluminação, mobiliário e texturas para uma casa funcional, confortável e no orçamento."
 pubDate: "2025-11-04T11:52:38+00:00"
 updatedDate: 2026-02-20
 category: "decoracao"

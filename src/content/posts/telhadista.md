@@ -1,7 +1,7 @@
 ---
 title: "Telhadista: O Guia Completo para Proteger seu Lar e Manter a Paz"
 seoTitle: "Telhadista: O Guia Completo para Proteger seu Lar e Manter a Paz — Irenes"
-description: "Nada abala mais a harmonia de um lar do que o som de uma goteira inesperada ou a visão de uma mancha de infiltração no teto daquela sala que você decorou com tanto carinho. Aqui no Irenes, acreditamos que o verdadeiro bem-estar começa com a tranquilidade de saber que o nosso refúgio está seguro e pr"
+description: "O que faz um telhadista, sinais de que seu telhado precisa de atenção (goteiras, telhas e calhas) e como escolher um bom profissional."
 pubDate: "2026-02-20T14:19:32.266+00:00"
 category: "financas-do-lar"
 tags: []

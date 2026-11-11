@@ -1,7 +1,7 @@
 ---
 title: "Autocuidados para Foliculite: 5 Dicas que Funcionam"
 seoTitle: "Autocuidados para Foliculite: 5 Dicas que Funcionam — Irenes"
-description: "Já imaginou aliviar a coceira e reduzir aquelas bolinhas incômodas sem sair de casa? Sim, autocuidados bem simples e consistentes podem controlar a foliculite e acelerar a melhora: limpeza adequada, compressas mornas, evitar depilação ou barbear agressivo, não compartilhar objetos pessoais e usar…"
+description: "Autocuidados para foliculite: higiene diária, cuidado com a depilação, tratamentos tópicos, prevenção e quando procurar o dermatologista."
 pubDate: "2025-10-30T18:25:51+00:00"
 updatedDate: 2026-02-20
 category: "beleza"

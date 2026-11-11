@@ -1,7 +1,7 @@
 ---
 title: "Aquecedor a Gás: O Segredo para o Banho de Hotel e a Paz no seu Lar"
 seoTitle: "Aquecedor a Gás: O Segredo para o Banho de Hotel e a Paz no seu Lar — Irenes"
-description: "Não existe nada mais restaurador do que chegar em casa após um longo dia e se entregar a um banho quente, com pressão de água perfeita e temperatura constante. Se você ainda sofre com chuveiros que esfriam do nada ou que mal soltam água no inverno, o aquecedor a gás pode ser a peça que faltava para"
+description: "Aquecedor a gás: vantagens sobre o chuveiro elétrico, modelos digital e mecânico, ventilação, segurança e como calcular a capacidade em litros por minuto."
 pubDate: "2026-02-20T14:19:13.834+00:00"
 category: "financas-do-lar"
 tags: []

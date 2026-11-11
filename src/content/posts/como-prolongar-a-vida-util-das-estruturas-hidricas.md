@@ -1,7 +1,7 @@
 ---
 title: "Guia de Cuidados: Como Prolongar a Vida Útil das Estruturas Hídricas da sua Casa"
 seoTitle: "Guia de Cuidados: Como Prolongar a Vida Útil das Estruturas Hídricas da sua Casa — Irenes"
-description: "Manter a paz no lar vai muito além de uma decoração bonita ou uma rotina de skincare relaxante. Existe uma \"beleza invisível\" que garante que tudo flua em harmonia: o bom funcionamento das estruturas hídricas."
+description: "Cuidados para prolongar a vida útil da caixa d'água e das tubulações: limpeza periódica, vazamentos invisíveis, impermeabilização e sinais de alerta."
 pubDate: "2026-02-20T14:17:45.669+00:00"
 category: "financas-do-lar"
 tags: []

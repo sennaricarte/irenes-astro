@@ -1,7 +1,7 @@
 ---
 title: "Box de Banheiro de Vidro: Guia Completo para Escolher, Instalar e Cuidar com Elegância"
 seoTitle: "Box de Banheiro de Vidro: Guia Completo para Escolher, Instalar e Cuidar com Elegância — Irenes"
-description: "Descubra como escolher o tipo de vidro, o sistema de abertura e a instalação ideal do box de banheiro, com dicas práticas para um banheiro mais luminoso, seguro e elegante."
+description: "Box de vidro para banheiro: veja tipos de vidro (8 mm, 10 mm, decorativo), sistemas de abertura, instalação e como cuidar para durar."
 pubDate: "2026-06-25T21:57:36.272037+00:00"
 category: "banheiro"
 tags: []
