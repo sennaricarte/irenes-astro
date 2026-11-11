@@ -1,7 +1,7 @@
 ---
 title: "Como Escolher o Vaso Sanitário Ideal: Alinhando Design, Conforto e Paz no seu Banheiro"
 seoTitle: "Como Escolher o Vaso Sanitário Ideal: Alinhando Design, Conforto e Paz no seu Banheiro — Irenes"
-description: "O banheiro é um dos espaços mais íntimos e importantes da nossa casa. É lá que começamos e terminamos o dia, buscando momentos de renovação. No Irenes, acreditamos que cada detalhe desse ambiente deve contribuir para a sua paz de espírito. Por isso, escolher o vaso sanitário ideal não é apenas uma q"
+description: "Como escolher o vaso sanitário: compare caixa acoplada, convencional, monobloco e suspenso e use o checklist antes de comprar."
 pubDate: "2026-02-20T14:18:39.935+00:00"
 category: "estilos-de-decoracao"
 tags: []

@@ -1,7 +1,7 @@
 ---
 title: "O Que é Skincare: 5 Passos Para Pele Saudável"
 seoTitle: "O Que é Skincare: 5 Passos Para Pele Saudável — Irenes"
-description: "Você já se perguntou por que algumas peles parecem sempre saudáveis, mesmo sem filtro? Skincare é, de forma simples, a prática diária de cuidar da pele com produtos e hábitos que limpam, protegem, hidratam, tratam e previnem problemas, ou seja, é carinho e proteção que evitam ressecamento, acne e…"
+description: "O que é skincare e como fazer em 5 passos: limpeza, tonificação e esfoliação, tratamentos, hidratação e proteção solar."
 pubDate: "2026-02-20T14:20:50.377+00:00"
 category: "skincare"
 tags: []

@@ -1,7 +1,7 @@
 ---
 title: "Desratização: Entenda o que é e como funciona"
 seoTitle: "Desratização: Entenda o que é e como funciona — Irenes"
-description: "Você já se deparou com um rato correndo pela sua casa e sentiu aquele frio na barriga? A infecção por roedores é mais comum do que você imagina, e a desratização é o caminho para se livrar desse problema. Mas o que é desratização, afinal? Neste artigo, vamos desvendar esse mistério! Vamos explorar c"
+description: "O que é desratização e como funciona: investigação técnica, instalação de iscas, mapeamento da área e métodos conforme cada caso."
 pubDate: "2025-11-11T21:02:04+00:00"
 updatedDate: 2026-02-20
 category: "casa"

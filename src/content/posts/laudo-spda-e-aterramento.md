@@ -1,7 +1,7 @@
 ---
 title: "Laudo SPDA: O Guia Completo para Garantir a Paz e a Segurança do seu Lar"
 seoTitle: "Laudo SPDA: O Guia Completo para Garantir a Paz e a Segurança do seu Lar — Irenes"
-description: "Você já sentiu aquele frio na barriga durante uma tempestade forte, quando os trovões parecem tremer as janelas? No Irenes, acreditamos que a sua casa deve ser o seu santuário de paz. E para que essa harmonia seja completa, a segurança técnica é fundamental para que você possa relaxar, sabendo que q"
+description: "O que é o laudo SPDA e aterramento: para que serve a inspeção, quando fazer e quem deve fazer para proteger sua casa nas tempestades."
 pubDate: "2026-02-20T14:17:17.444+00:00"
 category: "organizacao-pratica"
 tags: []

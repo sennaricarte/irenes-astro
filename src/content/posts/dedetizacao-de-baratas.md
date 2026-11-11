@@ -1,7 +1,7 @@
 ---
 title: "Dedetização de Baratas: Guia Completo para Recuperar a Paz e a Harmonia do Seu Lar"
 seoTitle: "Dedetização de Baratas: Guia Completo para Recuperar a Paz e a Harmonia do Seu Lar — Irenes"
-description: "Aqui no Irenes, acreditamos que o verdadeiro bem-estar começa de dentro para fora e se reflete no seu ambiente. E vamos combinar: nada tira mais a nossa paz e a sensação de harmonia do lar do que a visita indesejada de uma barata, não é mesmo? A gente sabe que essa pequena criatura é capaz de causar"
+description: "Dedetização de baratas: sinais de infestação, tipos mais comuns, por que métodos caseiros podem falhar e quando chamar um profissional."
 pubDate: "2025-11-27T21:57:03+00:00"
 updatedDate: 2026-02-20
 category: "casa"

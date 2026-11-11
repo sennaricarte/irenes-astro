@@ -1,7 +1,7 @@
 ---
 title: "Aprenda Como Usar o Desentupidor Corretamente"
 seoTitle: "Aprenda Como Usar o Desentupidor Corretamente — Irenes"
-description: "Você já se deparou com um vaso sanitário entupido ou uma pia que simplesmente não deságua? A frustração é real! Mas calma, a solução pode estar mais perto do que você imagina. O desentupidor, esse aliado muitas vezes ignorado, pode ser o seu grande salvador em momentos críticos."
+description: "Como usar o desentupidor corretamente: tipos, técnica de vedação no vaso sanitário e passo a passo para pias e ralos."
 pubDate: "2025-11-17T22:18:39+00:00"
 updatedDate: 2026-02-20
 category: "casa"

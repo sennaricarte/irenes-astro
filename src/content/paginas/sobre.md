@@ -3,8 +3,6 @@ title: "Sobre Nós: A Essência Irenes"
 description: "Conheça a essência do Irenes: onde a beleza encontra a paz do lar. Nossa missão é ser o seu guia prático de beleza, casa e decoração."
 ---
 
-![Sobre Nós: A Essência Irenes](/assets/about-hero-9sOc353Q.webp)
-
 A Essência Irenes
 
 Onde a beleza encontra a paz do lar.

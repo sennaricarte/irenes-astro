@@ -1,7 +1,8 @@
 /**
- * Valida posts novos (sem originalUrl) antes do build.
- * Falha se a categoria ou alguma tag não existir, se a description
- * passar de 160 caracteres, ou se heroImage apontar para um arquivo ausente.
+ * Valida os posts antes do build.
+ * Em todos os posts: falha se a description passar de 160 caracteres.
+ * Só em posts novos (sem originalUrl): falha se a categoria ou alguma tag
+ * não existir, ou se heroImage apontar para um arquivo ausente.
  */
 import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -36,6 +37,11 @@ for (const file of await readdir(postsDir)) {
 	const slug = file.slice(0, -3);
 	const mdPath = path.join(postsDir, file);
 	const { data } = matter(await readFile(mdPath, 'utf8'));
+	const description = typeof data.description === 'string' ? data.description : '';
+	if (description.length > DESCRIPTION_MAX) {
+		failures.push(`${slug}: description tem ${description.length} caracteres (máximo ${DESCRIPTION_MAX})`);
+	}
+
 	const original = typeof data.originalUrl === 'string' ? data.originalUrl.trim() : '';
 	if (original) continue;
 	checked += 1;
@@ -48,11 +54,6 @@ for (const file of await readdir(postsDir)) {
 	const postTags = Array.isArray(data.tags) ? data.tags : [];
 	for (const tag of postTags) {
 		if (!tags.has(tag)) failures.push(`${slug}: tag "${tag}" não existe em tags.json`);
-	}
-
-	const description = typeof data.description === 'string' ? data.description : '';
-	if (description.length > DESCRIPTION_MAX) {
-		failures.push(`${slug}: description tem ${description.length} caracteres (máximo ${DESCRIPTION_MAX})`);
 	}
 
 	if (typeof data.heroImage === 'string' && data.heroImage.trim()) {
@@ -69,4 +70,4 @@ if (failures.length) {
 	process.exit(1);
 }
 
-console.log(`posts novos ok (${checked})`);
+console.log(`posts ok (${checked})`);

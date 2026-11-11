@@ -1,7 +1,7 @@
 ---
 title: "Autocuidados para Terçol: 5 Passos para Aliviar a Irritação"
 seoTitle: "Autocuidados para Terçol: 5 Passos para Aliviar a Irritação — Irenes"
-description: "Já pensou em acabar com a ardência e o inchaço do terçol com passos simples que você faz em casa? Sim: com cinco autocuidados práticos, compressas mornas regulares, higiene adequada da pálpebra, evitar tocar ou espremer, pausar maquiagem e lentes de contato, e massagens leves quando indicadas…"
+description: "Autocuidados para terçol: compressas mornas, higiene das pálpebras, pausa na maquiagem e nas lentes, e quando procurar o oftalmologista."
 pubDate: "2025-10-30T18:10:04+00:00"
 updatedDate: 2026-02-20
 category: "beleza"

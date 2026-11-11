@@ -1,7 +1,7 @@
 ---
 title: "Limpeza da Cozinha: O Segredo de Vó para Tirar o Cheiro de Gordura sem Esforço"
 seoTitle: "Limpeza da Cozinha: O Segredo de Vó para Tirar o Cheiro de Gordura sem Esforço — Irenes"
-description: "A cozinha é o coração da casa, mas também pode ser um verdadeiro campo de batalha contra a gordura e os odores indesejados. Quem nunca se deparou com aquele cheirinho persistente que parece ter tomado conta do ambiente após uma fritura? Calma! A sabedoria popular tem seus truques infalíveis para dei"
+description: "Limpeza da cozinha: produtos necessários, ordem da faxina e truques de vó para tirar o cheiro de gordura sem esforço."
 pubDate: "2025-10-22T11:19:47+00:00"
 updatedDate: 2026-02-20
 category: "casa"

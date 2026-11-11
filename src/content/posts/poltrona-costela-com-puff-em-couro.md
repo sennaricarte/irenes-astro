@@ -1,7 +1,7 @@
 ---
 title: "Poltrona Costela com Puff em Couro: O Ícone que une Design e a Paz do seu Lar"
 seoTitle: "Poltrona Costela com Puff em Couro: O Ícone que une Design e a Paz do seu Lar — Irenes"
-description: "Se você busca transformar um cantinho da sua casa em um verdadeiro refúgio de tranquilidade, provavelmente já se deparou com as linhas curvas e acolhedoras da Poltrona Costela. Mas você sabe por que esse item, especialmente na versão com puff em couro, tornou-se o desejo de quem não abre mão do equi"
+description: "Poltrona costela com puff em couro: origem do design, por que ela encanta, como decorar com ela e como cuidar do couro."
 pubDate: "2026-02-20T14:18:51.29+00:00"
 category: "estilos-de-decoracao"
 tags: []

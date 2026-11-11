@@ -1,7 +1,7 @@
 ---
 title: "Autocuidados para sinusite: tratamentos naturais e domésticos que realmente aliviam"
 seoTitle: "Autocuidados para sinusite: tratamentos naturais e domésticos que realmente aliviam — Irenes"
-description: "Se a congestão nasal, a pressão no rosto e a dor de cabeça não dão trégua, apostar em autocuidados para sinusite pode ser a diferença entre um dia produtivo e um dia arrastado. Neste guia reunimos tratamentos naturais e domésticos para sinusite com explicações simples sobre o mecanismo de ação de…"
+description: "Autocuidados para sinusite: métodos caseiros que aliviam a congestão e a pressão no rosto, e os sinais que exigem atendimento médico."
 pubDate: "2026-02-20T14:20:30.18+00:00"
 category: "bem-estar"
 tags: []

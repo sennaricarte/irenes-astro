@@ -1,7 +1,7 @@
 ---
 title: "Rotina de Skincare para Pele Oleosa: Passo a Passo Essencial"
 seoTitle: "Rotina de Skincare para Pele Oleosa: Passo a Passo Essencial — Irenes"
-description: "Você já se olhou no espelho e desejou que a oleosidade da sua pele pudesse ser controlada com um simples toque de mágica? A verdade é que, apesar de ser um desafio, cuidar da pele oleosa pode ser uma missão bem-sucedida. Com a rotina certa, você pode conquistar uma cútis mais saudável e radiante."
+description: "Rotina de skincare para pele oleosa: características, se a oleosidade faz mal e passo a passo de limpeza e tratamento de manhã e à noite."
 pubDate: "2025-10-23T14:41:21+00:00"
 updatedDate: 2026-02-20
 category: "beleza"

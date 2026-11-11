@@ -1,7 +1,7 @@
 ---
 title: "Dicas Práticas: Como Desentupir Caixa de Gordura"
 seoTitle: "Dicas Práticas: Como Desentupir Caixa de Gordura — Irenes"
-description: "Você já se deparou com um problema desagradável na sua cozinha, como o entupimento da caixa de gordura? Esse é um desafio comum que muitos enfrentam e pode causar dor de cabeça. A boa notícia é que existem maneiras práticas e eficientes para resolver essa situação sem precisar chamar um profissional"
+description: "Como desentupir caixa de gordura: função da caixa, passo a passo com e sem cesto, produtos, água quente e cuidados para evitar novo entupimento."
 pubDate: "2025-11-04T20:44:37+00:00"
 updatedDate: 2026-02-20
 category: "casa"

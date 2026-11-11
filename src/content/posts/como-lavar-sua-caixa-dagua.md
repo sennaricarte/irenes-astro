@@ -1,7 +1,7 @@
 ---
 title: "Como Lavar Sua Caixa D'água: Passo a passo"
 seoTitle: "Como Lavar Sua Caixa D'água: Passo a passo — Irenes"
-description: "Você já parou para pensar na importância da limpeza de caixa d'água? Se a sua resposta for não, é melhor você prestar atenção! Essa tarefa pode parecer chata e sem graça, mas é fundamental para garantir que a água que chega até você seja saudável e livre de impurezas. Imagina só tomar um copo d'água"
+description: "Passo a passo para lavar a caixa d'água em 10 etapas: material, riscos da limpeza tradicional e como a limpeza protege a qualidade da água."
 pubDate: "2025-10-27T20:12:21+00:00"
 updatedDate: 2026-02-20
 category: "casa"
