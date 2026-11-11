@@ -26,5 +26,84 @@
 			"como-tirar-papel-de-parede",
 			"como-aplicar-papel-de-parede-adesivo"
 		]
-	}
+	},
+	"guias": [
+		{
+			"titulo": "Entupimentos e esgoto",
+			"posts": [
+				"como-desentupir-a-pia-de-cozinha",
+				"como-desentupir-caixa-de-gordura",
+				"como-desentupir-o-ralo-do-banheiro-usando-ingredientes-naturais",
+				"como-usar-o-desentupidor-corretamente",
+				"vaso-sanitario-entupido",
+				"sifao-entupido-mau-cheiro-como-limpar",
+				"esgoto-entupido-o-guia-completo-da-irene",
+				"cozinha-e-banheiro-propensos-a-entupimentos",
+				"guia-de-irenes-para-nunca-mais-sofrer-com-restos-de-comida-na-pia",
+				"hidrojateamento-de-tubulacoes-guia-completo",
+				"desentupidora-especializada-quando-chamar",
+				"entupimento-em-apartamento-responsabilidade-como-resolver",
+				"emergencia-hidraulica-em-casa-guia-primeiras-horas"
+			]
+		},
+		{
+			"titulo": "Água, manutenção e profissionais",
+			"posts": [
+				"como-lavar-sua-caixa-dagua",
+				"como-prolongar-a-vida-util-das-estruturas-hidricas",
+				"como-o-caca-vazamentos-salva-seu-bolso",
+				"aquecedor-a-gas",
+				"contratacao-sem-stress-guia-profissionais-confianca",
+				"como-encontrar-mao-de-obra-especializada-manutencao-residencia",
+				"quanto-cobra-um-montador-de-moveis",
+				"telhadista",
+				"laudo-spda-e-aterramento"
+			]
+		},
+		{
+			"titulo": "Pragas em casa e no jardim",
+			"posts": [
+				"dedetizacao-de-baratas",
+				"desratizacao-entenda-o-que-e-e-como-funciona",
+				"dicas-infaliveis-para-acabar-com-cupim",
+				"como-eliminar-pernilongo-guia-completo",
+				"formigas-no-meu-jardim-e-agora"
+			]
+		},
+		{
+			"titulo": "Limpeza, organização e mudança",
+			"posts": [
+				"limpeza-da-cozinha",
+				"rotina-de-limpeza-de-casa",
+				"organizacao-mudanca-casa",
+				"solucoes-de-armazenamento-para-apartamentos-pequenos",
+				"aluguel-van-conforto-paz-viagens-eventos-grupo"
+			]
+		},
+		{
+			"titulo": "Decoração e papel de parede",
+			"posts": [
+				"como-calcular-papel-de-parede",
+				"como-aplicar-papel-de-parede-adesivo",
+				"como-tirar-papel-de-parede",
+				"decoracao-de-interiores",
+				"sofa-chesterfield",
+				"poltrona-costela-com-puff-em-couro",
+				"box-de-banheiro-de-vidro-guia-completo",
+				"como-escolher-o-vaso-sanitario-ideal"
+			]
+		},
+		{
+			"titulo": "Beleza: skincare e cabelos",
+			"posts": [
+				"o-que-e-skincare",
+				"o-guia-essencial-da-rotina-de-skincare",
+				"rotina-de-skincare-para-pele-oleosa",
+				"como-fazer-limpeza-de-pele-em-casa-guia-completo",
+				"quanto-custa-limpeza-de-pele-profissional",
+				"o-que-e-cronograma-capilar",
+				"o-que-e-hidratacao-capilar-o-ritual-de-paz-e-brilho-que-seu-cabelo-merece"
+			]
+		}
+	]
 }
