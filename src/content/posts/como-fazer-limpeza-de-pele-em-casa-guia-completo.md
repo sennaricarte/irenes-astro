@@ -182,3 +182,9 @@ A extração de cravos em casa é segura apenas se feita com extrema cautela e e
 ### Qual a importância da hidratação após a limpeza de pele?
 
 A hidratação após a limpeza de pele é de suma importância para restaurar a barreira cutânea, repor a umidade perdida e acalmar a pele. Ela ajuda a selar os benefícios dos passos anteriores, prevenindo o ressecamento, a irritação e o efeito rebote de oleosidade, deixando a pele macia, protegida e luminosa.
+
+**Leia também:**
+
+- [quanto custa uma limpeza de pele profissional](/quanto-custa-limpeza-de-pele-profissional/)
+- [rotina de skincare para pele oleosa](/rotina-de-skincare-para-pele-oleosa/)
+- [o que é skincare](/o-que-e-skincare/)

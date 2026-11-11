@@ -13,7 +13,7 @@ originalUrl: "https://irenes.com.br/hidrojateamento-de-tubulacoes-guia-completo"
 
 **Hidrojateamento é uma técnica de limpeza e desobstrução de canos que usa jatos de água em alta pressão (entre 150 e 600 bar)** para remover gordura, raízes, incrustações e lodo de dentro das tubulações, sem precisar quebrar pisos ou paredes. É indicado para entupimentos persistentes, manutenção preventiva e limpeza profunda de redes prediais.
 
-Existe um tipo de problema doméstico que rouba a paz como poucos: aquele cano que entope, desentope e volta a entupir poucas semanas depois. Você já tentou o desentupidor, já despejou bicarbonato, já chamou alguém com a famosa "mola"… e o cheiro, a lentidão na descida da água e a sensação de que algo está prestes a transbordar continuam ali.
+Existe um tipo de problema doméstico que rouba a paz como poucos: aquele cano que entope, desentope e volta a entupir poucas semanas depois. Você já tentou o [desentupidor](/como-usar-o-desentupidor-corretamente/), já despejou bicarbonato, já chamou alguém com a famosa "mola"… e o cheiro, a lentidão na descida da água e a sensação de que algo está prestes a transbordar continuam ali.
 
 Quando a obstrução é antiga, profunda ou recorrente, a solução costuma ser uma só: **hidrojateamento**. Neste guia, a Irene te conta com calma o que é essa técnica, como ela funciona, quando vale a pena contratar e o que observar para chamar um serviço de confiança.
 
@@ -39,7 +39,7 @@ O hidrojateamento entra em cena quando o problema é maior. Fique atenta a estes
 -   Entupimentos que voltam a cada poucas semanas no mesmo ponto.
 -   Mau cheiro persistente vindo de ralos, mesmo após limpeza.
 -   Água que desce devagar em *vários* pontos da casa ao mesmo tempo.
--   Refluxo na caixa de gordura ou em ralos do térreo.
+-   Refluxo na [caixa de gordura](/como-desentupir-caixa-de-gordura/) ou em ralos do térreo.
 -   Imóveis antigos que nunca passaram por uma limpeza profunda de tubulação.
 -   Estabelecimentos comerciais (restaurantes, salões, clínicas) com alto volume de uso diário.
 
@@ -53,7 +53,7 @@ Entender o processo ajuda a perder o medo e a reconhecer um trabalho bem feito. 
 
 1.  **Diagnóstico:** o técnico avalia os pontos de entupimento e, em muitos casos, faz uma inspeção com câmera (videoinspeção) para entender o que está acontecendo dentro do cano.
 2.  **Escolha do bico e da pressão:** tubulações de PVC residencial pedem pressões menores; redes de esgoto predial ou industriais exigem equipamentos mais robustos.
-3.  **Aplicação do jato:** a mangueira é introduzida pelo ponto de acesso (caixa de inspeção, ralo desmontável, sifão) e percorre toda a extensão do trecho obstruído.
+3.  **Aplicação do jato:** a mangueira é introduzida pelo ponto de acesso (caixa de inspeção, ralo desmontável, [sifão](/sifao-entupido-mau-cheiro-como-limpar/)) e percorre toda a extensão do trecho obstruído.
 4.  **Verificação final:** testes de vazão e, quando necessário, nova videoinspeção confirmam que a tubulação ficou totalmente limpa.
 
 ## O papel da empresa especializada
@@ -104,3 +104,9 @@ Para residências, a recomendação é a cada 2 ou 3 anos. Em estabelecimentos c
 ### Hidrojateamento resolve mau cheiro no ralo?
 
 Quando o mau cheiro vem do acúmulo de gordura e matéria orgânica nas paredes da tubulação, sim, o hidrojateamento elimina a fonte do odor. Se o cheiro persistir, pode haver problema no sifão, no respiro da coluna de esgoto ou na caixa de gordura, o que exige avaliação técnica.
+
+**Leia também:**
+
+- [como lavar a caixa d'água](/como-lavar-sua-caixa-dagua/)
+- [como o caça-vazamentos ajuda a economizar](/como-o-caca-vazamentos-salva-seu-bolso/)
+- [como escolher profissionais de confiança](/contratacao-sem-stress-guia-profissionais-confianca/)

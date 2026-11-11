@@ -61,3 +61,9 @@ Para garantir que você tenha acesso a essa tecnologia de ponta e resolva o prob
 3.  **Saúde do Lar:** Acabando com a fonte de umidade, você elimina o mofo e garante um ar mais puro, cumprindo o seu **autocuidado consciente**.
 
 **Moral da história:** Um vazamento é um problema que não melhora com o tempo, só piora. Agir rápido e de forma inteligente com um **Caça Vazamentos** é o maior gesto de amor e organização que você pode ter pelo seu lar. Mantenha a casa zen, o bolso tranquilo e a vida em harmonia!
+
+**Leia também:**
+
+- [aquecedor a gás e o banho de hotel em casa](/aquecedor-a-gas/)
+- [como prolongar a vida útil das estruturas hídricas da casa](/como-prolongar-a-vida-util-das-estruturas-hidricas/)
+- [o que fazer nas primeiras horas de uma emergência hidráulica](/emergencia-hidraulica-em-casa-guia-primeiras-horas/)

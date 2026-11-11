@@ -58,3 +58,9 @@ Escolher o vaso sanitário certo é o alicerce para um banheiro funcional e boni
 **Gostou dessas dicas?** Aqui no Irenes, queremos que você se sinta empoderada para fazer as melhores escolhas para o seu lar.
 
 **Dúvida rápida:** Você prefere a praticidade da caixa acoplada ou o visual moderno do vaso suspenso? Conte para nós nos comentários e vamos trocar experiências!
+
+**Leia também:**
+
+- [como escolher, instalar e cuidar do box de vidro](/box-de-banheiro-de-vidro-guia-completo/)
+- [como calcular quantos rolos de papel de parede comprar](/como-calcular-papel-de-parede/)
+- [como tirar papel de parede](/como-tirar-papel-de-parede/)

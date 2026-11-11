@@ -130,3 +130,9 @@ Inclua na sua rotina de organização semanal uma inspeção rápida:
 -   Limpe o excesso de óleo e gordura que escorre nos armários.
 
 Cuidar do nosso lar é um ato de autocuidado e de busca pela paz. Com este guia, você tem o conhecimento e a estratégia para eliminar de vez essa fonte de estresse e garantir que seu espaço seja, sempre, o seu **verdadeiro santuário**.
+
+**Leia também:**
+
+- [desratização: o que é e como funciona](/desratizacao-entenda-o-que-e-e-como-funciona/)
+- [como acabar com cupim em casa](/dicas-infaliveis-para-acabar-com-cupim/)
+- [como lidar com formigas no jardim](/formigas-no-meu-jardim-e-agora/)

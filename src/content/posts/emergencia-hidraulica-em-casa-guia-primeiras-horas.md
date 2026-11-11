@@ -68,7 +68,7 @@ Guarde tudo em uma pasta no celular com data. Se houver terceiros envolvidos (vi
 
 ## Passo 5: Quando (e como) chamar uma desentupidora 24 horas
 
-Se o problema é **refluxo de esgoto**, **ralo transbordando**, **vaso sanitário jorrando por baixo** ou **caixa de gordura estourando**, você está diante de uma emergência que exige equipamento profissional, hidrojato, sonda, câmera de inspeção. Não é hora de tentar o desentupidor de borracha ou receita caseira: o risco de contaminação, de danificar a tubulação e de piorar o refluxo é altíssimo.
+Se o problema é **refluxo de esgoto**, **ralo transbordando**, **vaso sanitário jorrando por baixo** ou **[caixa de gordura](/como-desentupir-caixa-de-gordura/) estourando**, você está diante de uma emergência que exige equipamento profissional, hidrojato, sonda, câmera de inspeção. Não é hora de tentar o desentupidor de borracha ou receita caseira: o risco de contaminação, de danificar a tubulação e de piorar o refluxo é altíssimo.
 
 Na Grande São Paulo, é possível contar com [serviços de desentupidora 24 horas em São Paulo](https://desentupidoracoppi.app.br/) especializados em emergências residenciais, com equipes que chegam com equipamento completo em poucas horas, a exemplo da **Desentupidora Coppi**, que atende chamados noturnos, de fim de semana e feriados. Ter um contato confiável salvo no celular *antes* da emergência acontecer é um dos hábitos mais inteligentes que uma dona de casa (ou dono) pode adotar.
 
@@ -106,7 +106,7 @@ Uma casa em paz é uma casa preparada. Monte um pequeno kit e guarde num lugar d
 A maioria das emergências hidráulicas dá sinais discretos antes de virar drama. Fique atenta a:
 
 -   Descarga mais lenta que o normal, pode ser o primeiro sintoma de raízes ou gordura na rede.
--   Cheiro de esgoto voltando pelo ralo, sifão seco ou desregulado.
+-   Cheiro de esgoto voltando pelo ralo, [sifão](/sifao-entupido-mau-cheiro-como-limpar/) seco ou desregulado.
 -   Barulho de "borbulha" ao dar descarga, ar preso indicando obstrução parcial.
 -   Conta de água subindo sem motivo aparente, vazamento oculto na parede ou no piso.
 -   Manchas amareladas surgindo no teto ou nos rodapés.
@@ -138,3 +138,9 @@ Faça o teste do hidrômetro: feche todas as torneiras e não use água por duas
 ### Quanto tempo demora, em média, para uma desentupidora 24 horas chegar?
 
 Em capitais como São Paulo, empresas especializadas em atendimento emergencial costumam chegar entre 40 minutos e 2 horas, dependendo do bairro, do horário e do trânsito. Ao ligar, peça uma estimativa realista de chegada e pergunte se o orçamento é gratuito e sem compromisso, bons prestadores oferecem essa transparência.
+
+**Leia também:**
+
+- [aquecedor a gás e o banho de hotel em casa](/aquecedor-a-gas/)
+- [como prolongar a vida útil das estruturas hídricas da casa](/como-prolongar-a-vida-util-das-estruturas-hidricas/)
+- [como encontrar mão de obra especializada para manutenção](/como-encontrar-mao-de-obra-especializada-manutencao-residencia/)

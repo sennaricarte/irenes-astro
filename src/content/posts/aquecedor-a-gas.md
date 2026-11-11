@@ -102,3 +102,9 @@ A instalação de um aquecedor a gás envolve a segurança da sua família. Por 
 ## **Dica de Ouro da Irene:**
 
 Na dúvida, entre no site da marca que você escolheu (Rinnai, Lorenzetti, etc.) e procure pela lista de **"Assistências Técnicas Autorizadas"**. Contratar alguém da rede oficial garante que a sua garantia de fábrica seja preservada e que o profissional conheça exatamente aquele modelo.
+
+**Leia também:**
+
+- [como o caça-vazamentos ajuda a economizar](/como-o-caca-vazamentos-salva-seu-bolso/)
+- [o que fazer nas primeiras horas de uma emergência hidráulica](/emergencia-hidraulica-em-casa-guia-primeiras-horas/)
+- [hidrojateamento de tubulações](/hidrojateamento-de-tubulacoes-guia-completo/)

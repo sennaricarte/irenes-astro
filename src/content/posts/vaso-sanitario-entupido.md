@@ -51,7 +51,7 @@ Este é um segredo de ouro para quem quer **desentupir o vaso sem sujeira**. Ele
 
 ## **4\. O Desentupidor de Garrafa PET**
 
-Se você não tem um desentupidor de borracha em casa, pode improvisar um com material reciclado. É sustentável e muito eficiente.
+Se você não tem um [desentupidor](/como-usar-o-desentupidor-corretamente/) de borracha em casa, pode improvisar um com material reciclado. É sustentável e muito eficiente.
 
 -   **Como fazer:** Corte o fundo de uma garrafa PET de 2 litros. Encaixe um cabo de vassoura no bico da garrafa (prenda com fita, se necessário). Use o fundo cortado para fazer movimentos de pressão (sucção) no fundo do vaso.
 
@@ -72,3 +72,9 @@ Se você tentou todos esses métodos e a água continua subindo ou não desce, p
 Resolver problemas domésticos de forma autônoma nos traz uma sensação de empoderamento e tranquilidade. Esperamos que essas dicas ajudem você a devolver a paz ao seu santuário!
 
 **Gostou dessas dicas?** Compartilhe com uma amiga que também valoriza um lar organizado e em harmonia. E não esqueça de conferir nossa seção de **[**[**Organização da Casa**](/categoria/casa/)**]** para evitar que outros imprevistos aconteçam!
+
+**Leia também:**
+
+- [como desentupir a pia de cozinha](/como-desentupir-a-pia-de-cozinha/)
+- [como prevenir entupimentos em cozinhas e banheiros](/cozinha-e-banheiro-propensos-a-entupimentos/)
+- [quando chamar uma desentupidora especializada](/desentupidora-especializada-quando-chamar/)

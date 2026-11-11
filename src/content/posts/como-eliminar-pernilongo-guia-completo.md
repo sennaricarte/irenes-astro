@@ -228,3 +228,9 @@ Para evitar pernilongos, você deve **limpar os pratinhos dos vasos de plantas e
 ### Pernilongos podem transmitir doenças no Brasil?
 
 Sim, no Brasil, pernilongos são vetores importantes de diversas doenças. O **Aedes aegypti**, por exemplo, é responsável pela transmissão da dengue, zika e chikungunya, enquanto outros tipos de pernilongos podem transmitir outras enfermidades, como a febre amarela em algumas regiões. A prevenção é crucial para a saúde pública.
+
+**Leia também:**
+
+- [como acabar com cupim em casa](/dicas-infaliveis-para-acabar-com-cupim/)
+- [como lidar com formigas no jardim](/formigas-no-meu-jardim-e-agora/)
+- [dedetização de baratas](/dedetizacao-de-baratas/)

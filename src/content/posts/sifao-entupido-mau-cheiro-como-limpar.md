@@ -83,9 +83,9 @@ Sifões novos custam entre R$ 15 e R$ 60 e a troca leva menos de 20 minutos. É 
 
 ## E quando a limpeza do sifão não resolve?
 
-Se mesmo após desmontar, limpar e trocar o sifão o cheiro continua, ou se o entupimento volta em poucos dias, o problema provavelmente está mais fundo na tubulação: gordura solidificada nos canos verticais, raízes invadindo o ramal externo ou caixa de gordura saturada. Nesses casos, a tentativa caseira pode piorar o quadro, empurrando o bloqueio para trechos de difícil acesso.
+Se mesmo após desmontar, limpar e trocar o sifão o cheiro continua, ou se o entupimento volta em poucos dias, o problema provavelmente está mais fundo na tubulação: gordura solidificada nos canos verticais, raízes invadindo o ramal externo ou [caixa de gordura](/como-desentupir-caixa-de-gordura/) saturada. Nesses casos, a tentativa caseira pode piorar o quadro, empurrando o bloqueio para trechos de difícil acesso.
 
-Para moradores da região metropolitana de Sorocaba e cidades vizinhas, o caminho mais seguro é contratar uma empresa especializada em [**serviços de desentupidora em Sorocaba**](https://desentupidoraemsorocaba.eco.br/) que utilize equipamentos modernos como hidrojateamento e câmera de inspeção. A **Desentupidora em Sorocaba** consegue localizar a obstrução com precisão e resolver sem precisar quebrar pisos ou paredes, preservando a paz (e a estética) do seu lar.
+Para moradores da região metropolitana de Sorocaba e cidades vizinhas, o caminho mais seguro é contratar uma empresa especializada em [**serviços de desentupidora em Sorocaba**](https://desentupidoraemsorocaba.eco.br/) que utilize equipamentos modernos como [hidrojateamento](/hidrojateamento-de-tubulacoes-guia-completo/) e câmera de inspeção. A **Desentupidora em Sorocaba** consegue localizar a obstrução com precisão e resolver sem precisar quebrar pisos ou paredes, preservando a paz (e a estética) do seu lar.
 
 ## Cuidados diários para o sifão durar mais
 
@@ -119,3 +119,9 @@ Sempre que o entupimento voltar em poucos dias mesmo após limpeza do sifão, qu
 ### Sifão sanfonado é melhor que o tradicional?
 
 Não. Apesar de mais fácil de instalar, o sifão sanfonado acumula sujeira nas dobras internas e entope com muito mais frequência. Sempre que possível, opte pelo sifão tradicional em formato copo ou garrafa, que é mais higiênico e durável.
+
+**Leia também:**
+
+- [como desentupir a pia de cozinha](/como-desentupir-a-pia-de-cozinha/)
+- [como prevenir entupimentos em cozinhas e banheiros](/cozinha-e-banheiro-propensos-a-entupimentos/)
+- [entupimento em apartamento: de quem é a responsabilidade](/entupimento-em-apartamento-responsabilidade-como-resolver/)

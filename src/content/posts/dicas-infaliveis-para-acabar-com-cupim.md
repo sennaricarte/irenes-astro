@@ -116,3 +116,9 @@ Pode, se a colônia não foi eliminada ou se há outra por perto. É por isso qu
 ## Resumo
 
 Para acabar com cupim, descubra primeiro qual é o tipo. Grânulos e furinhos em um móvel indicam cupim de madeira seca, que pode ser tratado na peça com cupinicida registrado. Túneis de terra indicam cupim subterrâneo, que exige empresa licenciada, porque a colônia está no solo. Água quente, vinagre e receitas com temperos não alcançam a colônia e só adiam o problema.
+
+**Leia também:**
+
+- [como eliminar pernilongos em casa](/como-eliminar-pernilongo-guia-completo/)
+- [desratização: o que é e como funciona](/desratizacao-entenda-o-que-e-e-como-funciona/)
+- [como lidar com formigas no jardim](/formigas-no-meu-jardim-e-agora/)

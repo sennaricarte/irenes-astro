@@ -111,7 +111,7 @@ Além dos benefícios estéticos, a limpeza de pele é um verdadeiro ritual de a
 
 ## Limpeza de Pele em Casa vs. Profissional: Quando Cada Um é Indicado?
 
-É super comum a dúvida sobre fazer a limpeza de pele em casa ou procurar um profissional. E a verdade é que cada um tem seu lugar na rotina de cuidados, mas não se substituem!
+É super comum a dúvida sobre fazer a [limpeza de pele em casa](/como-fazer-limpeza-de-pele-em-casa-guia-completo/) ou procurar um profissional. E a verdade é que cada um tem seu lugar na rotina de cuidados, mas não se substituem!
 
 ### Limpeza de Pele Caseira: Mitos e Verdades
 
@@ -182,3 +182,9 @@ Pessoas com pele muito sensível, rosácea em crise, herpes ativa, feridas abert
 ### É normal a pele ficar vermelha depois da limpeza de pele?
 
 Sim, é **completamente normal** que a pele fique um pouco avermelhada e sensível após uma limpeza de pele, especialmente devido às extrações. Essa vermelhidão geralmente diminui em algumas horas, ou no máximo em 24 a 48 horas. O profissional aplicará produtos calmantes para minimizar esse efeito e dará orientações para o pós-procedimento.
+
+**Leia também:**
+
+- [rotina de skincare para pele oleosa](/rotina-de-skincare-para-pele-oleosa/)
+- [o que é skincare](/o-que-e-skincare/)
+- [guia da rotina de skincare](/o-guia-essencial-da-rotina-de-skincare/)

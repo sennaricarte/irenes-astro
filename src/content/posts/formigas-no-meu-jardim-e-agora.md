@@ -58,3 +58,9 @@ Observe sinais de estresse nas plantas, como folhas amareladas ou murchas, que p
 ### Os produtos químicos são seguros para usar no jardim?
 
 Embora eficazes, os produtos químicos podem prejudicar o solo e outras formas de vida. Use-os apenas como último recurso e siga as instruções cuidadosamente.
+
+**Leia também:**
+
+- [como eliminar pernilongos em casa](/como-eliminar-pernilongo-guia-completo/)
+- [dedetização de baratas](/dedetizacao-de-baratas/)
+- [desratização: o que é e como funciona](/desratizacao-entenda-o-que-e-e-como-funciona/)

@@ -59,3 +59,9 @@ Tendo contratado através de uma plataforma séria, você tem canais de suporte 
 Delegar as tarefas de manutenção não é sinal de incapacidade, mas sim de inteligência emocional. Ao confiar os reparos técnicos a quem realmente entende do assunto, você libera espaço mental para focar no que traz alegria: decorar, receber amigos e desfrutar do conforto do seu refúgio.
 
 Lembre-se: sua casa é o cenário da sua história. Cuide dela com o carinho e o profissionalismo que ela merece.
+
+**Leia também:**
+
+- [laudo SPDA e aterramento](/laudo-spda-e-aterramento/)
+- [quanto cobra um montador de móveis](/quanto-cobra-um-montador-de-moveis/)
+- [telhadista: guia para proteger a casa](/telhadista/)
