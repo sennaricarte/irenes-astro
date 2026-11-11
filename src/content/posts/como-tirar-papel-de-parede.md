@@ -106,7 +106,7 @@ Muitas pessoas confirmaram a eficácia desse passo a passo ao seguir instruçõe
 
 Curiosamente, pequenos detalhes fazem diferença: testar o removedor numa área discreta, proteger rodapés e tomadas e trabalhar em tiras facilita o processo. Por outro lado, apressar a remoção ou puxar o papel de maneira agressiva pode arrancar o reboco, então é melhor ir devagar, observando o comportamento do material.
 
-Se aparecer alguma dúvida, relatar nos comentários costuma ajudar outras pessoas que enfrentam o mesmo problema; dicas práticas e a instrução correta reduzem riscos e aceleram o trabalho. Essa sequência prática contribui para que a base fique adequada, evitando retrabalhos e complicações na etapa seguinte.
+Se aparecer alguma dúvida durante a remoção, pare e reveja a etapa antes de continuar: seguir a instrução correta reduz riscos e acelera o trabalho. Essa sequência prática contribui para que a base fique adequada, evitando retrabalhos e complicações na etapa seguinte.
 
 Seguir cada instrucao reduz riscos e facilita remover papel com sucesso.
 
